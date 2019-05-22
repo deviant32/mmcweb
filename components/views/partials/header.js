@@ -4,7 +4,7 @@
 *
 */
 
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Navbar,
   NavbarToggler,
@@ -17,8 +17,9 @@ import {
   Container
 } from 'reactstrap';
 
+function Header() {
 
-export const Header = () => {
+  const [collapsed, setCollapsed] = useState(false);
 
   return (
     <div>
@@ -30,8 +31,8 @@ export const Header = () => {
       <Navbar color="light" light expand="md" style={{ marginTop: 0 }}>
         <Container style={{ marginTop: 0 }}>
           <NavbarBrand href="/">MMC</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={false} navbar>
+          <NavbarToggler onClick={()=>setCollapsed(!collapsed)} />
+          <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="mr-4">
                 <NavLink href="/growth-reinvented/">GROWTH REINVENTED</NavLink>

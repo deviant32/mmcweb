@@ -1,11 +1,9 @@
 import React from 'react';
-import Router from 'next/router';
-
-import { mapGlobals, mapHome } from 'utils/helperFuncs';
 import Head from 'next/head';
-import Meta from 'components/widgets/Meta';
-import Header from 'components/views/partials/header'
-import Request from 'utils/request';
+import { mapGlobals, mapHome } from '../utils/helperFuncs';
+import Meta from '../components/widgets/Meta';
+import Header from '../components/views/partials/header'
+import Request from '../utils/request';
 import Home from '../components/views/home';
 
 class HomePage extends React.Component {
