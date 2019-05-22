@@ -10,7 +10,9 @@
     "start-production": "npm run build && cross-env NODE_ENV=production npm run start",
     "lint": "eslint --ext .js,.js .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "export": "next export",
+    "deploy": "npm run build && npm run export"
   },
   "repository": {
     "type": "git",
