@@ -1,70 +1,105 @@
 import React from 'react';
+import { Jumbotron, Container, Row, Col, Card, CardBody, CardText, CardTitle, CardFooter, Button } from 'reactstrap'
 import Link from 'next/link'
-class Home extends React.Component {
-	render() {
-        const { home } = this.props;
-		return (
-            <div>
-               <div id="myCarousel" className="carousel slide" data-ride="carousel" style={{ marginTop: '-20px' }}>
-                <ol className="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
 
-                <div className="carousel-inner" >
-                {
-                    !!home.carousel && home.carousel.map((item,index) => (
-                        <div key={`carousel_${index}`} className={`item ${index===0 && 'active'}`} style={{ background: `url(${item.url})`, height: '500px', width: '100%', backgroundSize:'cover', backgroundPosition:'center' }}>
-                        </div>
-                    ))
-                }
-                </div>
+export const Home = (props) => {
+  return (
+    <div>
+      <Container>
+        <Row className="h-100">
+          <Col xs="12" sm="12" md="6" className="my-auto">
+            <h5 className="mb-2 mt-3 mt-sm-3 ">title goes here</h5>
+            <h1>Duis aute irure<br /> dolor<br /> in reprehend</h1>
+            <Button className="mt-4" outline color="primary">CALL TO ACTION</Button>
+          </Col>
+          <Col xs="12" sm="12" md="6" className="mt-3 mt-sm-3 mt-md-0">
+            <img alt="Title" className="img-fluid" src="static/img/600x600.png" />
+          </Col>
+        </Row>
+      </Container>
+      <Jumbotron fluid>
+        <Container className="text-center">
+          <Row className="mb-3">
+            <Col md={{ size: 6, offset: 3 }}>
+              <h2 className="mb-4">Growth, Reinvented.</h2>
+              <h6 className="text-uppercase mb-4 font-weight-bold">
+                The path to authentic sales growth is constantly changing and evolving. With over 32 years in business
+                we know that what worked in the past doesn&apos;t always translate to today&apos;s business needs.
+              </h6>
+              <p style={{ lineHeight: '150%' }}>
+                At MMC we help our clients uncover hidden potential within their existing data and create authentic, sustainable growth.
+                With over $2.5BN worth of client revenue managed annually, at an average of 20% growth year-over-year.
+                MMC is the secret weapon for business leaders who don&apos;t leave anything to chance.
+                Let us show you how we do it, tell you the stories of clients we&apos;ve done it for, and show you what we mean by: &#34;Growth&#44; Reinvented&#34;.
+              </p>
+            </Col>
+          </Row>
+          <Row style={{ marginTop: 150 }} className="pb-5">
+            <Col className="mb-3" xs="12" sm="12" md="12" lg="4">
+              <Card className="p-3 rounded-0" style={{ minHeight: 380 }}>
+                <CardTitle>
+                  <div className="circle">
+                    <p>WHAT WE DO</p>
+                  </div>
+                </CardTitle>
+                <CardBody>
+                  <CardText>
+                    When the rules have completely changed, the key to getting ahead is to challenge convention.
+                    See how we identify, target, and scale oppurtunities to help you grow the 87% of your accounts that are the hardest to reach
+                  </CardText>
+                </CardBody>
+                <CardFooter>
+                  <Button className="mt-4  rounded-0" outline color="primary">&#34;GROWTH, REINVENTED&#34;</Button>
+                </CardFooter>
+              </Card>
+            </Col>
+            <Col className="mb-3" xs="12" sm="12" md="12" lg="4">
+              <Card className="p-3 rounded-0" style={{ minHeight: 380 }}>
+                <CardTitle>
+                  <div className="circle">
+                    <p>WHO WE ARE</p>
+                  </div>
+                </CardTitle>
+                <CardBody>
+                  <CardText>
+                    When the rules have completely changed, the key to getting ahead is to challenge convention.
+                    See how we identify, target, and scale oppurtunities to help you grow the 87% of your accounts that are the hardest to reach
+                  </CardText>
+                </CardBody>
+                <CardFooter>
+                  <Button className="mt-4  rounded-0" outline color="primary">MEET THE TEAM</Button>
+                </CardFooter>
+              </Card>
+            </Col>
+            <Col className="mb-3" xs="12" sm="12" md="12" lg="4">
+              <Card className="p-3 rounded-0" style={{ minHeight: 380 }}>
+                <CardTitle>
+                  <div className="circle">
+                    <p>HOW WE DO IT</p>
+                  </div>
+                </CardTitle>
+                <CardBody>
+                  <CardText>
+                    They say the proof of the pudding is in the tasting.  Our case studies and capabilities documents show how we reinvent growth for our clients every day.
+                  </CardText>
+                </CardBody>
+                <CardFooter>
+                  <Button className="mt-4 rounded-0" outline color="primary">READ OUR CASE STUDIES</Button>
+                </CardFooter>
+              </Card>
+            </Col>
+          </Row>
 
-                <a className="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span className="glyphicon glyphicon-chevron-left"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span className="glyphicon glyphicon-chevron-right"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
-            <div className="container-fluid">
-        <div className="row">
-            <div className="col-sm-12 text-center" style={{ marginTop: '30px', marginBottom: '50px' }}>
-                <p className="h1">{home.headline.value}</p>
-                <p className="h4">{home.subheadline.value}</p>
-            </div>
-        </div>
-        <div className="row">
-            <div className="container col-xs-12">
-            {
-                !!home.blurbs && home.blurbs.map((blurb, index) => 
-                    <div key={`blurb_${index}`} className="col-sm-4 text-center">
-                        <div className="h3" style={{ marginBottom: '30px' }}>{blurb.value}</div>
-                        <div className="img-circle center-block" style={{ background: `url(${`https://s3-us-west-2.amazonaws.com/cosmicjs/${blurb.children[0].value}`})`, backgroundSize:'cover', height: '300px', width: '300px' }}>
-                        </div>
-                        <div style={{ marginTop: '30px' }}>
-                            {blurb.children[1].value}
-                        </div>
-                    </div>
-                )
-            }
-            </div>
-        </div>
-        <div className="row" style={{ marginTop: '30px' }}>
-            <div className="col-sm-12 text-center" style={{ marginTop: '50px' }}>
-                <p className="h1">{home.call_to_action_text.value}</p>
-                <p className="h4">{home.call_to_action_subtext.value}</p>
-                <br />
-                <Link href="/contact" ><a className="btn btn-default">{home.call_to_action_button_text.value}</a></Link>
-            </div>
-        </div>
-            </div>
-            </div>
-		);
-	}
+        </Container>
+      </Jumbotron>
+      <Container className="text-center">
+        <h1>You&apos;ll be in good company.</h1>
+        <p className="text-uppercase">
+          With over $2.5bn in client accounts, MMC olor site amet, consectetur adipiscing elit, sed do euismod tempor incididunt ut labore et dolore mange aliqua
+        </p>
+      </Container>
+    </div>
+  )
 }
 
 export default Home;
