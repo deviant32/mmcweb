@@ -89,7 +89,6 @@ export const Home = (props) => {
               </Card>
             </Col>
           </Row>
-
         </Container>
       </Jumbotron>
       <Container className="text-center">
