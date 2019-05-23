@@ -1,5 +1,7 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col, Card, CardBody, CardText, CardTitle, CardFooter, Button } from 'reactstrap'
+import { Jumbotron, Container, Row, Col, Card, CardBody, CardText, CardTitle, CardFooter, Button } from 'reactstrap';
+import '../../styles/base.scss';
+
 
 function Home() {
   return (
@@ -7,15 +9,15 @@ function Home() {
       <Container>
         <Row className="h-100">
           <Col xs="12" sm="12" md="6" className="my-auto">
-            <h5 className="mb-2 mt-3 mt-sm-3 eyebrow text-uppercase">ullanco laboris nis</h5>
+            <h6 className="mb-2 mt-3 mt-sm-3 eyebrow text-uppercase">Let&apos;s Talk About</h6>
             <h1>
-              Duis aute irure
+              Growth
               <br />
-              dolor
+              in a whole
               <br />
-              in reprehend
+              new light.
             </h1>
-            <Button className="mt-4 rounded-0" outline color="primary">CALL TO ACTION</Button>
+            <Button className="mt-4 rounded-0" outline color="dark">GET TO KNOW US</Button>
           </Col>
           <Col xs="12" sm="12" md="6" className="mt-3 mt-sm-3 mt-md-0">
             <img alt="Title" className="img-fluid" src="static/img/600x600.png" />
@@ -97,7 +99,7 @@ function Home() {
         </Container>
       </Jumbotron>
       <Container className="text-center">
-        <h1>You&apos;ll be in good company.</h1>
+        <h3>You&apos;ll be in good company.</h3>
         <p className="text-uppercase">
           With over $2.5bn in client accounts, MMC olor site amet, consectetur adipiscing elit, sed do euismod tempor incididunt ut labore et dolore mange aliqua
         </p>

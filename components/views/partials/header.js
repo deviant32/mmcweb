@@ -28,7 +28,7 @@ function Header() {
           <p className="text-right mb-0">CALL US AT +1 607.754.7473</p>
         </Container>
       </Jumbotron>
-      <Navbar color="light" light expand="md" style={{ marginTop: 0 }}>
+      <Navbar dark expand="md" style={{ marginTop: 0 }}>
         <Container style={{ marginTop: 0 }}>
           <NavbarBrand href="/">MMC</NavbarBrand>
           <NavbarToggler onClick={()=>setCollapsed(!collapsed)} />
