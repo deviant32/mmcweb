@@ -8,8 +8,8 @@ function Home() {
     <div>
       <Container>
         <Row className="h-100">
-          <Col xs="12" sm="12" md="6" className="my-auto">
-            <h6 className="mb-2 mt-3 mt-sm-3 eyebrow text-uppercase">Let&apos;s Talk About</h6>
+          <Col xs="12" sm="12" md="12" lg="6" className="my-auto">
+            <h6 className="mb-n1 mt-3 mt-md-3 eyebrow text-uppercase">Let&apos;s Talk About</h6>
             <h1>
               Growth
               <br />
@@ -19,7 +19,7 @@ function Home() {
             </h1>
             <Button className="mt-4 rounded-0" outline color="dark">GET TO KNOW US</Button>
           </Col>
-          <Col xs="12" sm="12" md="6" className="mt-3 mt-sm-3 mt-md-0">
+          <Col xs="12" sm="12" md="12" lg="6" className="mt-3 mt-md-3 mt-lg-0">
             <img alt="Title" className="img-fluid" src="static/img/600x600.png" />
           </Col>
         </Row>
