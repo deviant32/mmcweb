@@ -10,7 +10,7 @@ import Request from '../utils/request';
 
 class DynamicPage extends React.Component {
 
-  static async getInitialProps({ req, query }) {
+  static async getInitialProps({ query }) {
     const Response = await Request.getGlobals();
     const pageResponse = await Request.getObject(query.pagename);
     const page = pageResponse.object;
@@ -18,34 +18,29 @@ class DynamicPage extends React.Component {
     return { globals, page };
   }
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-        header: props.globals.header,
-        contact_form: props.globals.contact_form,
-        nav: props.globals.nav,
-        social: props.globals.social,
-        contactInfo: props.globals.contact_info.metadata,
-        footer: props.globals.footer,
-        page: props.page
+      header: props.globals.header,
+      page: props.page
     }
   }
 
-	render() {
-		return (
+  render() {
+    const { header, page } = this.state;
+    return (
       <Meta>
         <Head>
           <title>Medical Professional ~ Cosmic JS Next Js App</title>
-          <meta name="description" content={ this.state.page.metadata.seo_description.value } />
-          <link rel="icon" type="image/png" href={`${this.state.header.metadata.favicon.imgix_url}?w=32`} sizes="32x32" />
-          <link rel="icon" type="image/png" href={`${this.state.header.metadata.favicon.imgix_url}?w=16`} sizes="16x16" />
+          <meta name="description" content={page.metadata.seo_description.value} />
+          <link rel="icon" type="image/png" href={`${header.metadata.favicon.imgix_url}?w=32`} sizes="32x32" />
+          <link rel="icon" type="image/png" href={`${header.metadata.favicon.imgix_url}?w=16`} sizes="16x16" />
         </Head>
-        <Header header={this.state.header} nav={this.state.nav} />
-        <Page page={this.state.page}></Page>
-        <Footer footer={this.state.footer} social={this.state.social} contactInfo={this.state.contactInfo} />
+        <Header header={header} />
+        <Page page={page} />
       </Meta>
-		);
-	}
+    );
+  }
 }
 
 export default DynamicPage;

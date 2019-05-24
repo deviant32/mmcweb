@@ -9,7 +9,7 @@ function Home() {
       <Container>
         <Row className="h-100">
           <Col xs="12" sm="12" md="12" lg="6" className="my-auto">
-            <h6 className="mb-n1 mt-3 mt-md-3 eyebrow text-uppercase">Let&apos;s Talk About</h6>
+            <h5 className="mb-n1 mt-3 mt-md-3 eyebrow text-uppercase">Let&apos;s Talk About</h5>
             <h1>
               Growth
               <br />
@@ -17,14 +17,14 @@ function Home() {
               <br />
               new light.
             </h1>
-            <Button className="mt-4 rounded-0" outline color="dark">GET TO KNOW US</Button>
+            <Button className="mt-4 rounded-0" href="/typography" outline color="dark">GET TO KNOW US</Button>
           </Col>
           <Col xs="12" sm="12" md="12" lg="6" className="mt-3 mt-md-3 mt-lg-0">
-            <img alt="Title" className="img-fluid" src="static/img/600x600.png" />
+            <img alt="Title" className="img-fluid" src="/static/img/600x600.png" />
           </Col>
         </Row>
       </Container>
-      <Jumbotron fluid className='blue-bg'>
+      <Jumbotron fluid className='bg-primary text-white'>
         <Container className="text-center">
           <Row className="mb-3">
             <Col md={{ size: 6, offset: 3 }}>

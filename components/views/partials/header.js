@@ -28,23 +28,23 @@ function Header() {
           <p className="text-right mb-0">CALL US AT +1 607.754.7473</p>
         </Container>
       </Jumbotron>
-      <Navbar dark expand="md" style={{ marginTop: 0 }}>
+      <Navbar className="navbar navbar-dark bg-primary text-white" expand="md" style={{ marginTop: 0 }}>
         <Container style={{ marginTop: 0 }}>
           <NavbarBrand href="/">MMC</NavbarBrand>
           <NavbarToggler onClick={()=>setCollapsed(!collapsed)} />
           <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="mr-4">
-                <NavLink href="/growth-reinvented/">GROWTH REINVENTED</NavLink>
+                <NavLink href="/growth-reinvented">GROWTH REINVENTED</NavLink>
               </NavItem>
               <NavItem className="mr-4">
-                <NavLink href="/resources/">RESOURCES</NavLink>
+                <NavLink href="/resources">RESOURCES</NavLink>
               </NavItem>
               <NavItem className="mr-4">
-                <NavLink href="/team/">TEAM</NavLink>
+                <NavLink href="/team">TEAM</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact-us/">CONTACT US</NavLink>
+                <NavLink href="/contact-us">CONTACT US</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

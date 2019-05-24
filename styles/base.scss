@@ -1,10 +1,28 @@
+// Required
 @import "~bootstrap/scss/_functions.scss";
 @import "~bootstrap/scss/_variables.scss";
 @import "~bootstrap/scss/_mixins.scss";
-@import "~bootstrap/scss/_forms.scss";
+
+@import "custom.scss";
+@import "_variables.scss";
 
 
-@import "theme.scss";
-@import "~bootstrap/scss/bootstrap"; // Modified bootstrap with variables
+@import "~bootstrap/scss/_reboot";
+@import "~bootstrap/scss/_type";
+@import "~bootstrap/scss/_images";
+@import "~bootstrap/scss/_grid";
+@import "~bootstrap/scss/_jumbotron";
+@import "~bootstrap/scss/_navbar";
+@import "~bootstrap/scss/_nav";
+@import "~bootstrap/scss/_type";
+@import "~bootstrap/scss/_carousel";
+@import "~bootstrap/scss/_utilities";
+@import "~bootstrap/scss/_buttons";
+@import "~bootstrap/scss/_card";
+@import "~bootstrap/scss/_transitions";
+
+
+
+
 
 

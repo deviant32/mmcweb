@@ -1,0 +1,33 @@
+/* This CSS resource incorporates links to font software which is the
+   valuable copyrighted property of Type Network, Inc. and/or their
+   suppliers. You may not attempt to copy, install, redistribute,
+   convert, modify or reverse engineer this font software. Please
+   contact Type Network with any questions: www.typenetwork.com */
+
+
+	
+@font-face {
+	font-family: "Poynter Oldstyle Disp Bd";
+	font-display: Swap;
+	font-weight: Normal;
+	font-style: Normal;
+	
+	src: url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/eot/?33f0c69bb93703519b5645501572710e11de0878");
+        src: url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/eot/?33f0c69bb93703519b5645501572710e11de0878#iefix") format("embedded-opentype"),
+             url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/woff2/?33f0c69bb93703519b5645501572710e11de0878") format("woff2"),
+             url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/woff/?33f0c69bb93703519b5645501572710e11de0878") format("woff");
+
+}
+	
+@font-face {
+	font-family: "Interstate Reg Comp";
+	font-display: Swap;
+	font-weight: Normal;
+	font-style: Normal;
+	
+	src: url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/eot/?33f0c69bb93703519b5645501572710e11de0878");
+        src: url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/eot/?33f0c69bb93703519b5645501572710e11de0878#iefix") format("embedded-opentype"),
+             url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/woff2/?33f0c69bb93703519b5645501572710e11de0878") format("woff2"),
+             url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/woff/?33f0c69bb93703519b5645501572710e11de0878") format("woff");
+
+}
