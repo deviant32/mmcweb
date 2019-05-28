@@ -5,6 +5,7 @@ font-family: 'Agenda-Light';
 font-style: normal;
 font-weight: normal;
 src: local('Agenda-Light'), url('ufonts.com_agenda-light.woff') format('woff');
+font-display: block;
 }
 
 
@@ -13,6 +14,7 @@ font-family: 'Agenda-MediumCondensed';
 font-style: normal;
 font-weight: normal;
 src: local('Agenda-MediumCondensed'), url('ufonts.com_agenda-mediumcondensed.woff') format('woff');
+font-display: block;
 }
 
 
@@ -20,6 +22,7 @@ src: local('Agenda-MediumCondensed'), url('ufonts.com_agenda-mediumcondensed.wof
 font-family: 'Agenda-Black';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-Black'), url('ufonts.com_agenda-black.woff') format('woff');
 }
 
@@ -28,6 +31,7 @@ src: local('Agenda-Black'), url('ufonts.com_agenda-black.woff') format('woff');
 font-family: 'Agenda-LightCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-LightCondensed'), url('ufonts.com_agenda-lightcondensed.woff') format('woff');
 }
 
@@ -36,6 +40,7 @@ src: local('Agenda-LightCondensed'), url('ufonts.com_agenda-lightcondensed.woff'
 font-family: 'Agenda-LightExtraCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-LightExtraCondensed'), url('ufonts.com_agenda-lightextracondensed.woff') format('woff');
 }
 
@@ -44,6 +49,7 @@ src: local('Agenda-LightExtraCondensed'), url('ufonts.com_agenda-lightextraconde
 font-family: 'Agenda-LightUltraCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-LightUltraCondensed'), url('ufonts.com_agenda-lightultracondensed.woff') format('woff');
 }
 
@@ -52,6 +58,7 @@ src: local('Agenda-LightUltraCondensed'), url('ufonts.com_agenda-lightultraconde
 font-family: 'Agenda-MediumExtraCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-MediumExtraCondensed'), url('ufonts.com_agenda-mediumextracondensed.woff') format('woff');
 }
 
@@ -60,6 +67,7 @@ src: local('Agenda-MediumExtraCondensed'), url('ufonts.com_agenda-mediumextracon
 font-family: 'Agenda-MediumUltraCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-MediumUltraCondensed'), url('ufonts.com_agenda-mediumultracondensed.woff') format('woff');
 }
 
@@ -68,6 +76,7 @@ src: local('Agenda-MediumUltraCondensed'), url('ufonts.com_agenda-mediumultracon
 font-family: 'Agenda-ThinUltraCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-ThinUltraCondensed'), url('ufonts.com_agenda-thinultracondensed.woff') format('woff');
 }
 
@@ -76,6 +85,7 @@ src: local('Agenda-ThinUltraCondensed'), url('ufonts.com_agenda-thinultracondens
 font-family: 'Agenda-LightItalic';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-LightItalic'), url('ufonts.com_agenda-lightitalic.woff') format('woff');
 }
 
@@ -84,6 +94,7 @@ src: local('Agenda-LightItalic'), url('ufonts.com_agenda-lightitalic.woff') form
 font-family: 'Agenda-Bold';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-Bold'), url('ufonts.com_agenda-bold.woff') format('woff');
 }
 
@@ -92,6 +103,7 @@ src: local('Agenda-Bold'), url('ufonts.com_agenda-bold.woff') format('woff');
 font-family: 'Agenda-BoldCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-BoldCondensed'), url('ufonts.com_agenda-boldcondensed.woff') format('woff');
 }
 
@@ -100,6 +112,7 @@ src: local('Agenda-BoldCondensed'), url('ufonts.com_agenda-boldcondensed.woff') 
 font-family: 'Agenda-BoldExtraCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-BoldExtraCondensed'), url('ufonts.com_agenda-boldextracondensed.woff') format('woff');
 }
 
@@ -108,5 +121,30 @@ src: local('Agenda-BoldExtraCondensed'), url('ufonts.com_agenda-boldextracondens
 font-family: 'Agenda-BoldUltraCondensed';
 font-style: normal;
 font-weight: normal;
+font-display: block;
 src: local('Agenda-BoldUltraCondensed'), url('ufonts.com_agenda-boldultracondensed.woff') format('woff');
 }
+
+  @font-face {
+    font-family: "Poynter Oldstyle Disp Bd";
+    font-display: Block !important;
+    font-weight: Normal;
+    font-style: Normal;
+
+    src: url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/eot/?11739653588903160bf67957229224be673dee71");
+          src: url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/eot/?11739653588903160bf67957229224be673dee71#iefix") format("embedded-opentype"),
+               url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/woff2/?11739653588903160bf67957229224be673dee71") format("woff2"),
+               url("//cloud.typenetwork.com/projectLicenseWeb/16153/fontfile/woff/?11739653588903160bf67957229224be673dee71") format("woff");
+  }
+
+  @font-face {
+    font-family: "Interstate Reg Comp";
+    font-display: Block;
+    font-weight: Normal;
+    font-style: Normal;
+
+    src: url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/eot/?11739653588903160bf67957229224be673dee71");
+          src: url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/eot/?11739653588903160bf67957229224be673dee71#iefix") format("embedded-opentype"),
+               url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/woff2/?11739653588903160bf67957229224be673dee71") format("woff2"),
+               url("//cloud.typenetwork.com/projectLicenseWeb/16154/fontfile/woff/?11739653588903160bf67957229224be673dee71") format("woff");
+  }

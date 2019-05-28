@@ -1,11 +1,17 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col, Card, CardBody, CardText, CardTitle, CardFooter, Button } from 'reactstrap';
 import '../../styles/base.scss';
+import {Helmet} from 'react-helmet';
 
 
 function Home() {
   return (
     <div>
+      <Helmet>
+        <title>Home Page Title!</title>
+        <meta name="description" content='Description goes here' />
+        <meta name="og:image" content='image path' />
+      </Helmet>
       <Container>
         <Row className="h-100">
           <Col xs="12" sm="12" md="12" lg="6" className="my-auto">

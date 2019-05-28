@@ -6,7 +6,7 @@ import Header from '../components/views/partials/header'
 import '../styles/base.scss';
 
 
-function Typography() {
+const Typography = () => {
 
   const [collapse, setCollapse] = useState(false);
 
@@ -128,7 +128,6 @@ function Typography() {
             </Collapse>
           </Col>
         </Row>
-
       </Container>
     </Meta>
   );

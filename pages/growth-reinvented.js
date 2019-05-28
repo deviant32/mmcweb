@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, UncontrolledCarousel, CarouselIndicators, CarouselControl, CarouselItem, CarouselCaption } from 'reactstrap';
+import React from 'react';
+import { Container, Row, Col, UncontrolledCarousel } from 'reactstrap';
 import Head from 'next/head';
 import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
@@ -23,41 +23,7 @@ const items = [
   }
 ];
 
-function GrowthReinventedPage() {
-  const [index, setIndex] = useState(0);
-  const [animating, setAnimating] = useState(false)
-
-
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setIndex(newIndex);
-  }
-
-  const next = () => {
-    if (animating) return;
-    const nextIndex = index === items.length - 1 ? 0 : index + 1;
-    setIndex(nextIndex);
-  }
-
-  const prev = () => {
-    if (animating) return;
-    const nextIndex = index === 0 ? items.length - 1 : index - 1;
-    setIndex(nextIndex);
-  }
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        className="custom-tag"
-        tag="div"
-        key={item.id}
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-      >
-        <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} />
-      </CarouselItem>
-    );
-  });
+const GrowthReinventedPage = () => {
 
   return (
     <Meta>
@@ -72,8 +38,6 @@ function GrowthReinventedPage() {
           </Col>
         </Row>
       </Container>
-
-
     </Meta>
   );
 }
