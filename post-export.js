@@ -14,4 +14,4 @@ if (fs.existsSync('_redirects')) {
 // Generate the sitemap and define the target folder
 // Don't forget to set the PUBLIC_DOMAIN secret in Netlify! 🕵️‍♀️
 var domain = process.env.PUBLIC_DOMAIN;
-generateSitemap(domain, './out/static/');
+generateSitemap(domain, './out/');
