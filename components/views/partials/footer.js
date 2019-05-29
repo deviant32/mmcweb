@@ -1,65 +1,79 @@
-/**
-*
-* Header
-*
-*/
-
 import React from 'react';
-import Link from 'next/link'
+import {Container, Row, Col, Button} from 'reactstrap';
 
-
-class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
-
-  render() {
-    const { footer, contactInfo, social } = this.props;
-    return (
-        <div>
-             <footer id="footer" style={{ backgroundColor: '#f8f8f8', borderTop: '1px solid #e7e7e7', marginTop: '5%'}}>
-            <div className="container">
-                <div className="row">
-                <div className="col-sm-8" style={{ marginTop: '50px' }}>
-                    <label className="mb-20">Contact Us</label>
-                    <br />
-                    <br />
-                    <label>Phone:</label>
-                    <br />
-                    <p>{contactInfo.phone}</p>
-                    <label>Email:</label>
-                    <br />
-                    <p><a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a></p>
-                    <label>Address:</label><br />
-                    <div dangerouslySetInnerHTML={{__html: contactInfo.address}} />
-                </div>
-                <div className="col-sm-4" style={{ marginTop: '50px' }}>
-                    <h4 className="mb-20">Connect</h4>
-                    <div className="mb-20">
-                        <br/>
-                        <a className="mr-10" style={{ marginRight: '10px' }} href={social.facebook} target="_blank">
-                            <i className="fa fa-facebook" style={{ fontSize: '26px' }}></i>
-                        </a>
-                        <a className="mr-10" style={{ marginRight: '10px' }} href={social.twitter} target="_blank">
-                            <i className="fa fa-twitter" style={{ fontSize: '26px' }}></i>
-                        </a>
-                        <a className="mr-10" style={{ marginRight: '10px' }} href={social.google_plus} target="_blank">
-                            <i className="fa fa-google-plus" style={{ fontSize: '26px' }}></i>
-                        </a>
-                    </div>
-                    <br />
-                    <div className="mb-20"> &copy; 2018 {footer.company_title}
-                    </div>
-                    <br />
-                    <br />
-                    <a href="https://cosmicjs.com" target="_blank">
-                    <img className="pull-left mr-15 relative" src="https://cosmicjs.com/images/logo.svg" width="28" height="28" />
-                    <span style={{ marginLeft: '10px', color: '#666' }} >Proudly powered by Cosmic JS</span>
-                    </a>
-                </div>
-                </div>
-            </div>
-        </footer>
-        </div>
-    );
-  }
+const Footer = () => {
+  return (
+    <footer className="page-footer font-small bg-dark pt-4 text-white text-uppercase">
+      <Container fluid className="text-center text-md-left pt-5 pb-5 pl-3 pr-3">
+        <Row className="pl-5">
+          <Col md="3" className="mt-md-0 mt-3">
+            <h5>MMC</h5>
+            <p>MODERN MARKETING & COMMERCE</p>
+          </Col>
+          <hr className="clearfix w-100 d-md-none pb-3" />
+          <Col md="2" className="mb-md-0 mb-3">
+            <p>
+              29 Industrial park dr.
+              <br />
+              Binghamton, NY 13904
+            </p>
+            <p>
+              +1 607.754.7475
+              <br />
+              Info@mmcweb.com
+            </p>
+          </Col>
+          <Col md="2" className="mb-md-0 mb-3">
+            <ul className="list-unstyled">
+              <li className="mb-3">
+                <a href="#!">Platform</a>
+              </li>
+              <li className="mb-3">
+                <a href="#!">Healthcare</a>
+              </li>
+              <li className="mb-3">
+                <a href="#!">Building Products</a>
+              </li>
+              <li className="mb-3">
+                <a href="#!">Case Studies</a>
+              </li>
+            </ul>
+          </Col>
+          <Col md="2" className="mb-md-0 mb-3">
+            <ul className="list-unstyled">
+              <li className="mb-3">
+                <a href="#!">Company</a>
+              </li>
+              <li className="mb-3">
+                <a href="#!">Careers</a>
+              </li>
+              <li className="mb-3">
+                <a href="#!">White Space</a>
+              </li>
+              <li className="mb-3">
+                <a href="#!">Privacy Policy</a>
+              </li>
+            </ul>
+          </Col>
+          <Col md="3" className="mb-md-0 mb-3">
+            <ul className="list-unstyled">
+              <li>
+                <a href="#!">Follow Us</a>
+              </li>
+              <li>&nbsp;</li>
+              <li>
+                <Button color="warning" className="text-uppercase" outline>Contact Us</Button>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+      <div className="footer-copyright text-left py-3 pl-5 dark" style={{backgroundColor: '#000000'}}>
+        &copy; 2019 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> Modern Marketing & Commerce</a>
+      </div>
+    </footer>
+  )
 }
 
-export default Header;
+export default Footer;

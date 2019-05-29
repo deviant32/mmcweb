@@ -5,33 +5,19 @@ $yellow: #ebe83a;
 $green: #07d08c;
 $body-color: $black;
 
-$colors: (
-  "blue": $blue,
-  "indigo": $indigo,
-  "purple": $purple,
-  "pink": $pink,
-  "red": $red,
-  "orange": $orange,
-  "yellow": $yellow,
-  "green": $green,
-  "teal": $teal,
-  "cyan": $cyan,
-  "white": $white,
-  "gray": $gray-600,
-  "gray-dark": $gray-800
-) !default;
-
 $theme-colors: (
   "primary": $blue,
   "warning": $yellow,
   "secondary": $black,
+  "success": $green,
+  "dark": $black
 );
 
 
 // Fonts
 $font-family-base: 'Agenda-light', 'Trebuchet MS';
 $headings-font-family: 'Poynter Oldstyle Disp Bd', 'Times New Roman';
-$h1-font-size: $font-size-base * 5;
+$h1-font-size: $font-size-base * 4.8;
 $h2-font-size: $font-size-base * 3;
 $h3-font-size: $font-size-base * 2.5;
 $h4-font-size: $font-size-base * 2;
@@ -41,6 +27,22 @@ $h6-font-size: $font-size-base * 1.2;
 // Global settings
 $enable-rounded: false;
 $enable-shadows: false;
+$link-color: $white;
+$link-hover-color: $white;
+
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: darken($white, 15);
+$card-cap-bg: $white;
 
 
-h1, h2, h3, h4, h5{ font-display: Block;}
+h1, h2, h3, h4, h5 {
+  line-height: 90% !important;
+  font-display: Block;
+}
+
+
+footer {
+  letter-spacing: .08rem;
+  font-size: .8rem;
+  font-family: 'Agenda', 'Trebuchet MS';
+}

@@ -31,7 +31,7 @@ const GrowthReinventedPage = () => {
         <title>MMC Web</title>
       </Head>
       <Header />
-      <Container>
+      <Container style={{height: '100vh'}}>
         <Row>
           <Col xs="12">
             <UncontrolledCarousel style={{height: 200}} items={items} />

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Jumbotron, Container, Row, Col, Card, CardBody, CardText, CardTitle, CardFooter, Button } from 'reactstrap';
 import '../../styles/base.scss';
-import {Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
 function Home() {
@@ -15,7 +17,7 @@ function Home() {
       <Container>
         <Row className="h-100">
           <Col xs="12" sm="12" md="12" lg="6" className="my-auto">
-            <h5 className="mb-n1 mt-3 mt-md-3 eyebrow text-uppercase">Let&apos;s Talk About</h5>
+            <h5 className="mt-0 mb-3 mt-md-3 eyebrow text-uppercase">Let&apos;s Talk About</h5>
             <h1>
               Growth
               <br />
@@ -33,26 +35,25 @@ function Home() {
       <Jumbotron fluid className='bg-primary text-white'>
         <Container className="text-center">
           <Row className="mb-3">
-            <Col md={{ size: 6, offset: 3 }}>
-              <h2 className="mb-4">Growth, Reinvented.</h2>
-              <h6 className="text-uppercase mb-4 font-weight-bold">
-                The path to authentic sales growth is constantly changing and evolving. With over 32 years in business
-                we know that what worked in the past doesn&apos;t always translate to today&apos;s business needs.
-              </h6>
+            <Col md={{ size: 8, offset: 2 }}>
+              <h2 className="mb-4">
+                The sales process is ready
+                <br />
+                for transformation.
+              </h2>
               <p>
-                At MMC we help our clients uncover hidden potential within their existing data and create authentic, sustainable growth.
-                With over $2.5BN worth of client revenue managed annually, at an average of 20% growth year-over-year.
-                MMC is the secret weapon for business leaders who don&apos;t leave anything to chance.
-                Let us show you how we do it, tell you the stories of clients we&apos;ve done it for, and show you what we mean by: &#34;Growth&#44; Reinvented&#34;.
+                We&apos;re reinventors at heart, and we work with our clients to help them
+                <br />
+                change, grow and thrive by focusing on their customers above all else.
               </p>
             </Col>
           </Row>
-          <Row style={{ marginTop: 150 }} className="pb-5">
+          <Row style={{ marginTop: 100 }} className="pb-5">
             <Col className="mb-3" xs="12" sm="12" md="12" lg="4">
-              <Card className="p-3 rounded-0" style={{ minHeight: 390 }}>
+              <Card className="p-3 rounded-0 text-secondary" style={{ minHeight: 390 }}>
                 <CardTitle>
                   <div className="circle">
-                    <p>WHAT WE DO</p>
+                    <h5>WHAT WE DO</h5>
                   </div>
                 </CardTitle>
                 <CardBody>
@@ -67,10 +68,10 @@ function Home() {
               </Card>
             </Col>
             <Col className="mb-3" xs="12" sm="12" md="12" lg="4">
-              <Card className="p-3 rounded-0" style={{ minHeight: 390 }}>
+              <Card className="p-3 rounded-0 text-secondary" style={{ minHeight: 390 }}>
                 <CardTitle>
                   <div className="circle">
-                    <p>WHO WE ARE</p>
+                    <h5>WHO WE ARE</h5>
                   </div>
                 </CardTitle>
                 <CardBody>
@@ -85,10 +86,10 @@ function Home() {
               </Card>
             </Col>
             <Col className="mb-3" xs="12" sm="12" md="12" lg="4">
-              <Card className="p-3 rounded-0" style={{ minHeight: 390 }}>
+              <Card className="p-3 rounded-0 text-secondary" style={{ minHeight: 390 }}>
                 <CardTitle>
                   <div className="circle">
-                    <p>HOW WE DO IT</p>
+                    <h5>HOW WE DO IT</h5>
                   </div>
                 </CardTitle>
                 <CardBody>
@@ -104,11 +105,22 @@ function Home() {
           </Row>
         </Container>
       </Jumbotron>
-      <Container className="text-center">
-        <h3>You&apos;ll be in good company.</h3>
+      <Container className="text-center mt-5 mb-5">
+        <h3 className="text-primary">You&apos;ll be in good company.</h3>
         <p className="text-uppercase">
           With over $2.5bn in client accounts, MMC olor site amet, consectetur adipiscing elit, sed do euismod tempor incididunt ut labore et dolore mange aliqua
         </p>
+
+      </Container>
+      <Container fluid className="bg-success text-white pt-5 pb-5 text-center">
+        <Row>
+          <Col>
+            <h1 className="eyebrow">
+              JOIN THE TEAM
+              <FontAwesomeIcon size="sm" width="0" icon={faArrowRight} />
+            </h1>
+          </Col>
+        </Row>
       </Container>
     </div>
   )

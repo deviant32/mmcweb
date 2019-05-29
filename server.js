@@ -1,8 +1,12 @@
 import express from 'express';
 import next from 'next';
+import { config } from '@fortawesome/fontawesome-svg-core';
+
 import compression from 'compression';
 import bodyParser from 'body-parser';
 import routes from './routes';
+
+config.autoAddCss = false;
 
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== 'production'
