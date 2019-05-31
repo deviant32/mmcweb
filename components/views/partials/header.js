@@ -16,6 +16,7 @@ import {
   Jumbotron,
   Container
 } from 'reactstrap';
+import DirectMail from '../../dec/direct-mail';
 
 function Header() {
 
@@ -31,7 +32,7 @@ function Header() {
       <Navbar className="navbar navbar-dark bg-primary text-white" expand="md" style={{ marginTop: 0 }}>
         <Container style={{ marginTop: 0 }}>
           <NavbarBrand href="/">MMC</NavbarBrand>
-          <NavbarToggler onClick={()=>setCollapsed(!collapsed)} />
+          <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
           <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="mr-4">
