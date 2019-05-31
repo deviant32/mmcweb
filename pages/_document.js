@@ -1,6 +1,8 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import Footer from '../components/views/partials/footer';
+import Wrapper from '../components/hooks/wrapper';
+
 
 export default class MyDocument extends Document {
 
@@ -15,7 +17,6 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <Footer />
           <NextScript />
         </body>
       </html>

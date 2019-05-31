@@ -16,7 +16,7 @@ import {
   Jumbotron,
   Container
 } from 'reactstrap';
-import DirectMail from '../../dec/direct-mail';
+import DynamicContent from '../../dec/dynamic-content';
 
 function Header() {
 
@@ -44,9 +44,11 @@ function Header() {
               <NavItem className="mr-4">
                 <NavLink href="/team">TEAM</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="/contact-us">CONTACT US</NavLink>
-              </NavItem>
+              <DynamicContent package_codes={['joe123']}>
+                <NavItem>
+                  <NavLink href="/contact-us">CONTACT US</NavLink>
+                </NavItem>
+              </DynamicContent>
             </Nav>
           </Collapse>
         </Container>
