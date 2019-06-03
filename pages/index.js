@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import Home from '../components/views/home';
+import DynamicContent from '../components/dec/dynamic-content';
 import Keycode from '../components/views/partials/keycode';
 import Footer from '../components/views/partials/footer';
 
@@ -17,6 +18,7 @@ const HomePage = () => (
     <Header />
     <Home />
     <Footer />
+
   </Meta>
 )
 

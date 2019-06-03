@@ -44,7 +44,7 @@ function Header() {
               <NavItem className="mr-4">
                 <NavLink href="/team">TEAM</NavLink>
               </NavItem>
-              <DynamicContent package_codes={['joe123']}>
+              <DynamicContent package_codes={['xtx1']}>
                 <NavItem>
                   <NavLink href="/contact-us">CONTACT US</NavLink>
                 </NavItem>

@@ -23,7 +23,7 @@ const Home = () => {
       <Container>
         <Row className="h-100">
           <Col xs="12" sm="12" md="12" lg="6" className="my-auto">
-            <h5 className="mt-0 mb-3 mt-md-3 eyebrow text-uppercase">Let&apos;s Talk About</h5>
+            <h5 className="mt-0 mb-3 mt-3 mt-sm-3 mt-lg-0 eyebrow text-uppercase">Let&apos;s Talk About</h5>
             <h1>
               {user.CustomInfo ? user.CustomInfo.contactFirstName.firstName : null}
               <br />
