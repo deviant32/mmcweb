@@ -6,14 +6,12 @@ import UserContext from './context';
 const Wrapper = (props) => {
 
   const [user, setUser] = useContext(UserContext);
-  const [loading, setLoading] = useState(true);
 
   const { children } = props;
   var keycode = null;
 
   useEffect(() => {
     keycode = sessionStorage.getItem('keycode');
-    setLoading(true);
 
     if (keycode !== '') {
       axios.get('http://localhost:8080/auth?keycode=' + keycode, { useCache: true })
@@ -21,29 +19,13 @@ const Wrapper = (props) => {
           setUser(res.data);
           sessionStorage.setItem('keycode', keycode);
         })
-        .finally(() => {
-          setLoading(false);
-        })
-    } else {
-      setLoading(false);
     }
   }, [keycode]);
 
   return (
-    loading ?
-      (
-        <div style={{ width: '100vw', paddingTop: '10%' }} className="d-flex justify-content-center">
-          <Spinner style={{ width: '3rem', height: '3rem' }} color="primary" />
-        </div>
-
-      )
-      :
-      (
-        <div>
-          {children}
-        </div>
-      )
-
+    <div>
+      {children}
+    </div>
   )
 
 }

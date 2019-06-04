@@ -1,3 +1,25 @@
+body {
+    background-color: $white !important;
+}
 
-.btn { font-family: 'Agenda-Bold', 'Trebuchet MS'; font-size: .9rem !important; padding: .375rem 1.2rem !important; border: 2px solid !important; border-radius: $border-radius }
-.eyebrow { font-family: 'Interstate Reg Comp', 'Impact' }
+.btn {
+    font-family: 'Agenda', 'Trebuchet MS';
+    padding: .3rem 1.2rem !important;
+    border: 2px solid !important;
+    border-radius: $border-radius;
+    text-transform: uppercase;
+}
+
+.eyebrow {
+    font-family: 'Agenda', 'Trebuchet MS';
+    line-height: 175% !important;
+    letter-spacing: .1rem;
+}
+
+
+.bg-full {
+    background-image: url("https://dummyimage.com/1200x600/000/fff");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

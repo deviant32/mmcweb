@@ -21,12 +21,10 @@ function Keycode() {
   const submitKeycode = () => {
     axios.get('http://localhost:8080/auth?keycode=' + keycode)
       .then((res) => {
-        const data = res.data;
-        setUser(data);
+        setUser(res.data);
         sessionStorage.setItem('keycode', keycode);
       })
   }
-
 
   return (
     <Container fluid className="bg-white p-4 text-center">

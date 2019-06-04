@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import '../styles/base.scss';
+import Footer from '../components/views/partials/footer';
 
 const items = [
   {
@@ -31,13 +32,14 @@ const GrowthReinventedPage = () => {
         <title>MMC Web</title>
       </Head>
       <Header />
-      <Container style={{height: '100vh'}}>
+      <Container style={{ height: '100vh' }}>
         <Row>
           <Col xs="12">
-            <UncontrolledCarousel style={{height: 200}} items={items} />
+            <UncontrolledCarousel style={{ height: 200 }} items={items} />
           </Col>
         </Row>
       </Container>
+      <Footer />
     </Meta>
   );
 }

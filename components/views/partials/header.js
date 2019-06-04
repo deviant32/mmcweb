@@ -1,10 +1,5 @@
-/**
-*
-* Header
-*
-*/
-
 import React, { useState } from 'react';
+import Link from 'next/link';
 import {
   Navbar,
   NavbarToggler,
@@ -16,7 +11,7 @@ import {
   Jumbotron,
   Container
 } from 'reactstrap';
-import DynamicContent from '../../dec/dynamic-content';
+import Keycode from './keycode';
 
 function Header() {
 
@@ -31,31 +26,38 @@ function Header() {
       </Jumbotron>
       <Navbar className="navbar navbar-dark bg-primary text-white" expand="md" style={{ marginTop: 0 }}>
         <Container style={{ marginTop: 0 }}>
-          <NavbarBrand href="/">MMC</NavbarBrand>
+          <Link href="/" passHref>
+            <NavbarBrand>MMC</NavbarBrand>
+          </Link>
           <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
           <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="mr-4">
-                <NavLink href="/growth-reinvented">GROWTH REINVENTED</NavLink>
+                <Link href="/growth-reinvented" passHref>
+                  <NavLink>GROWTH REINVENTED</NavLink>
+                </Link>
               </NavItem>
               <NavItem className="mr-4">
-                <NavLink href="/resources">RESOURCES</NavLink>
+                <Link href="/resources" passHref>
+                  <NavLink>RESOURCES</NavLink>
+                </Link>
               </NavItem>
               <NavItem className="mr-4">
-                <NavLink href="/team">TEAM</NavLink>
+                <Link href="/team" passHref>
+                  <NavLink>TEAM</NavLink>
+                </Link>
               </NavItem>
-              <DynamicContent package_codes={['xtx1']}>
-                <NavItem>
-                  <NavLink href="/contact-us">CONTACT US</NavLink>
-                </NavItem>
-              </DynamicContent>
+              <NavItem>
+                <Link href="/contact-us" passHref>
+                  <NavLink>CONTACT US</NavLink>
+                </Link>
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
       </Navbar>
     </div>
   )
-
 }
 
 export default Header;
