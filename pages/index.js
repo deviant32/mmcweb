@@ -1,7 +1,8 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col, Card, CardBody, CardText, CardTitle, CardFooter, Button } from 'reactstrap';
+import { Jumbotron, Container, Row, Col, Card, CardText, Button } from 'reactstrap';
 import Link from 'next/link';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
+
 
 import '../styles/base.scss';
 import Meta from '../components/widgets/Meta';
@@ -15,11 +16,9 @@ const HomePage = () => {
 
   return (
     <Meta>
-      <Helmet>
+      <Head>
         <title>Home Page Title!</title>
-        <meta name="description" content='Description goes here' />
-        <meta name="og:image" content='image path' />
-      </Helmet>
+      </Head>
       <Header />
       <Container className="bg-secondary text-white text-center" fluid>
         <Container>

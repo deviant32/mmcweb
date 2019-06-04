@@ -1,6 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Button, Card, CardText, CardBody, Collapse } from 'reactstrap';
 import Head from 'next/head';
+
 import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import '../styles/base.scss';
@@ -78,7 +79,7 @@ const Typography = () => {
                   Marketing
                 </h6>
                 <p>With supporting text below as a natural lead-in to additional content.</p>
-                <a href="yahoo.com" className="text-warning">READ MORE -></a>
+                <a href="http://www.yahoo.com" className="text-warning">READ MORE -></a>
               </CardText>
             </Card>
           </Col>
@@ -93,7 +94,7 @@ const Typography = () => {
                   Marketing
                 </h6>
                 <p>With supporting text below as a natural lead-in to additional content.</p>
-                <a href="yahoo.com" className="text-warning">READ MORE -></a>
+                <a href="http://www.yahoo.com" className="text-warning">READ MORE -></a>
               </CardText>
             </Card>
           </Col>
@@ -108,7 +109,7 @@ const Typography = () => {
                   Marketing
                 </h6>
                 <p>With supporting text below as a natural lead-in to additional content.</p>
-                <a href="yahoo.com" className="text-warning">READ MORE -></a>
+                <a href="http://www.yahoo.com" className="text-warning">READ MORE -></a>
               </CardText>
             </Card>
           </Col>
@@ -119,10 +120,10 @@ const Typography = () => {
             <Collapse isOpen={collapse}>
               <Card>
                 <CardBody>
-                Anim pariatur cliche reprehenderit,
-                enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                anim keffiyeh helvetica, craft beer labore wes anderson cred
-                nesciunt sapiente ea proident.
+                  Anim pariatur cliche reprehenderit,
+                  enim eiusmod high life accusamus terry richardson ad squid. Nihil
+                  anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente ea proident.
                 </CardBody>
               </Card>
             </Collapse>
