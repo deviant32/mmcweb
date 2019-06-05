@@ -11,9 +11,16 @@ body {
 }
 
 .eyebrow {
-    font-family: 'Agenda', 'Trebuchet MS';
+    font-family: 'Interstate Reg Comp', 'Impact';
     line-height: 175% !important;
     letter-spacing: .1rem;
+}
+
+.sub-heading {
+    font-family: 'Agenda', 'Trebuchet MS';
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 110%;
 }
 
 
@@ -22,4 +29,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.nav-item {
+    font-size: .9rem;
+    letter-spacing: 1px;
+    font-weight: bold;
 }

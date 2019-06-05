@@ -8,10 +8,8 @@ import {
   NavLink,
   Nav,
   NavbarBrand,
-  Jumbotron,
   Container
 } from 'reactstrap';
-import Keycode from './keycode';
 
 function Header() {
 
@@ -19,13 +17,8 @@ function Header() {
 
   return (
     <div>
-      <Jumbotron className="p-0" style={{ marginBottom: 0 }}>
-        <Container className="pt-1 pb-1" style={{ marginBottom: 0 }}>
-          <p className="text-right mb-0">CALL US AT +1 607.754.7473</p>
-        </Container>
-      </Jumbotron>
-      <Navbar className="navbar navbar-dark bg-primary text-white" expand="md" style={{ marginTop: 0 }}>
-        <Container style={{ marginTop: 0 }}>
+      <Navbar className="navbar navbar-dark pt-3 pb-3 mt-0 bg-primary text-white" expand="md">
+        <Container className="mt-0">
           <Link href="/" passHref>
             <NavbarBrand>MMC</NavbarBrand>
           </Link>

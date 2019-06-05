@@ -24,8 +24,8 @@ const HomePage = () => {
         <Container>
           <Row className="h-100">
             <Col xs="12" sm="12" md="12" lg="6" className="my-auto">
-              <h6 className="mt-0 mb-3 mt-3 mt-sm-3 mt-lg-0 eyebrow text-uppercase">Let&apos;s Talk About</h6>
-              <h1 className="font-weight-bold mb-5">
+              <h5 className="mt-0 mb-2 mt-3 mt-sm-3 mt-lg-0 eyebrow text-uppercase">Let&apos;s Talk About</h5>
+              <h1 className="font-weight-bold mb-5" style={{ fontSize: '5rem' }}>
                 Growth in a
                 <br />
                 whole new
@@ -55,22 +55,22 @@ const HomePage = () => {
         <Container className="text-center">
           <Row>
             <Col md={{ size: 10, offset: 1 }}>
-              <h2 className="pb-4 font-weight-bold">
+              <h2 className="pb-3 font-weight-bold">
                 Modern Marketing &
                 <br />
                 Commerce
               </h2>
-              <h6 className="eyebrow pt-3 text-uppercase font-weight-bold">
+              <h6 className="sub-heading pt-3 text-uppercase font-weight-bold">
                 At MMC we exist to build sustainable, high-value relationships
                 <br />
                 between people and business.
               </h6>
-              <p style={{ lineHeight: '200%', maxWidth: 600 }} className="text-secondary mt-5 mx-auto">
+              <p style={{ lineHeight: '200%', maxWidth: 700 }} className="text-secondary mt-5 mx-auto">
                 We help our clients uncover hidden potential within their existing customer and prospect data and create authentic, sustainable growth.  With over $2.5BN worth
                 of client revenue managed annually, at an average of 20% growth year-over-year, MMC is the secret weapon for business leaders who don't leave anything to chance.
                 Let us show what we mean by:
                 <br />
-                <p style={{ fontWeight: 800 }}>&quot;Growth, Reinvented.&quot;</p>
+                <p className="font-weight-bold">&quot;Growth, Reinvented.&quot;</p>
               </p>
             </Col>
           </Row>
@@ -78,8 +78,8 @@ const HomePage = () => {
       </Jumbotron>
 
       <Container fluid className="text-center text-primary bg-white pt-5 pb-5">
-        <h2 className="font-weight-bold pb-4">You&apos;ll be in good company.</h2>
-        <h6 className="eyebrow text-uppercase mx-auto pt-3 font-weight-bold">
+        <h2 className="font-weight-bold pb-3">You&apos;ll be in good company.</h2>
+        <h6 className="sub-heading text-uppercase mx-auto pt-3 font-weight-bold">
           MMC Manages over $2.5BN in revenue for clients like these.
           <br />
           Let us show you what we can do for you.
@@ -147,19 +147,6 @@ const HomePage = () => {
       <Container className="bg-full" style={{ height: 400 }} fluid />
 
       <CallToAction />
-
-
-
-      {/* <Container fluid className="bg-success text-white pt-5 pb-5 text-center">
-        <Row>
-          <Col>
-            <h1 className="eyebrow">
-              JOIN THE TEAM
-              <FontAwesomeIcon size="sm" width="0" icon={faArrowRight} />
-            </h1>
-          </Col>
-        </Row>
-      </Container> */}
       <Footer />
     </Meta>
   )

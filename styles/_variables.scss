@@ -18,10 +18,10 @@ $font-family-base: 'Agenda',
 'Trebuchet MS';
 $headings-font-family: 'Poynter Oldstyle Disp',
 'Times New Roman';
-$h1-font-size: $font-size-base * 4.8;
+$h1-font-size: $font-size-base * 3;
 $h2-font-size: $font-size-base * 3;
 $h3-font-size: $font-size-base * 2.5;
-$h4-font-size: $font-size-base * 2;
+$h4-font-size: $font-size-base * 1.9;
 $h5-font-size: $font-size-base * 1.5;
 $h6-font-size: $font-size-base * 1;
 
@@ -46,10 +46,17 @@ h5 {
 
 footer {
     letter-spacing: .08rem;
-    font-size: .8rem;
+    font-size: .7rem;
     font-family: 'Agenda', 'Trebuchet MS';
 }
 
 label {
     font-weight: 700;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
 }
