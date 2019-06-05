@@ -114,7 +114,6 @@ const ContactUs = () => {
             <ReactMapGL
               dragPan={false}
               scrollZoom={false}
-              touchAction="pan-y"
               mapboxApiAccessToken="pk.eyJ1IjoiamtvbGJhIiwiYSI6ImNqd2pianYwdDBnMHE0M254OGVoYm54eWcifQ.FzwQEW_lNdpXIoLv0RXnGw"
               mapStyle="mapbox://styles/jkolba/cjwjk8f2913yo1co2nf0o8ydy"
               {...viewport}
