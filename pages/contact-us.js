@@ -79,8 +79,19 @@ const ContactUs = () => {
                 margin: '0 auto'
               }}
             >
-              <h4>LOGO</h4>
-              <p className="text-uppercase">
+
+              <svg width="122px" height="30px" viewBox="0 0 122 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+                <g id="4.0-Contact-Us" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                  <g id="4.0-Contact-Us-Desktop-B-Copy-3" transform="translate(-280.000000, -866.000000)" fill="#262626" fillRule="nonzero">
+                    <g id="Group-2" transform="translate(202.000000, 684.000000)">
+                      <g id="Group" transform="translate(31.000000, 182.000000)">
+                        <path d="M148.352114,6.9887909 L144.127221,11.1007171 L144.127221,18.9178274 L148.352114,23.0112091 L169,23.0112091 L169,30 L145.017336,30 L137,21.8181818 L137,7.83689112 L145.017336,0 L169,0 L169,6.9887909 L148.352114,6.9887909 Z M110.999388,13.3560287 L124.273386,0 L130,5.74028225 L130,30 L123.108485,30 L123.108485,11.0250062 L110.999388,23.2149047 L98.8915151,11.0250062 L98.8915151,30 L92,30 L92,5.7712305 L97.7425213,0.00371379054 L110.999388,13.3560287 Z M65.9993882,13.3560287 L79.2733859,0 L85,5.74028225 L85,30 L78.1084849,30 L78.1084849,11.0250062 L65.9993882,23.2149047 L53.8902914,11.0250062 L53.8902914,30 L47,30 L47,5.7712305 L52.7425213,0.00371379054 L65.9993882,13.3560287 Z" id="Combined-Shape" />
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <p className="text-uppercase mt-4">
                 29 Industrial park dr.
                 <br />
                 Binghamton, NY 13904
@@ -154,7 +165,7 @@ const ContactUs = () => {
         </Row>
       </Container>
       <Footer />
-    </Meta>
+    </Meta >
   );
 }
 
