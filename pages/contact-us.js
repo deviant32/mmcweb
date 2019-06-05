@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, } from 'reactstrap';
 import Router from 'next/router'
-import ReactMapGL from 'react-map-gl';
+import ReactMapGL, { NavigationControl } from 'react-map-gl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -31,7 +31,10 @@ const ContactUs = () => {
     height: 500,
     latitude: 42.102740,
     longitude: -75.832630,
-    zoom: 11
+    zoom: 11,
+    scrollZoom: false,
+    boxZoom: false,
+    doubleClickZoom: false
   });
 
   useEffect(() => {
@@ -79,7 +82,6 @@ const ContactUs = () => {
                 margin: '0 auto'
               }}
             >
-
               <svg width="122px" height="30px" viewBox="0 0 122 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
                 <g id="4.0-Contact-Us" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                   <g id="4.0-Contact-Us-Desktop-B-Copy-3" transform="translate(-280.000000, -866.000000)" fill="#262626" fillRule="nonzero">
@@ -110,6 +112,9 @@ const ContactUs = () => {
           </Col>
           <Col className="pl-0 pr-0" sm={12} md={7}>
             <ReactMapGL
+              dragPan={false}
+              scrollZoom={false}
+              touchAction="pan-y"
               mapboxApiAccessToken="pk.eyJ1IjoiamtvbGJhIiwiYSI6ImNqd2pianYwdDBnMHE0M254OGVoYm54eWcifQ.FzwQEW_lNdpXIoLv0RXnGw"
               mapStyle="mapbox://styles/jkolba/cjwjk8f2913yo1co2nf0o8ydy"
               {...viewport}
