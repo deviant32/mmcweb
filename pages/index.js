@@ -23,7 +23,7 @@ const HomePage = () => {
       </Head>
       <Header />
       <img style={{ position: 'absolute', left: 0, marginTop: '350px', }} src="/static/img/abstract/circle-dots.svg" alt="circle" />
-      <img style={{ position: 'absolute', right: 0, marginTop: '1000px', zIndex: 2 }} src="/static/img/abstract/square.svg" alt="square" />
+      <img style={{ position: 'absolute', right: 0, marginTop: '750px', zIndex: 2 }} src="/static/img/abstract/square.svg" alt="square" />
       <Container className="bg-secondary text-white text-center" fluid>
         <Container>
           <Row className="h-100">
@@ -82,13 +82,64 @@ const HomePage = () => {
           </Row>
         </Container>
       </Jumbotron>
-      <Container fluid className="text-center text-primary bg-white pt-5 pb-5">
+      <Jumbotron fluid className='bg-secondary text-white mb-0'>
+        <Container className="text-center">
+          <Row>
+            <Col className="pb-5" xs={12} md={4}>
+              <span className="circle text-center">
+                <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
+              </span>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem' }}>what we do</h2>
+              <p className="mt-n2" style={{ height: 80 }}>When the rules have changed, challenging convention is key. See how we grow the 87% of your accounts that are hardest to reach.</p>
+              <Button outline color="warning">&quot;Growth Reinvented?&quot;</Button>
+            </Col>
+            <Col className="pb-5" xs={12} md={4}>
+              <span className="circle text-center">
+                <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
+              </span>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem' }}>who we are</h2>
+              <p className="mt-n2" style={{ height: 80 }}>We’re reinventing growth for our people, redefining success and investing in what’s most important.</p>
+              <Button outline color="warning">Meet the team</Button>
+            </Col>
+            <Col className="pb-5" xs={12} md={4}>
+              <span className="circle text-center">
+                <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
+              </span>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem' }}>how we do it</h2>
+              <p className="mt-n2" style={{ height: 80 }}>See how we reinvent growth for our clients every day. </p>
+              <Button outline color="warning">Read our case studies</Button>
+            </Col>
+          </Row>
+        </Container>
+      </Jumbotron>
+      <Container className="text-center text-primary bg-white pt-5 pb-5">
         <h2 className="font-weight-bold pb-3">You&apos;ll be in good company.</h2>
-        <h6 className="sub-heading text-uppercase mx-auto pt-3 font-weight-bold">
+        <h6 className="sub-heading text-uppercase mx-auto pt-3 mb-5 font-weight-bold">
           MMC Manages over $2.5BN in revenue for clients like these.
           <br />
           Let us show you what we can do for you.
         </h6>
+        <Row className="pt-3 mb-5">
+          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
+          </Col>
+          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
+          </Col>
+          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
+          </Col>
+          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
+          </Col>
+          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
+          </Col>
+          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
+          </Col>
+        </Row>
+        <a className="text-secondary" href="#!"><u>Let us show you what we can do for you.</u></a>
       </Container>
       <Container className="bg-secondary mt-0" fluid>
         <Container>
