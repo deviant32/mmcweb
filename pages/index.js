@@ -3,7 +3,6 @@ import { Jumbotron, Container, Row, Col, Card, CardText, Button } from 'reactstr
 import Link from 'next/link';
 import Head from 'next/head';
 
-
 import '../styles/base.scss';
 import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
