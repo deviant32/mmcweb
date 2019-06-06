@@ -27,8 +27,8 @@ const HomePage = () => {
         <Container>
           <Row className="h-100">
             <Col xs="12" sm="12" md="12" lg="6" className="my-auto pt-5 pb-5 order-2 order-lg-1">
-              <h5 className="mt-0 mb-2 mt-3 mt-sm-3 mt-lg-0 eyebrow text-uppercase">Let&apos;s Talk About</h5>
-              <h1 className="font-weight-bold mb-5" style={{ fontSize: '5rem' }}>
+              <h5 className="mt-0 mb-2 mt-3 mt-sm-3 mt-lg-0 pt-5 eyebrow text-uppercase">Let&apos;s Talk About</h5>
+              <h1 className="font-weight-bold mb-5" style={{ fontSize: '5rem', lineHeight: '85%' }}>
                 Growth in a
                 <br />
                 whole new
@@ -36,7 +36,7 @@ const HomePage = () => {
                 light.
               </h1>
               <Link href="/typography" passHref>
-                <Button className="mt-4 rounded-0 text-uppercase font-weight-normal pl-5 pr-5" size="md" outline color="warning">Learn More</Button>
+                <Button className="mt-4 rounded-0 text-uppercase font-weight-normal pl-5 pr-5 mb-5" size="md" outline color="warning">Learn More</Button>
               </Link>
             </Col>
             <Col xs="12" sm="12" md="12" lg="6" className="bg-home mr-0 order-1 order-lg-2" style={{ minHeight: 300 }}>
@@ -88,7 +88,7 @@ const HomePage = () => {
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem' }}>what we do</h2>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#D8D8D8' }}>what we do</h2>
               <p className="mt-n2" style={{ height: 80 }}>When the rules have changed, challenging convention is key. See how we grow the 87% of your accounts that are hardest to reach.</p>
               <Button outline color="warning">&quot;Growth Reinvented?&quot;</Button>
             </Col>
@@ -96,7 +96,7 @@ const HomePage = () => {
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem' }}>who we are</h2>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#D8D8D8' }}>who we are</h2>
               <p className="mt-n2" style={{ height: 80 }}>We’re reinventing growth for our people, redefining success and investing in what’s most important.</p>
               <Button outline color="warning">Meet the team</Button>
             </Col>
@@ -104,7 +104,7 @@ const HomePage = () => {
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem' }}>how we do it</h2>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#D8D8D8' }}>how we do it</h2>
               <p className="mt-n2" style={{ height: 80 }}>See how we reinvent growth for our clients every day. </p>
               <Button outline color="warning">Read our case studies</Button>
             </Col>

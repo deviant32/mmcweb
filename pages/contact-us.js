@@ -5,6 +5,7 @@ import ReactMapGL from 'react-map-gl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import axios from 'axios';
 
 import Head from 'next/head';
 import Meta from '../components/widgets/Meta';
@@ -21,9 +22,20 @@ const ContactUs = () => {
     e.preventDefault();
     var data = new FormData(event.target);
 
-    var object = {};
-    data.forEach((value, key) => { object[key] = value });
-    Router.replace('/thank-you');
+    axios({
+      method: 'post',
+      url: 'https://mmcwebcontact.azurewebsites.net/api/ContactUsTrigger?code=W3lbcVof4POhhNfR/ri7BsL1u6nZ/RRKle9phiyac/5pxaCIdMObaA==',
+      data: data,
+      config: { headers: { 'Content-Type': 'multipart/form-data' } }
+    })
+      .then((response) => {
+        Router.replace('/thank-you');
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
+
   }
 
   const [viewport, setViewport] = useState({
