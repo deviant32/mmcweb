@@ -13,7 +13,6 @@ import DynamicContent from '../components/dec/dynamic-content';
 import CallToAction from '../components/views/partials/call-to-action';
 
 
-
 const HomePage = () => {
 
   return (
