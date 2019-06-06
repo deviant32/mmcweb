@@ -19,8 +19,8 @@ const HomePage = () => {
         <title>Home Page Title!</title>
       </Head>
       <Header />
-      <img style={{ position: 'absolute', left: 0, marginTop: '300px', }} src="static/img/abstract/circle-dots.svg" alt="circle" />
-      <img style={{ position: 'absolute', right: 0, marginTop: '1000px', }} src="static/img/abstract/square.svg" alt="square" />
+      <img style={{ position: 'absolute', left: 0, marginTop: '300px', }} src="/static/img/abstract/circle-dots.svg" alt="circle" />
+      <img style={{ position: 'absolute', right: 0, marginTop: '1000px', }} src="/static/img/abstract/square.svg" alt="square" />
       <Container className="bg-secondary text-white text-center" fluid>
         <Container>
           <Row className="h-100">
@@ -77,7 +77,6 @@ const HomePage = () => {
           </Row>
         </Container>
       </Jumbotron>
-
       <Container fluid className="text-center text-primary bg-white pt-5 pb-5">
         <h2 className="font-weight-bold pb-3">You&apos;ll be in good company.</h2>
         <h6 className="sub-heading text-uppercase mx-auto pt-3 font-weight-bold">
@@ -86,7 +85,6 @@ const HomePage = () => {
           Let us show you what we can do for you.
         </h6>
       </Container>
-
       <Container className="bg-secondary mt-0" fluid>
         <Container>
           <Row className="pt-5">
@@ -144,9 +142,7 @@ const HomePage = () => {
           </Row>
         </Container>
       </Container>
-
       <Container className="bg-full" style={{ height: 400 }} fluid />
-
       <CallToAction />
       <Footer />
     </Meta>

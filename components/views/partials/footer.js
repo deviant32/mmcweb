@@ -14,7 +14,7 @@ const Footer = () => {
       <Container className="text-center text-md-left pt-5 pb-5 pl-3 pr-3">
         <Row className="pl-md-5">
           <Col md="4" className="mt-md-0 mt-3">
-            <img src="static/img/logos/logo.svg" style={{ width: 150 }} className="mb-1" alt="Modern Marketing & Commerce" />
+            <img src="/static/img/logos/logo.svg" style={{ width: 150 }} className="mb-1" alt="Modern Marketing & Commerce" />
             <p>
               MODERN MARKETING
               <br />
