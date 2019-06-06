@@ -22,7 +22,7 @@ const CallToAction = () => {
             md="5"
             style={{
               minHeight: 200,
-              backgroundImage: 'url(/static/img/abstract/dark-circle.svg',
+              backgroundImage: 'url(/static/img/abstract/dark-circle.svg)',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center',
               backgroundSize: '100% auto'
