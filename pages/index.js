@@ -21,8 +21,8 @@ const HomePage = () => {
         <title>Home Page Title!</title>
       </Head>
       <Header />
-      <img style={{ position: 'absolute', left: 0, marginTop: '350px', }} src="/static/img/abstract/circle-dots.svg" alt="circle" />
-      <img style={{ position: 'absolute', right: 0, marginTop: '750px', zIndex: 2 }} src="/static/img/abstract/square.svg" alt="square" />
+      <img style={{ position: 'absolute', left: 0, marginTop: '350px', width: '40%', maxWidth: 300 }} src="/static/img/abstract/circle-dots.svg" alt="circle" />
+      <img style={{ position: 'absolute', right: 0, marginTop: '750px', width: '40%', maxWidth: 300, zIndex: 2 }} src="/static/img/abstract/square.svg" alt="square" />
       <Container className="bg-secondary text-white text-center" fluid>
         <Container>
           <Row className="h-100">
