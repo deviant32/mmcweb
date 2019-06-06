@@ -104,7 +104,7 @@ const HomePage = () => {
                     <br />
                     maximum impact.
                   </p>
-                  <Button color="warning" style={{ width: 170 }} outline class="text-uppercase">Learn More</Button>
+                  <Button color="warning" style={{ width: 170 }} outline className="text-uppercase">Learn More</Button>
                 </CardText>
               </Card>
             </Col>
@@ -121,7 +121,7 @@ const HomePage = () => {
                     <br />
                     capabilities, and more.
                   </p>
-                  <Button color="warning" style={{ width: 170 }} outline class="text-uppercase">Learn More</Button>
+                  <Button color="warning" style={{ width: 170 }} outline className="text-uppercase">Learn More</Button>
                 </CardText>
               </Card>
             </Col>
@@ -138,7 +138,7 @@ const HomePage = () => {
                     <br />
                     growth today.
                   </p>
-                  <Button color="warning" style={{ width: 170 }} outline class="text-uppercase">Learn More</Button>
+                  <Button color="warning" style={{ width: 170 }} outline className="text-uppercase">Learn More</Button>
                 </CardText>
               </Card>
             </Col>

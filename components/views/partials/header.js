@@ -21,7 +21,7 @@ function Header() {
         <Container className="mt-0">
           <Link href="/" passHref>
             <NavbarBrand>
-              <img src="static/img/logo.svg" alt="Modern Marketing & Commerce" />
+              <img src="static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
             </NavbarBrand>
           </Link>
           <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
