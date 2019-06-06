@@ -35,13 +35,33 @@ $navbar-dark-color: $white;
 $navbar-dark-hover-color: darken($white, 15);
 $card-cap-bg: $white;
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    line-height: 90% !important;
-    font-display: Block;
+
+html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(xs) {
+    html {
+        font-size: .9rem;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: .9rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: .9rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1rem;
+    }
 }
 
 footer {

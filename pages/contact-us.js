@@ -69,31 +69,21 @@ const ContactUs = () => {
         </Row>
       </Container>
       <Container fluid style={{ minHeight: 500, position: 'relative', top: '-50px', zIndex: '1' }}>
-        <Row>
-          <Col sm={12} md={5} style={{ backgroundColor: '#DCDDDC', minHeight: '450px', maxHeight: 500, paddingTop: '60px' }}>
+        <Row className="bg-secondary text-white">
+          <Col sm={12} md={5} style={{ minHeight: '450px', maxHeight: 500, paddingTop: '60px' }}>
             <div
               className="mt-4 text-center"
               style={{
-                paddingTop: '20px',
+                paddingTop: '30px',
                 paddingBottom: '10%',
                 marginTop: '70px',
-                borderTop: 'thin solid black',
-                borderBottom: 'thin solid black',
+                borderTop: 'thin solid rgba(255, 255, 255, .25)',
+                borderBottom: 'thin solid rgba(255, 255, 255, .25)',
                 width: '60%',
                 margin: '0 auto'
               }}
             >
-              <svg width="122px" height="30px" viewBox="0 0 122 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
-                <g id="4.0-Contact-Us" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                  <g id="4.0-Contact-Us-Desktop-B-Copy-3" transform="translate(-280.000000, -866.000000)" fill="#262626" fillRule="nonzero">
-                    <g id="Group-2" transform="translate(202.000000, 684.000000)">
-                      <g id="Group" transform="translate(31.000000, 182.000000)">
-                        <path d="M148.352114,6.9887909 L144.127221,11.1007171 L144.127221,18.9178274 L148.352114,23.0112091 L169,23.0112091 L169,30 L145.017336,30 L137,21.8181818 L137,7.83689112 L145.017336,0 L169,0 L169,6.9887909 L148.352114,6.9887909 Z M110.999388,13.3560287 L124.273386,0 L130,5.74028225 L130,30 L123.108485,30 L123.108485,11.0250062 L110.999388,23.2149047 L98.8915151,11.0250062 L98.8915151,30 L92,30 L92,5.7712305 L97.7425213,0.00371379054 L110.999388,13.3560287 Z M65.9993882,13.3560287 L79.2733859,0 L85,5.74028225 L85,30 L78.1084849,30 L78.1084849,11.0250062 L65.9993882,23.2149047 L53.8902914,11.0250062 L53.8902914,30 L47,30 L47,5.7712305 L52.7425213,0.00371379054 L65.9993882,13.3560287 Z" id="Combined-Shape" />
-                      </g>
-                    </g>
-                  </g>
-                </g>
-              </svg>
+              <img src="/static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
               <p className="text-uppercase mt-4">
                 29 Industrial park dr.
                 <br />
@@ -108,7 +98,7 @@ const ContactUs = () => {
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'linkedin-in']} />
               <br />
-              <Button color="secondary" outline className="text-uppercase mt-4">Learn about Binghamton</Button>
+              <Button color="warning" outline className="text-uppercase mt-4">Learn about Binghamton</Button>
             </div>
           </Col>
           <Col className="pl-0 pr-0" sm={12} md={7}>
@@ -116,7 +106,7 @@ const ContactUs = () => {
               dragPan={false}
               scrollZoom={false}
               mapboxApiAccessToken="pk.eyJ1IjoiamtvbGJhIiwiYSI6ImNqd2pianYwdDBnMHE0M254OGVoYm54eWcifQ.FzwQEW_lNdpXIoLv0RXnGw"
-              mapStyle="mapbox://styles/jkolba/cjwjk8f2913yo1co2nf0o8ydy"
+              mapStyle="mapbox://styles/jkolba/cjwkqlacg1wjj1cmpi4kwf1e3"
               {...viewport}
               onViewportChange={(viewport) => setViewport(viewport)}
             />
@@ -128,6 +118,26 @@ const ContactUs = () => {
           <Col className="pl-5 pr-5">
             <h4 className="text-center text-primary">Contact MMC</h4>
             <Form onSubmit={(e) => handleSubmit(e)}>
+              <FormGroup tag="fieldset" required>
+                <FormGroup check>
+                  <Label check>
+                    <Input value="general" type="radio" name="interest" />
+                    General
+                  </Label>
+                </FormGroup>
+                <FormGroup check>
+                  <Label check>
+                    <Input value="career" type="radio" name="interest" />
+                    Career Opportunities
+                  </Label>
+                </FormGroup>
+                <FormGroup check>
+                  <Label check>
+                    <Input value="services" type="radio" name="interest" />
+                    Our Services
+                  </Label>
+                </FormGroup>
+              </FormGroup>
               <Row className="mt-5" form>
                 <Col md={6}>
                   <FormGroup>

@@ -2,6 +2,8 @@ import React from 'react';
 import { Jumbotron, Container, Row, Col, Card, CardText, Button } from 'reactstrap';
 import Link from 'next/link';
 import Head from 'next/head';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import '../styles/base.scss';
 import Meta from '../components/widgets/Meta';
@@ -9,6 +11,7 @@ import Header from '../components/views/partials/header'
 import Footer from '../components/views/partials/footer';
 import DynamicContent from '../components/dec/dynamic-content';
 import CallToAction from '../components/views/partials/call-to-action';
+
 
 
 const HomePage = () => {
@@ -19,12 +22,12 @@ const HomePage = () => {
         <title>Home Page Title!</title>
       </Head>
       <Header />
-      <img style={{ position: 'absolute', left: 0, marginTop: '300px', }} src="/static/img/abstract/circle-dots.svg" alt="circle" />
-      <img style={{ position: 'absolute', right: 0, marginTop: '1000px', }} src="/static/img/abstract/square.svg" alt="square" />
+      <img style={{ position: 'absolute', left: 0, marginTop: '350px', }} src="/static/img/abstract/circle-dots.svg" alt="circle" />
+      <img style={{ position: 'absolute', right: 0, marginTop: '1000px', zIndex: 2 }} src="/static/img/abstract/square.svg" alt="square" />
       <Container className="bg-secondary text-white text-center" fluid>
         <Container>
           <Row className="h-100">
-            <Col xs="12" sm="12" md="12" lg="6" className="my-auto">
+            <Col xs="12" sm="12" md="12" lg="6" className="my-auto pt-5 pb-5 order-2 order-md-1">
               <h5 className="mt-0 mb-2 mt-3 mt-sm-3 mt-lg-0 eyebrow text-uppercase">Let&apos;s Talk About</h5>
               <h1 className="font-weight-bold mb-5" style={{ fontSize: '5rem' }}>
                 Growth in a
@@ -37,8 +40,8 @@ const HomePage = () => {
                 <Button className="mt-4 rounded-0 text-uppercase font-weight-normal pl-5 pr-5" size="md" outline color="warning">Learn More</Button>
               </Link>
             </Col>
-            <Col xs="12" sm="12" md="12" lg="6" className="mt-3 mt-md-3 mt-lg-0">
-              <img alt="Title" className="img-fluid" src="/static/img/600x600.png" />
+            <Col xs="12" sm="12" md="12" lg="6" className="mt-3 mt-md-3 mt-lg-0 bg-home order-1 order-md-2" style={{ minHeight: 300 }}>
+              &nbsp;
             </Col>
           </Row>
         </Container>
@@ -67,8 +70,10 @@ const HomePage = () => {
                 between people and business.
               </h6>
               <p style={{ lineHeight: '200%', maxWidth: 700 }} className="text-secondary mt-5 mx-auto">
-                We help our clients uncover hidden potential within their existing customer and prospect data and create authentic, sustainable growth.  With over $2.5BN worth
-                of client revenue managed annually, at an average of 20% growth year-over-year, MMC is the secret weapon for business leaders who don't leave anything to chance.
+                We help our clients uncover hidden potential within their existing customer and prospect
+                data and create authentic, sustainable growth.  With over $2.5BN worth
+                of client revenue managed annually, at an average of 20% growth year-over-year, MMC is the
+                secret weapon for business leaders who don&apos;t leave anything to chance.
                 Let us show what we mean by:
                 <br />
                 <p className="font-weight-bold">&quot;Growth, Reinvented.&quot;</p>
@@ -87,15 +92,15 @@ const HomePage = () => {
       </Container>
       <Container className="bg-secondary mt-0" fluid>
         <Container>
-          <Row className="pt-5">
-            <Col xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="p-4 mb-5 border border-warning text-center">
+          <Row className="pt-5 pb-5">
+            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
+              <Card body inverse color="secondary" className="text-center">
                 <CardText>
-                  <h4>
-                    Industries We
+                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
+                    Industries
                     <br />
-                    Serve
-                  </h4>
+                    We Serve
+                  </h2>
                   <p className="pt-4 pb-4">
                     Embedding experts for
                     <br />
@@ -105,14 +110,14 @@ const HomePage = () => {
                 </CardText>
               </Card>
             </Col>
-            <Col xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="p-4 mb-5 border border-warning text-center">
+            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
+              <Card body inverse color="secondary" className="text-center">
                 <CardText>
-                  <h4>
+                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
                     Resources &
                     <br />
                     Information
-                  </h4>
+                  </h2>
                   <p className="pt-4 pb-4">
                     See the proof: case studies,
                     <br />
@@ -122,14 +127,14 @@ const HomePage = () => {
                 </CardText>
               </Card>
             </Col>
-            <Col xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="p-4 mb-5 border border-warning text-center">
+            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
+              <Card body inverse color="secondary" className="text-center">
                 <CardText>
-                  <h4>
-                    Join the MMC
+                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
+                    Join the
                     <br />
-                    Team
-                  </h4>
+                    MMC Team
+                  </h2>
                   <p className="pt-4 pb-4">
                     Kickstart your career
                     <br />
@@ -142,7 +147,19 @@ const HomePage = () => {
           </Row>
         </Container>
       </Container>
-      <Container className="bg-full" style={{ height: 400 }} fluid />
+      <Container className="bg-building" style={{ height: 500 }} fluid>
+        <Container className="h-100 d-table text-center text-white">
+          <div className="d-table-cell align-middle">
+            <FontAwesomeIcon className="mb-4 text-primary" size="3x" width="0" icon={faQuoteLeft} />
+            <h3 style={{ lineHeight: '200% !important' }}>
+              Laboris nisi ut aliquip ex ea commodo
+              <br />
+              consequat duis auto irure
+            </h3>
+            <h6 className="text-uppercase mt-4 sub-heading">&mdash; Happy Customer</h6>
+          </div>
+        </Container>
+      </Container>
       <CallToAction />
       <Footer />
     </Meta>

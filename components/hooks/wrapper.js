@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import axios from 'axios';
-import { Spinner } from 'reactstrap';
 import UserContext from './context';
 
 const Wrapper = (props) => {
 
+  // eslint-disable-next-line no-unused-vars
   const [user, setUser] = useContext(UserContext);
 
   const { children } = props;

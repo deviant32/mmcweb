@@ -12,7 +12,6 @@ body {
 
 .eyebrow {
     font-family: 'Interstate Reg Comp', 'Impact';
-    line-height: 175% !important;
     letter-spacing: .1rem;
 }
 
@@ -26,6 +25,20 @@ body {
 
 .bg-full {
     background-image: url("https://dummyimage.com/1200x600/000/fff");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-building {
+    background-image: url("/static/img/backgrounds/building.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-home {
+    background-image: url("/static/img/backgrounds/home-header.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -2,7 +2,6 @@ import React from 'react';
 import App, { Container } from 'next/app';
 
 import UserProvider from '../components/hooks/user-provider';
-import Wrapper from '../components/hooks/wrapper';
 
 class MyApp extends App {
 
@@ -12,9 +11,7 @@ class MyApp extends App {
     return (
       <Container>
         <UserProvider>
-          <Wrapper>
-            <Component {...this.props.children} />
-          </Wrapper>
+          <Component {...this.props.children} />
         </UserProvider>
       </Container>
     );
