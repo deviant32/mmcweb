@@ -53,6 +53,7 @@ const ContactUs = () => {
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
       </Head>
       <Header />
+      <img style={{ position: 'absolute', right: 0, marginTop: 100, }} src="static/img/abstract/circle.svg" alt="circle" />
       <Container className="bg-full" style={{ height: 300 }} fluid />
       <Container className="position-relative bg-primary text-white mb-n5" style={{ height: '30%', minHeight: '380px', top: '-50px', zIndex: '2' }}>
         <Row>

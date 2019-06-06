@@ -20,7 +20,9 @@ function Header() {
       <Navbar className="navbar navbar-dark pt-3 pb-3 mt-0 bg-primary text-white" expand="md">
         <Container className="mt-0">
           <Link href="/" passHref>
-            <NavbarBrand>MMC</NavbarBrand>
+            <NavbarBrand>
+              <img src="static/img/logo.svg" alt="Modern Marketing & Commerce" />
+            </NavbarBrand>
           </Link>
           <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
           <Collapse isOpen={collapsed} navbar>

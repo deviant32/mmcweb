@@ -20,6 +20,8 @@ const HomePage = () => {
         <title>Home Page Title!</title>
       </Head>
       <Header />
+      <img style={{ position: 'absolute', left: 0, marginTop: '300px', }} src="static/img/abstract/circle-dots.svg" alt="circle" />
+      <img style={{ position: 'absolute', right: 0, marginTop: '1000px', }} src="static/img/abstract/square.svg" alt="square" />
       <Container className="bg-secondary text-white text-center" fluid>
         <Container>
           <Row className="h-100">
