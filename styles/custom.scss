@@ -1,3 +1,48 @@
+html {
+    font-size: 1rem;
+}
+
+@include media-breakpoint-up(xs) {
+    html {
+        font-size: .9rem;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: .9rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: .9rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+footer {
+    letter-spacing: .08rem;
+    font-size: .7rem;
+    font-family: 'Agenda', 'Trebuchet MS';
+}
+
+label {
+    font-weight: 700;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 body {
     background-color: $white !important;
 }
