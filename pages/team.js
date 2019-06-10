@@ -1,16 +1,22 @@
-import React, { useContext } from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import React from 'react';
+import { Container, Row, Col, Button } from 'reactstrap';
 import Head from 'next/head';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Meta from '../components/widgets/Meta';
-import Header from '../components/views/partials/header'
-import UserContext from '../components/hooks/context';
+import Header from '../components/views/partials/header';
+import CallToAction from '../components/views/partials/call-to-action';
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
+import Square from '../components/widgets/square';
 
 
 const Team = () => {
 
-  const [user, setUser] = useContext(UserContext);
+  const params = {
+    autoHeight: true,
+    direction: 'horizontal'
+  };
 
   return (
     <Meta>
@@ -18,24 +24,192 @@ const Team = () => {
         <title>Team</title>
       </Head>
       <Header />
-      <Container style={{ minHeight: 400 }}>
+      <Container className="bg-full" style={{ height: 300 }} fluid />
+      <Container className="position-relative bg-primary text-white" style={{ height: '55vh', top: '-50px' }}>
         <Row>
-          <Col xs="12">
-            <p>Team</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum rhoncus libero. Maecenas quis tristique quam. Suspendisse consectetur tortor nisl. Nunc ultrices lacinia tempor. Morbi vel sapien consectetur, varius velit suscipit, egestas risus. Integer efficitur, massa et convallis vulputate, nisl dui ullamcorper odio, eu faucibus sem mauris sit amet nisl. Quisque dictum nunc metus, eget hendrerit libero hendrerit at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin dictum porttitor velit ac accumsan. Maecenas porttitor aliquam ex, in rutrum tortor finibus at. Etiam commodo risus at dictum lacinia. Duis sollicitudin sollicitudin luctus.
-
-              Ut posuere feugiat mi, sed convallis lacus dapibus eget. Aliquam in erat egestas, faucibus nibh ac, vulputate ipsum. Mauris sit amet est vitae ante sollicitudin aliquet sit amet ut ipsum. Ut non erat tempor, ornare ex at, scelerisque odio. Donec risus augue, ullamcorper auctor porttitor nec, interdum eget sem. Morbi posuere dolor fringilla nisi consequat, ut gravida quam vehicula. Ut leo magna, viverra id euismod ac, aliquam in est. Vivamus at risus ut ex eleifend scelerisque ut eu justo. Proin nec lorem nec nunc rhoncus efficitur.
-
-              Praesent id nisi hendrerit, accumsan lacus in, fermentum lacus. Fusce nec pharetra lectus. Etiam faucibus finibus ligula, at mattis augue gravida vel. Aliquam molestie maximus placerat. Cras quis urna tellus. Morbi nec justo sagittis, molestie augue id, cursus sapien. Morbi nisl nisl, aliquet a nunc et, hendrerit hendrerit sapien. Morbi lacus erat, pretium a auctor et, varius a metus. Fusce elit orci, interdum vel magna quis, lobortis scelerisque nulla. Morbi id rhoncus nisi. Nulla placerat tellus vitae magna porta, non bibendum sapien pulvinar.
-
-              Ut neque leo, laoreet vel tempus id, dignissim ac turpis. Suspendisse placerat porta erat, quis molestie sem lacinia vitae. Sed in finibus est. Maecenas pharetra massa magna, vitae feugiat ipsum tempus nec. Pellentesque accumsan augue non neque interdum interdum. Integer non vestibulum purus. In enim turpis, sagittis et augue nec, luctus pellentesque magna. In fermentum auctor pulvinar. Fusce porta dui id enim iaculis lacinia. Vestibulum tempus neque velit, vitae mollis velit convallis sed. Nullam tempor, orci in pulvinar feugiat, neque leo malesuada nibh, eget ullamcorper purus tortor vel ligula.
-
-              Quisque et erat ut metus aliquet lacinia. Aliquam quis augue urna. In dignissim aliquam lorem, at ultricies orci eleifend id. Donec hendrerit sodales enim et congue. Maecenas vitae risus quis quam vestibulum iaculis. Mauris arcu ipsum, aliquam sit amet interdum fringilla, iaculis vel sem. Aenean dapibus nibh quis risus blandit condimentum. Mauris dapibus blandit est id euismod. Nunc fermentum et velit quis vulputate. Ut maximus, enim vel laoreet fermentum, mauris ligula sollicitudin nibh, id accumsan lectus orci a dolor. Nullam at tristique ipsum. Donec eleifend ullamcorper eros, sit amet dictum urna congue nec. Cras ut placerat eros.
+          <Col xs="12" className="text-center pt-5">
+            <h5 className="eyebrow font-weight-normal text-uppercase pt-3">The MMC Growth Team</h5>
+            <h2 className="pt-2 mb-5 font-weight-bold">
+              We're Reinventing How We
+              <br />
+              Work Together
+            </h2>
+            <p style={{ maxWidth: 650 }} className="pt-2 mx-auto">
+              At MMC, "Growth, Reinvented" isn't just about growing our clients' business, it's about
+              investing in the people we work with every day.  We're reinventing how we work together
+              to focus on what really matters, determining success not by office hours but by results for
+              our clients, and removing anything that stands in the way.
             </p>
           </Col>
         </Row>
       </Container>
+      <Container className="position-relative" style={{ top: '-120px' }}>
+        <Row className="mx-auto text-center">
+          <Col md="4" className="mb-5">
+            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/550x550/000/fff" />
+            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-4 pb-3">MMC Commuinity & Values</h6>
+            <p style={{ lineHeight: '200%', minHeight: 125 }}>
+              Investing in our people goes beyond work, to investing in who we are
+            </p>
+            <Button outline color="secondary text-uppercase mt-4">Read our case studies</Button>
+          </Col>
+          <Col md="4" className="mb-5">
+            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/550x550/000/fff" />
+            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-4 pb-3">Careers at MMC</h6>
+            <p style={{ lineHeight: '200%', minHeight: 120 }}>
+              From creative storytellers to deep data magicians, we're looking for great people to join the team, wherever you are.
+              Are you ready to take the next step in your career?
+            </p>
+            <Button outline color="secondary text-uppercase mt-4">See our capabilities</Button>
+          </Col>
+          <Col md="4" className="mb-5">
+            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/550x550/000/fff" />
+            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-4 pb-3">Employee Tools & Access</h6>
+            <p style={{ lineHeight: '200%', minHeight: 130 }}>
+              Existing MMC employees can access information including training and onboarding resources, and other information here.
+            </p>
+            <Button outline color="secondary text-uppercase mt-4">Access Ultipro</Button>
+            <br />
+            <small>(Employee Sign-in Required)</small>
+          </Col>
+        </Row>
+        <Row className="text-center mt-5 pt-5">
+          <Col>
+            <h2 className="pt-2 mb-5 text-primary font-weight-bold">
+              Our Team is Your Team
+            </h2>
+          </Col>
+        </Row>
+        <Row className="no-gutters">
+          <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man-3.jpg' },
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+        </Row>
+        <Row className="no-gutters">
+          <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man-3.jpg' },
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+        </Row>
+        <Row className="no-gutters">
+          <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man-3.jpg' },
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+          <Col>
+            <Square items={
+              [
+                { src: '/static/img/people/business-man.jpg' },
+                { src: '/static/img/people/business-man-2.jpg' },
+                { src: '/static/img/people/business-man-3.jpg' }
+              ]
+            } />
+          </Col>
+        </Row>
+      </Container>
+      <Container className="p-0 bg-building mt-0 pt-0 position-relative" style={{ top: '-250px', zIndex: -1, height: 800 }} fluid>
+        <Container className="h-100 d-table text-center text-white">
+          <div className="d-table-cell align-middle">
+            <FontAwesomeIcon className="mb-4 text-primary" size="3x" width="0" icon={faQuoteLeft} />
+            <h3 style={{ lineHeight: '200% !important' }}>
+              Laboris nisi ut aliquip ex ea commodo
+              <br />
+              consequat duis auto irure
+            </h3>
+            <h6 className="text-uppercase mt-4 sub-heading">&mdash; Happy Customer</h6>
+          </div>
+        </Container>
+        <CallToAction />
+      </Container>
+
       <Footer />
     </Meta>
   );

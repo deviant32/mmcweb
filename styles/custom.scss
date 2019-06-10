@@ -28,7 +28,7 @@ html {
 
 footer {
     letter-spacing: .08rem;
-    font-size: .7rem;
+    font-size: .9rem;
     font-family: 'Agenda', 'Trebuchet MS';
 }
 
@@ -87,6 +87,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg-circle {
+  background-image: url("/static/img/abstract/circle-bg.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
 
 .nav-item {

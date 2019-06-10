@@ -10,6 +10,7 @@ module.exports = withSass({
       '/contact-us': { page: '/contact-us' },
       '/thank-you': { page: '/thank-you' },
       '/team': { page: '/team' },
+      '/case-studies': { page: '/case-studies' },
     }
   }
 })

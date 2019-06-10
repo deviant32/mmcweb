@@ -16,8 +16,9 @@ const Resources = () => {
         <title>Resources</title>
       </Head>
       <Header />
+      <img style={{ position: 'absolute', left: 0, marginTop: 320, width: 200, zIndex: 2 }} src="/static/img/abstract/square-yellow.svg" alt="circle" />
       <Container className="bg-full" style={{ height: 300 }} fluid />
-      <Container className="position-relative bg-primary text-white" style={{ height: '47vh', top: '-50px' }}>
+      <Container className="position-relative bg-primary text-white" style={{ height: '55vh', top: '-50px' }}>
         <Row>
           <Col xs="12" className="text-center pt-5">
             <h5 className="eyebrow font-weight-normal text-uppercase pt-3">CASE STUDIES, CAPABILITIES, NEWS</h5>
@@ -38,16 +39,16 @@ const Resources = () => {
       <Container className="position-relative" style={{ top: '-120px' }}>
         <Row className="mx-auto text-center">
           <Col md="6" className="mb-5">
-            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/400x400/000/fff" />
-            <h6 className="text-uppercase text-primary font-weight-bold pt-4 pb-3">MMC Case Studies</h6>
+            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/550x550/000/fff" />
+            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-4 pb-3">MMC Case Studies</h6>
             <p style={{ lineHeight: '200%' }}>
               No matter the industry, MMC excels at targeting and growing untapped segments of your business.  Let us show you how.
             </p>
             <Button outline color="secondary text-uppercase mt-4">Read our case studies</Button>
           </Col>
           <Col md="6" className="mb-5">
-            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/400x400/000/fff" />
-            <h6 className="text-uppercase text-primary font-weight-bold pt-4 pb-3">MMC Capabilities</h6>
+            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/550x550/000/fff" />
+            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-4 pb-3">MMC Capabilities</h6>
             <p style={{ lineHeight: '200%' }}>
               Learn more about our areas of expertise, our industry experience, and the people that make up the MMC community.
             </p>

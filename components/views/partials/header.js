@@ -31,22 +31,22 @@ function Header() {
           <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/growth-reinvented" passHref>
+                <Link href="/growth-reinvented" prefetch passHref>
                   <NavLink>GROWTH REINVENTED</NavLink>
                 </Link>
               </NavItem>
               <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/resources" passHref>
+                <Link href="/resources" prefetch passHref>
                   <NavLink>RESOURCES</NavLink>
                 </Link>
               </NavItem>
               <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/team" passHref>
+                <Link href="/team" prefetch passHref>
                   <NavLink>TEAM</NavLink>
                 </Link>
               </NavItem>
               <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/contact-us" passHref>
+                <Link href="/contact-us" prefetch passHref>
                   <NavLink>CONTACT US</NavLink>
                 </Link>
               </NavItem>
