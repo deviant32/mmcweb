@@ -35,7 +35,7 @@ const HomePage = () => {
                 <br />
                 light.
               </h1>
-              <Link href="/typography" passHref>
+              <Link href="/growth-reinvented" passHref>
                 <Button className="mt-4 rounded-0 text-uppercase font-weight-normal pl-5 pr-5 mb-5" size="md" outline color="warning">Learn More</Button>
               </Link>
             </Col>
@@ -58,16 +58,16 @@ const HomePage = () => {
         <Container className="text-center">
           <Row>
             <Col md={{ size: 10, offset: 1 }}>
-              <h2 className="pb-3 font-weight-bold">
+              <h1 className="pb-3 font-weight-bold">
                 Modern Marketing &
                 <br />
                 Commerce
-              </h2>
-              <h6 className="sub-heading pt-3 text-uppercase font-weight-bold">
+              </h1>
+              <h2 className="h5 sub-heading pt-3 text-uppercase font-weight-bold" style={{ lineHeight: '180%' }}>
                 At MMC we exist to build sustainable, high-value relationships
                 <br />
                 between people and business.
-              </h6>
+              </h2>
               <p style={{ lineHeight: '200%', maxWidth: 700 }} className="text-secondary mt-5 mx-auto">
                 We help our clients uncover hidden potential within their existing customer and prospect
                 data and create authentic, sustainable growth.  With over $2.5BN worth
@@ -112,12 +112,10 @@ const HomePage = () => {
         </Container>
       </Jumbotron>
       <Container className="text-center text-primary bg-white pt-5 pb-5">
-        <h2 className="font-weight-bold pb-3">You&apos;ll be in good company.</h2>
-        <h6 className="sub-heading text-uppercase mx-auto pt-3 mb-5 font-weight-bold">
+        <h1 className="font-weight-bold pb-3">You&apos;ll be in good company.</h1>
+        <h5 className="sub-heading text-uppercase mx-auto pt-3 mb-5 font-weight-bold">
           MMC Manages over $2.5BN in revenue for clients like these.
-          <br />
-          Let us show you what we can do for you.
-        </h6>
+        </h5>
         <Row className="pt-3 mb-5">
           <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
@@ -140,11 +138,14 @@ const HomePage = () => {
         </Row>
         <a className="text-secondary" href="#!"><u>Let us show you what we can do for you.</u></a>
       </Container>
-      <Container className="bg-secondary mt-0" fluid>
+      <Container className="bg-secondary mt-0 pt-5 pb-5" fluid>
         <Container>
-          <Row className="pt-5 pb-5">
-            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="text-center">
+          <Row className="pt-5 pb-5" style={{
+            borderTop: 'thin solid rgba(255, 255, 255, .25)',
+            borderBottom: 'thin solid rgba(255, 255, 255, .25)'
+          }}>
+            <Col xs="12" sm="6" md="4">
+              <Card body inverse color="secondary" className="text-center card-border-right">
                 <CardText>
                   <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
                     Industries
@@ -160,8 +161,8 @@ const HomePage = () => {
                 </CardText>
               </Card>
             </Col>
-            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="text-center">
+            <Col xs="12" sm="6" md="4">
+              <Card body inverse color="secondary" className="text-center card-border-right">
                 <CardText>
                   <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
                     Resources &
@@ -177,7 +178,7 @@ const HomePage = () => {
                 </CardText>
               </Card>
             </Col>
-            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
+            <Col xs="12" sm="6" md="4">
               <Card body inverse color="secondary" className="text-center">
                 <CardText>
                   <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
@@ -201,12 +202,12 @@ const HomePage = () => {
         <Container className="h-100 d-table text-center text-white">
           <div className="d-table-cell align-middle">
             <FontAwesomeIcon className="mb-4 text-primary" size="3x" width="0" icon={faQuoteLeft} />
-            <h3 style={{ lineHeight: '200% !important' }}>
+            <h4 className="font-weight-bold" style={{ lineHeight: '200% !important' }}>
               Laboris nisi ut aliquip ex ea commodo
               <br />
               consequat duis auto irure
-            </h3>
-            <h6 className="text-uppercase mt-4 sub-heading">&mdash; Happy Customer</h6>
+            </h4>
+            <h6 className="text-uppercase mt-5 sub-heading">&mdash; Happy Customer</h6>
           </div>
         </Container>
       </Container>

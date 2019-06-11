@@ -11,6 +11,8 @@ module.exports = withSass({
       '/thank-you': { page: '/thank-you' },
       '/team': { page: '/team' },
       '/case-studies': { page: '/case-studies' },
+      '/industries': { page: '/industries' },
+      '/core-technology': { page: '/core-technology' },
     }
   }
 })

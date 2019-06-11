@@ -10,12 +10,12 @@ const CallToAction = () => {
       <Container>
         <Row style={{ minHeight: 250 }}>
           <Col className="text-center pt-5 pb-5" md="7">
-            <h4 className="font-weight-bold">Call To Action</h4>
+            <h3 className="font-weight-bold">Call To Action</h3>
             <p className="font-weight-normal">
               We know any model is only as good as it&apos;s results, and we&apos;re eager to show you ours.
               Across industries our platform accelerates growth at an average of 20% year-over-year.
             </p>
-            <Button className="text-uppercase" outline color="white">Get to know us</Button>
+            <Button className="text-uppercase" style={{ width: 230 }} outline color="white">Get to know us</Button>
           </Col>
           <Col
             className="text-white text-center"

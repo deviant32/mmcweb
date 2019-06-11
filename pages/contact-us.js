@@ -129,7 +129,7 @@ const ContactUs = () => {
       <Container>
         <Row className="pt-sm-0 pt-0 pt-md-5 pb-5">
           <Col className="pl-5 pr-5">
-            <h4 className="text-center text-primary">Contact MMC</h4>
+            <h1 className="h2 text-center text-primary">Contact MMC</h1>
             <Form onSubmit={(e) => handleSubmit(e)}>
               <FormGroup tag="fieldset" required>
                 <FormGroup check>

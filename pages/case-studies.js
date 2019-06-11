@@ -8,12 +8,13 @@ import Header from '../components/views/partials/header';
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
-
+import Healthcare from '../components/views/partials/healthcare';
 
 
 const CaseStudies = () => {
 
   const [dropdownState, setDropdownState] = useState(false);
+  const [dropdownValue, setDropdownValue] = useState('HEALTHCARE');
 
   return (
     <Meta>
@@ -28,29 +29,22 @@ const CaseStudies = () => {
           <Col>
             <Form inline>
               <FormGroup className="mx-auto">
-                <Label className="mr-2 font-weight-normal">FILTER BY:</Label>
+                <Label className="mr-2 small font-weight-normal">SORT BY:</Label>
                 <Dropdown isOpen={dropdownState} toggle={() => setDropdownState(!dropdownState)}>
-                  <DropdownToggle caret>
-                    Dropdown
+                  <DropdownToggle outline caret>
+                    <small className="font-weight-bold">{dropdownValue}</small>
                   </DropdownToggle>
                   <DropdownMenu>
-                    <DropdownItem>HEALTHCARE</DropdownItem>
-                    <DropdownItem>BUILDING</DropdownItem>
+                    <DropdownItem onClick={() => { setDropdownValue('HEALTHCARE') }}><small>HEALTHCARE</small></DropdownItem>
+                    <DropdownItem onClick={() => { setDropdownValue('BUILDING') }}><small>BUILDING</small></DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
               </FormGroup>
             </Form>
           </Col>
         </Row>
-        <Row className="mt-5">
-          <Col>
-            <div className="bg-success mx-auto" style={{ maxWidth: '70vw', minHeight: 500 }}>
-
-            </div>
-          </Col>
-        </Row>
       </Container>
-
+      {dropdownValue === 'HEALTHCARE' && <Healthcare />}
       <CallToAction />
       <Footer />
     </Meta>

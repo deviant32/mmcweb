@@ -83,25 +83,28 @@ const GrowthReinventedPage = () => {
               <h2 className="text-center font-weight-bold">How do we do it?</h2>
             </Col>
           </Row>
-          <Row className="pt-3 pb-5">
-            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="text-center">
+          <Row className="mt-3 mb-5" style={{
+            borderTop: 'thin solid rgba(255, 255, 255, .25)',
+            borderBottom: 'thin solid rgba(255, 255, 255, .25)'
+          }}>
+            <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
+              <Card body inverse color="secondary" className="text-center card-border-right h-100">
                 <CardText>
-                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important', minHeight: 230 }}>
+                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important', minHeight: 240 }}>
                     We start by using
                     <br />
                     your existing data
                   </h2>
-                  <p className="pt-4 pb-4">
+                  <p>
                     To create a complete view of the customer ecosystem, illuminating the 87% that are hardest to reach.
                   </p>
                 </CardText>
               </Card>
             </Col>
-            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="text-center">
+            <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
+              <Card body inverse color="secondary" className="text-center card-border-right">
                 <CardText>
-                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important', minHeight: 230 }}>
+                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important', minHeight: 240 }}>
                     Transform
                     <br />
                     disengaged
@@ -110,23 +113,23 @@ const GrowthReinventedPage = () => {
                     <br />
                     advocates
                   </h2>
-                  <p className="pt-4 pb-4">
+                  <p>
                     With a blend of leading data, creative, and technology, we design, execute and manage tailored omnichannel growth strategies.
                   </p>
                 </CardText>
               </Card>
             </Col>
-            <Col style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }} xs="12" sm="6" md="4">
+            <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
               <Card body inverse color="secondary" className="text-center">
                 <CardText>
-                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important', minHeight: 230 }}>
+                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important', minHeight: 240 }}>
                     We scale accross
                     <br />
                     accounts and
                     <br />
                     organizations.
                   </h2>
-                  <p className="pt-4 pb-4">
+                  <p>
                     By partnering with our clients to pioneer integrated sales and marketing programs that create more meaningful connections and sustain ongoing milestones.
                   </p>
                 </CardText>

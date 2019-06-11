@@ -7,16 +7,19 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Col,
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
   NavbarBrand,
   Container
 } from 'reactstrap';
-import { faPhone, } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Header() {
 
   const [collapsed, setCollapsed] = useState(false);
+  const [growthDropdownVisible, setGrowthDropdownVisible] = useState(false);
 
   return (
     <div>
@@ -30,11 +33,28 @@ function Header() {
           <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
           <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/growth-reinvented" prefetch passHref>
-                  <NavLink>GROWTH REINVENTED</NavLink>
-                </Link>
-              </NavItem>
+              <Dropdown className="d-inline-block"
+                onMouseOver={() => setGrowthDropdownVisible(true)}
+                onMouseLeave={() => setGrowthDropdownVisible(!growthDropdownVisible)}
+                isOpen={growthDropdownVisible} className="mr-4 mt-n1 h-100 my-auto" nav inNavbar>
+                <DropdownToggle nav caret>
+                  <Link href="/growth-reinvented" prefetch passHref>
+                    <a>GROWTH REINVENTED</a>
+                  </Link>
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <Link href="/industries" prefetch passHref>
+                    <DropdownItem>
+                      Industries & Expertise
+                    </DropdownItem>
+                  </Link>
+                  <Link href="/core-technology" prefetch passHref>
+                    <DropdownItem>
+                      Core Technology
+                    </DropdownItem>
+                  </Link>
+                </DropdownMenu>
+              </Dropdown>
               <NavItem className="mr-4 h-100 my-auto">
                 <Link href="/resources" prefetch passHref>
                   <NavLink>RESOURCES</NavLink>

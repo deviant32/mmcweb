@@ -10,3 +10,6 @@ routes.add('contact-us', '/contact-us')
 routes.add('thank-you', '/thank-you')
 routes.add('team', '/team')
 routes.add('case-studies', '/case-studies')
+routes.add('industries', '/industries')
+routes.add('core-technology', '/core-technology')
+
