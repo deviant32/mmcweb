@@ -18,7 +18,7 @@ const Resources = () => {
       <Header />
       <img style={{ position: 'absolute', left: 0, marginTop: 320, width: 200, zIndex: 2 }} src="/static/img/abstract/square-yellow.svg" alt="circle" />
       <Container className="bg-full" style={{ height: 300 }} fluid />
-      <Container className="position-relative bg-primary text-white" style={{ height: '40vh', top: '-50px' }}>
+      <Container className="position-relative bg-primary text-white" style={{ height: '45vh', top: '-50px' }}>
         <Row>
           <Col xs="12" className="text-center pt-5">
             <h5 className="eyebrow font-weight-normal text-uppercase pt-3">CASE STUDIES, CAPABILITIES, NEWS</h5>

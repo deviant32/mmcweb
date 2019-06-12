@@ -3,26 +3,29 @@ $black: #262626;
 $blue: #0072ff;
 $yellow: #ebe83a;
 $green: #07d08c;
+$grey: #DDDEDD;
 $body-color: $black;
 
-$theme-colors: ("primary": $blue,
+$theme-colors: (
+"primary": $blue,
 "warning": $yellow,
 "white": $white,
 "secondary": $black,
 "success": $green,
+"info": $grey,
 "dark": $black);
 
 
 // Fonts
-$font-family-base: 'Agenda',
-'Trebuchet MS';
-$headings-font-family: 'Poynter Oldstyle Disp',
-'Times New Roman';
+$font-size-base: 18px;
+$font-family-base: agenda, 'Trebuchet MS';
+
+$headings-font-family: poynter-oldstyle-display, 'Times New Roman';
 $h1-font-size: $font-size-base * 4;
 $h2-font-size: $font-size-base * 3;
 $h3-font-size: $font-size-base * 2.5;
-$h4-font-size: $font-size-base * 1.9;
-$h5-font-size: $font-size-base * 1.2;
+$h4-font-size: $font-size-base * 1.6;
+$h5-font-size: $font-size-base * 1.4;
 $h6-font-size: $font-size-base * 1;
 
 // Global settings

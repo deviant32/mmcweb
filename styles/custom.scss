@@ -1,7 +1,7 @@
 footer {
     letter-spacing: .08rem;
     font-size: .7rem;
-    font-family: 'Agenda', 'Trebuchet MS';
+    font-family: agenda, 'Trebuchet MS';
 }
 
 label {
@@ -20,15 +20,16 @@ body {
 }
 
 .btn {
-    font-family: 'Agenda', 'Trebuchet MS';
+    font-family: agenda, 'Trebuchet MS';
     padding: .3rem 1.2rem .3rem 1.2rem !important;
     border: 2px solid !important;
     border-radius: $border-radius;
     text-transform: uppercase;
+    font-weight: bold !important;
 }
 
 .category {
-  font-family: 'Agenda', 'Trebuchet MS';
+  font-family: agenda, 'Trebuchet MS';
   font-weight: 600;
   text-transform: uppercase;
   color: #979797 !important;
@@ -36,15 +37,16 @@ body {
 }
 
 .eyebrow {
-    font-family: 'Interstate Reg Comp', 'Impact';
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
+    font-family: interstate-compressed, Impact;
+    font-size: 1.4rem;
 }
 
 .sub-heading {
-    font-family: 'Agenda', 'Trebuchet MS' !important;
-    font-weight: 700;
+    font-family: agenda, 'Trebuchet MS' !important;
+    font-weight: bold;
     line-height: 1.8rem;
-    letter-spacing: .08rem;
+    letter-spacing: .07rem;
 }
 
 

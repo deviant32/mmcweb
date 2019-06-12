@@ -58,17 +58,17 @@ const HomePage = () => {
         <Container className="text-center">
           <Row>
             <Col md={{ size: 10, offset: 1 }}>
-              <h1 className="pb-3 font-weight-bold">
+              <h1 className="h2 pb-3 font-weight-bold">
                 Modern Marketing &
                 <br />
                 Commerce
               </h1>
-              <h2 className="h5 sub-heading pt-3 text-uppercase font-weight-bold" style={{ lineHeight: '180%' }}>
+              <p className="sub-heading pt-3 text-uppercase font-weight-bold" style={{ lineHeight: '180%' }}>
                 At MMC we exist to build sustainable, high-value relationships
                 <br />
                 between people and business.
-              </h2>
-              <p style={{ lineHeight: '200%', maxWidth: 700 }} className="text-secondary mt-5 mx-auto">
+              </p>
+              <p style={{ maxWidth: 700 }} className="text-secondary mt-5 mx-auto">
                 We help our clients uncover hidden potential within their existing customer and prospect
                 data and create authentic, sustainable growth.  With over $2.5BN worth
                 of client revenue managed annually, at an average of 20% growth year-over-year, MMC is the
@@ -88,7 +88,7 @@ const HomePage = () => {
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#D8D8D8' }}>what we do</h2>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>what we do</h2>
               <p className="mt-n2" style={{ height: 80 }}>When the rules have changed, challenging convention is key. See how we grow the 87% of your accounts that are hardest to reach.</p>
               <Button outline color="warning">&quot;Growth Reinvented?&quot;</Button>
             </Col>
@@ -96,7 +96,7 @@ const HomePage = () => {
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#D8D8D8' }}>who we are</h2>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>who we are</h2>
               <p className="mt-n2" style={{ height: 80 }}>We’re reinventing growth for our people, redefining success and investing in what’s most important.</p>
               <Button outline color="warning">Meet the team</Button>
             </Col>
@@ -104,7 +104,7 @@ const HomePage = () => {
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#D8D8D8' }}>how we do it</h2>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>how we do it</h2>
               <p className="mt-n2" style={{ height: 80 }}>See how we reinvent growth for our clients every day. </p>
               <Button outline color="warning">Read our case studies</Button>
             </Col>
@@ -112,10 +112,10 @@ const HomePage = () => {
         </Container>
       </Jumbotron>
       <Container className="text-center text-primary bg-white pt-5 pb-5">
-        <h1 className="font-weight-bold pb-3">You&apos;ll be in good company.</h1>
-        <h5 className="sub-heading text-uppercase mx-auto pt-3 mb-5 font-weight-bold">
+        <h2 className="font-weight-bold pb-3">You&apos;ll be in good company.</h2>
+        <p className="sub-heading text-uppercase mx-auto pt-3 mb-5 font-weight-bold">
           MMC Manages over $2.5BN in revenue for clients like these.
-        </h5>
+        </p>
         <Row className="pt-3 mb-5">
           <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />

@@ -10,7 +10,7 @@ const CallToAction = () => {
       <Container>
         <Row style={{ minHeight: 250 }}>
           <Col className="text-center pt-5 pb-5" md="7">
-            <h3 className="font-weight-bold">Call To Action</h3>
+            <h4 className="font-weight-bold">Call To Action</h4>
             <p className="font-weight-normal">
               We know any model is only as good as it&apos;s results, and we&apos;re eager to show you ours.
               Across industries our platform accelerates growth at an average of 20% year-over-year.
@@ -33,7 +33,7 @@ const CallToAction = () => {
                 <tr>
                   <td className="align-middle text-center">
                     <h3 className="text-warning"><FontAwesomeIcon size="sm" width="0" icon={faPhone} /></h3>
-                    <h3 className="eyebrow font-weight-normal">+1 607.754.7473</h3>
+                    <h2 className="eyebrow font-weight-normal" style={{ fontSize: '2.7rem' }}>+1 607.754.7473</h2>
                   </td>
                 </tr>
               </tbody>

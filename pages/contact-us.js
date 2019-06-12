@@ -71,8 +71,8 @@ const ContactUs = () => {
         <Row>
           <Col className="text-center pt-5" style={{ paddingLeft: '10%', paddingRight: '10%' }}>
             <h5 className="eyebrow text-uppercase tre pt-3">Get in touch with the MMC team</h5>
-            <h1 className="pt-0 font-weight-bold">We&apos;d love to hear from you!</h1>
-            <p className="pt-5 mx-auto">
+            <h1 className="h2 pt-0 font-weight-bold">We&apos;d love to hear from you!</h1>
+            <p className="pt-4 mx-auto" style={{ maxWidth: 650 }}>
               Use the contact form below, or contact us on social media.  Whether you&apos;re a prospective client looking for more
               information, a prospective employee looking for the perfect new career, or just stumbled across MMC, and would like to find more about what
               we do, use the contact form below to get in touch, and we&apos;ll get back to you right away.
@@ -187,7 +187,7 @@ const ContactUs = () => {
                   </FormGroup>
                 </Col>
               </Row>
-              <Button color="primary" type="submit" style={{ width: 150 }} outline>SEND</Button>
+              <Button color="secondary" type="submit" style={{ width: 150 }} outline>SUBMIT</Button>
             </Form>
           </Col>
         </Row>

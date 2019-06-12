@@ -8,11 +8,8 @@ import Header from '../components/views/partials/header';
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
-import Healthcare from '../components/views/partials/healthcare';
-
 
 const Industries = () => {
-
 
   return (
     <Meta>
