@@ -42,7 +42,7 @@ const CoreTechnology = () => {
       </Container>
       <Container className="text-center mt-5">
         <div style={{ maxWidth: 650 }} className="mx-auto">
-          <h5 class="eyebrow font-weight-normal text-uppercase pt-3">CONNECTED INTELLIGENCE</h5>
+          <h5 class="eyebrow font-weight-BOLD text-uppercase pt-3">CONNECTED INTELLIGENCE</h5>
           <h2 className="text-primary font-weight-bold mt-5 mb-4">How MMC Drives Growth</h2>
           <p className="text-primary text-uppercase sub-heading pt-3">
             Our connected intelligence framework is how we structure our work on your behalf.  It's the "What" that connects with the "How" of your next action
@@ -96,7 +96,7 @@ const CoreTechnology = () => {
       </Container>
       <Container className="text-center mt-5">
         <div style={{ maxWidth: 650 }} className="mx-auto">
-          <h5 class="eyebrow font-weight-normal text-uppercase pt-3">NEXT ACTION PLATFORM</h5>
+          <h5 class="eyebrow font-weight-bold text-uppercase pt-3">NEXT ACTION PLATFORM</h5>
           <h2 className="text-primary font-weight-bold mt-4 mb-4">
             Structuring Data to
             <br />
