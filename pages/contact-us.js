@@ -115,7 +115,7 @@ const ContactUs = () => {
           </Col>
           <Col className="pl-0 pr-0" sm={12} md={7}>
             <ReactMapGL
-              dragPan={false}
+              dragPan={true}
               scrollZoom={false}
               touchAction='pan-y'
               mapboxApiAccessToken="pk.eyJ1IjoiamtvbGJhIiwiYSI6ImNqd2pianYwdDBnMHE0M254OGVoYm54eWcifQ.FzwQEW_lNdpXIoLv0RXnGw"
