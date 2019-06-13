@@ -3,7 +3,6 @@ import {
   Container, Button, ListGroup
 } from 'reactstrap';
 import Head from 'next/head';
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header';
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
@@ -15,7 +14,7 @@ import Title from '../components/views/partials/title';
 const CoreTechnology = () => {
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>Core Technology</title>
       </Head>
@@ -161,7 +160,7 @@ const CoreTechnology = () => {
       </Container>
       <CallToAction />
       <Footer />
-    </Meta>
+    </React.Fragment>
   );
 }
 

@@ -3,7 +3,6 @@ import {
   Container, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Label, Form, FormGroup, Row, Col
 } from 'reactstrap';
 import Head from 'next/head';
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header';
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
@@ -18,7 +17,7 @@ const CaseStudies = () => {
   const [dropdownValue, setDropdownValue] = useState('HEALTHCARE');
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>MMC Web</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css" />
@@ -48,7 +47,7 @@ const CaseStudies = () => {
       {dropdownValue === 'HEALTHCARE' && <Healthcare />}
       <CallToAction />
       <Footer />
-    </Meta>
+    </React.Fragment>
   );
 }
 

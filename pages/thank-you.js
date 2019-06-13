@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button, CardBody, CardTitle, CardFooter } from 'reactstrap';
 import Head from 'next/head';
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
@@ -9,7 +8,7 @@ import Footer from '../components/views/partials/footer';
 const ThankYou = () => {
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>Thank You</title>
       </Head>
@@ -58,7 +57,7 @@ const ThankYou = () => {
         </Row>
       </Container>
       <Footer />
-    </Meta>
+    </React.Fragment>
   );
 }
 

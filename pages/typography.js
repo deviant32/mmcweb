@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Button, Card, CardText, CardBody, Collapse } from 'reactstrap';
 import Head from 'next/head';
 
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import '../styles/base.scss';
 
@@ -12,7 +11,7 @@ const Typography = () => {
   const [collapse, setCollapse] = useState(false);
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>MMC Web</title>
       </Head>
@@ -130,7 +129,7 @@ const Typography = () => {
           </Col>
         </Row>
       </Container>
-    </Meta>
+    </React.Fragment>
   );
 }
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header';
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
@@ -10,7 +9,7 @@ import Title from '../components/views/partials/title';
 const Industries = () => {
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>Industries</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css" />
@@ -20,7 +19,7 @@ const Industries = () => {
 
       <CallToAction />
       <Footer />
-    </Meta>
+    </React.Fragment>
   );
 }
 

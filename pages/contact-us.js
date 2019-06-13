@@ -9,7 +9,6 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import axios from 'axios';
 
 import Head from 'next/head';
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
@@ -63,7 +62,7 @@ const ContactUs = () => {
   })
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>Contact Us</title>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
@@ -191,7 +190,7 @@ const ContactUs = () => {
         </Row>
       </Container>
       <Footer />
-    </Meta>
+    </React.Fragment>
   );
 }
 

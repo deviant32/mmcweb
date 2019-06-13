@@ -6,7 +6,6 @@ import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import '../styles/base.scss';
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import Footer from '../components/views/partials/footer';
 import SubHeading from '../components/views/partials/sub-heading';
@@ -18,7 +17,7 @@ import Title from '../components/views/partials/title';
 const HomePage = () => {
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>Home Page Title!</title>
       </Head>
@@ -219,7 +218,7 @@ const HomePage = () => {
       </Container>
       <CallToAction />
       <Footer />
-    </Meta>
+    </React.Fragment>
   )
 }
 

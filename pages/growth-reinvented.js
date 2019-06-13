@@ -3,13 +3,11 @@ import Link from 'next/link';
 import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 import Swiper from 'react-id-swiper/lib/ReactIdSwiper.full';
-import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header';
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
 import ColumnCallout from '../components/views/partials/column-callout';
-import SubHeading from '../components/views/partials/sub-heading';
 import Title from '../components/views/partials/title';
 import StatisticLayout from '../components/views/partials/statistic-layout';
 
@@ -27,7 +25,7 @@ const GrowthReinventedPage = () => {
   };
 
   return (
-    <Meta>
+    <React.Fragment>
       <Head>
         <title>MMC Web</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css" />
@@ -146,7 +144,7 @@ const GrowthReinventedPage = () => {
 
       <CallToAction />
       <Footer />
-    </Meta>
+    </React.Fragment>
   );
 }
 
