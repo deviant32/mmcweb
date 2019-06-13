@@ -2,8 +2,8 @@
 
 ## Features
 
-1. Fully responsive down to mobile w/ [Bootstrap](http://getbootstrap.com) frontend<br />
-2. SEO ready<br />
+1. Fully responsive down to mobile w/ [Bootstrap](http://getbootstrap.com) frontend
+2. SEO ready
 
 ## Getting Started
 
