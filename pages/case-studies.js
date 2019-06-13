@@ -9,6 +9,7 @@ import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
 import Healthcare from '../components/views/partials/healthcare';
+import Title from '../components/views/partials/title';
 
 
 const CaseStudies = () => {
@@ -23,7 +24,7 @@ const CaseStudies = () => {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css" />
       </Head>
       <Header />
-      <h1 className="h2 text-center text-primary font-weight-bold pt-5 pb-3 mt-4">Case Studies</h1>
+      <Title>Case Studies</Title>
       <Container className="mb-5">
         <Row>
           <Col>

@@ -9,8 +9,10 @@ import '../styles/base.scss';
 import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import Footer from '../components/views/partials/footer';
+import SubHeading from '../components/views/partials/sub-heading';
 import DynamicContent from '../components/dec/dynamic-content';
 import CallToAction from '../components/views/partials/call-to-action';
+import Title from '../components/views/partials/title';
 
 
 const HomePage = () => {
@@ -58,16 +60,17 @@ const HomePage = () => {
         <Container className="text-center">
           <Row>
             <Col md={{ size: 10, offset: 1 }}>
-              <h1 className="h2 pb-3 font-weight-bold">
+              <Title>
                 Modern Marketing &
                 <br />
                 Commerce
-              </h1>
-              <p className="sub-heading pt-3 text-uppercase font-weight-bold" style={{ lineHeight: '180%' }}>
+              </Title>
+
+              <SubHeading>
                 At MMC we exist to build sustainable, high-value relationships
                 <br />
                 between people and business.
-              </p>
+              </SubHeading>
               <p style={{ maxWidth: 700 }} className="text-secondary mt-5 mx-auto">
                 We help our clients uncover hidden potential within their existing customer and prospect
                 data and create authentic, sustainable growth.  With over $2.5BN worth
@@ -113,9 +116,9 @@ const HomePage = () => {
       </Jumbotron>
       <Container className="text-center text-primary bg-white pt-5 pb-5">
         <h2 className="font-weight-bold pb-3">You&apos;ll be in good company.</h2>
-        <p className="sub-heading text-uppercase mx-auto pt-3 mb-5 font-weight-bold">
+        <SubHeading>
           MMC Manages over $2.5BN in revenue for clients like these.
-        </p>
+        </SubHeading>
         <Row className="pt-3 mb-5">
           <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
@@ -140,10 +143,13 @@ const HomePage = () => {
       </Container>
       <Container className="bg-secondary mt-0 pt-5 pb-5" fluid>
         <Container>
-          <Row className="pt-5 pb-5" style={{
-            borderTop: 'thin solid rgba(255, 255, 255, .25)',
-            borderBottom: 'thin solid rgba(255, 255, 255, .25)'
-          }}>
+          <Row
+            className="pt-5 pb-5"
+            style={{
+              borderTop: 'thin solid rgba(255, 255, 255, .25)',
+              borderBottom: 'thin solid rgba(255, 255, 255, .25)'
+            }}
+          >
             <Col xs="12" sm="6" md="4">
               <Card body inverse color="secondary" className="text-center card-border-right">
                 <CardText>

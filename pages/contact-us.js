@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input, } from 'reactstrap';
 import Router from 'next/router'
@@ -12,6 +13,8 @@ import Meta from '../components/widgets/Meta';
 import Header from '../components/views/partials/header'
 import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
+import Title from '../components/views/partials/title';
+import TitleBlock from '../components/views/partials/title-block';
 
 library.add(fab)
 
@@ -29,6 +32,7 @@ const ContactUs = () => {
       config: { headers: { 'Content-Type': 'multipart/form-data' } }
     })
       .then((response) => {
+        console.log(response);
         Router.replace('/thank-you');
       })
       .catch((err) => {
@@ -67,20 +71,14 @@ const ContactUs = () => {
       <Header />
       <img style={{ position: 'absolute', right: 0, marginTop: 100, }} src="/static/img/abstract/circle.svg" alt="circle" />
       <Container className="bg-full" style={{ height: 300 }} fluid />
-      <Container className="position-relative bg-primary text-white mb-n5" style={{ height: '30%', minHeight: '380px', top: '-50px', zIndex: '2' }}>
-        <Row>
-          <Col className="text-center pt-5" style={{ paddingLeft: '10%', paddingRight: '10%' }}>
-            <h5 className="eyebrow text-uppercase tre pt-3">Get in touch with the MMC team</h5>
-            <h1 className="h2 pt-0 font-weight-bold">We&apos;d love to hear from you!</h1>
-            <p className="pt-4 mx-auto" style={{ maxWidth: 650 }}>
-              Use the contact form below, or contact us on social media.  Whether you&apos;re a prospective client looking for more
-              information, a prospective employee looking for the perfect new career, or just stumbled across MMC, and would like to find more about what
-              we do, use the contact form below to get in touch, and we&apos;ll get back to you right away.
-            </p>
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid style={{ minHeight: 500, position: 'relative', top: '-50px', zIndex: '1' }}>
+      <TitleBlock eyebrow="Get in touch with the MMC team" title="We&rsquo;d love to hear from you!">
+        <p>
+          Whether you&rsquo;re a prospective client looking for more information, a prospective employee looking for the perfect new career,
+          or just stumbled across MMC and would like to find out more about what we do, we&rsquo;d love to hear from you.  Use the contact form
+          below, or contact us on social media and we&rsquo;ll get back to you right away.
+        </p>
+      </TitleBlock>
+      <Container fluid style={{ minHeight: 500, position: 'relative', top: '-100px', zIndex: '1' }}>
         <Row className="bg-secondary text-white">
           <Col sm={12} md={5} style={{ minHeight: '450px', maxHeight: 500, paddingTop: '60px' }}>
             <div
@@ -115,7 +113,7 @@ const ContactUs = () => {
           </Col>
           <Col className="pl-0 pr-0" sm={12} md={7}>
             <ReactMapGL
-              dragPan={true}
+              dragPan
               scrollZoom={false}
               touchAction='pan-y'
               mapboxApiAccessToken="pk.eyJ1IjoiamtvbGJhIiwiYSI6ImNqd2pianYwdDBnMHE0M254OGVoYm54eWcifQ.FzwQEW_lNdpXIoLv0RXnGw"
@@ -127,9 +125,9 @@ const ContactUs = () => {
         </Row>
       </Container>
       <Container>
-        <Row className="pt-sm-0 pt-0 pt-md-5 pb-5">
+        <Row className="mt-n5 pb-5">
           <Col className="pl-5 pr-5">
-            <h1 className="h2 text-center text-primary">Contact MMC</h1>
+            <Title className="h3 text-primary text-center">Contact MMC</Title>
             <Form onSubmit={(e) => handleSubmit(e)}>
               <FormGroup tag="fieldset" required>
                 <FormGroup check>
@@ -154,7 +152,7 @@ const ContactUs = () => {
               <Row className="mt-5" form>
                 <Col md={6}>
                   <FormGroup>
-                    <Label for="first_name">WHAT&apos;S YOUR NAME?</Label>
+                    <Label for="first_name">WHAT&rsquo;S YOUR NAME?</Label>
                     <Input type="text" name="first_name" id="first_name" placeholder="First Name" />
                   </FormGroup>
                 </Col>
