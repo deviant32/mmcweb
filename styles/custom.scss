@@ -82,6 +82,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg-growth-reinvented {
+    background: url("/static/img/abstract/large-blue-circle.svg") bottom center no-repeat, url("/static/img/abstract/center-circle-dots.svg") top 75px center no-repeat;
+}
+
 .nav-item {
     font-size: .9rem;
     letter-spacing: 1px;
@@ -168,4 +172,13 @@ body {
     color: $black !important;
     background-color: transparent !important;
     font-size: .9em;
+}
+
+
+.svg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
 }

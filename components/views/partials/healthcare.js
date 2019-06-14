@@ -14,7 +14,8 @@ const Healthcare = () => {
         <Col>
           <div
             className="bg-success bg-squares mx-auto text-center p-0 text-white position-relative"
-            style={{ maxWidth: '50vw', minHeight: 415, lineHeight: '415px', zIndex: 2 }}>
+            style={{ maxWidth: '50vw', minHeight: 415, lineHeight: '415px', zIndex: 2 }}
+          >
             <FontAwesomeIcon size="10x" style={{ verticalAlign: 'middle', dropShadow: '30px 10px 4px #4444dd' }} width="0" icon={faHeartbeat} />
           </div>
         </Col>

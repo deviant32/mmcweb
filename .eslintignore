@@ -1,3 +1,4 @@
 /.next
 /public/*
 /__tests__
+/out

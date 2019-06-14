@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import Head from 'next/head';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import '../styles/base.scss';
 
 import Header from '../components/views/partials/header';

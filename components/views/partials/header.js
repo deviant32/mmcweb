@@ -21,9 +21,17 @@ function Header() {
   const [collapsed, setCollapsed] = useState(false);
   const [growthDropdownVisible, setGrowthDropdownVisible] = useState(false);
 
+  const headerStyle = {
+    position: 'fixed',
+    width: '100%',
+    zIndex: '100',
+    top: '0'
+  };
+
+
   return (
     <div>
-      <Navbar className="navbar p-3 navbar-dark mt-0 bg-primary text-white" expand="md">
+      <Navbar style={headerStyle} id="menu" className="navbar p-3 navbar-dark mt-0 bg-primary text-white" expand="md">
         <Container className="mt-0">
           <Link href="/" passHref>
             <NavbarBrand>
@@ -33,13 +41,18 @@ function Header() {
           <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
           <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
-              <Dropdown className="d-inline-block"
+              <Dropdown
+                className="d-inline-block mr-4 mt-n1 h-100 my-auto"
                 onMouseOver={() => setGrowthDropdownVisible(true)}
+                onFocus={() => setGrowthDropdownVisible(true)}
                 onMouseLeave={() => setGrowthDropdownVisible(!growthDropdownVisible)}
-                isOpen={growthDropdownVisible} className="mr-4 mt-n1 h-100 my-auto" nav inNavbar>
+                isOpen={growthDropdownVisible}
+                nav
+                inNavbar
+              >
                 <DropdownToggle nav caret>
                   <Link href="/growth-reinvented" prefetch passHref>
-                    <a>GROWTH REINVENTED</a>
+                    <a href>GROWTH REINVENTED</a>
                   </Link>
                 </DropdownToggle>
                 <DropdownMenu right>
@@ -70,27 +83,6 @@ function Header() {
                   <NavLink>CONTACT US</NavLink>
                 </Link>
               </NavItem>
-              {/* <NavItem
-                style={{
-                  fontSize: '.5rem !important',
-                  backgroundImage: 'url(/static/img/abstract/dark-circle.svg)',
-                  backgroundRepeat: 'no-repeat',
-                  backgroundPosition: 'center',
-                  backgroundSize: '100% auto'
-                }}
-              >
-
-                <table>
-                  <tbody>
-                    <tr>
-                      <td className="align-middle text-center">
-                        <h6 className="text-warning" style={{ paddingTop: 5 }}><FontAwesomeIcon size="sm" width="0" icon={faPhone} /></h6>
-                        <h6 className="eyebrow font-weight-normal pr-4 pl-4" style={{ color: '#d8d8d8' }}>+1 607.754.7473</h6>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </NavItem> */}
             </Nav>
           </Collapse>
         </Container>

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Button, Card, CardText, CardBody, Collapse } from 'reactstrap';
 import Head from 'next/head';
 
-import Header from '../components/views/partials/header'
 import '../styles/base.scss';
+
+import Header from '../components/views/partials/header'
 
 
 const Typography = () => {
@@ -78,7 +79,7 @@ const Typography = () => {
                   Marketing
                 </h6>
                 <p>With supporting text below as a natural lead-in to additional content.</p>
-                <a href="http://www.yahoo.com" className="text-warning">READ MORE -></a>
+                <a href="http://www.yahoo.com" className="text-warning">READ MORE -&gt;</a>
               </CardText>
             </Card>
           </Col>
@@ -93,7 +94,7 @@ const Typography = () => {
                   Marketing
                 </h6>
                 <p>With supporting text below as a natural lead-in to additional content.</p>
-                <a href="http://www.yahoo.com" className="text-warning">READ MORE -></a>
+                <a href="http://www.yahoo.com" className="text-warning">READ MORE -&gt;</a>
               </CardText>
             </Card>
           </Col>
@@ -108,7 +109,7 @@ const Typography = () => {
                   Marketing
                 </h6>
                 <p>With supporting text below as a natural lead-in to additional content.</p>
-                <a href="http://www.yahoo.com" className="text-warning">READ MORE -></a>
+                <a href="http://www.yahoo.com" className="text-warning">READ MORE -&gt;</a>
               </CardText>
             </Card>
           </Col>
