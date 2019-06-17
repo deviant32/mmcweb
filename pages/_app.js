@@ -3,25 +3,30 @@ import React from 'react';
 import App, { Container } from 'next/app';
 import ReactGA from 'react-ga';
 import Router from 'next/router';
-import TagManager from 'react-gtm-module'
-
+import TagManager from 'react-gtm-module';
+import getConfig from 'next/config';
 
 import UserProvider from '../components/hooks/user-provider';
+
+const { publicRuntimeConfig } = getConfig();
+const { GOOGLE_ANALYTICS, GOOGLE_TAGS } = publicRuntimeConfig;
 
 class MyApp extends App {
 
   componentDidMount() {
-    console.log('App mounted.. Init GA');
+    // initialize tag manager
+    // TODO: use env variable in azure
     TagManager.initialize({
-      gtmId: 'GTM-MB79W62'
+      gtmId: GOOGLE_TAGS
     })
 
-    /*  ReactGA.initialize('UA-50851079-66', {
-       debug: true,
-       titleCase: false
-     }); */
+    // initialize google analytics
+    // TODO: use env variable in azure
+    ReactGA.initialize(GOOGLE_ANALYTICS, {
+      debug: true,
+      titleCase: false
+    });
   }
-
 
   render() {
     const { Component } = this.props;

@@ -6,7 +6,6 @@ import {
   NavbarToggler,
   Collapse,
   NavItem,
-  NavLink,
   Nav,
   Dropdown,
   DropdownToggle,
@@ -15,6 +14,7 @@ import {
   NavbarBrand,
   Container
 } from 'reactstrap';
+import Keycode from './keycode';
 
 
 function Header() {
@@ -32,9 +32,10 @@ function Header() {
 
   return (
     <div>
+      <Keycode />
       <Navbar style={headerStyle} id="menu" className="navbar p-3 navbar-dark mt-0 bg-primary text-white" expand="md">
         <Container className="mt-0">
-          <NavbarBrand>
+          <NavbarBrand style={{ cursor: 'pointer' }}>
             <Link href="/">
               <img src="/static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
             </Link>

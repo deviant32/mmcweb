@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from 'react';
 import { Jumbotron, Container, Row, Col, Card, CardText, Button } from 'reactstrap';
 import Link from 'next/link';
@@ -6,24 +7,34 @@ import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import '../styles/base.scss';
+
 import Header from '../components/views/partials/header'
 import Footer from '../components/views/partials/footer';
 import SubHeading from '../components/views/partials/sub-heading';
 import DynamicContent from '../components/dec/dynamic-content';
 import CallToAction from '../components/views/partials/call-to-action';
 import Title from '../components/views/partials/title';
+import Keycode from '../components/views/partials/keycode';
 
 
 const HomePage = () => {
-
   return (
     <React.Fragment>
       <Head>
         <title>Home Page Title!</title>
       </Head>
+      <Keycode />
       <Header />
-      <img style={{ position: 'absolute', left: 0, marginTop: '350px', width: '40%', maxWidth: 300 }} src="/static/img/abstract/circle-dots.svg" alt="circle" />
-      <img style={{ position: 'absolute', right: 0, marginTop: '750px', width: '40%', maxWidth: 300, zIndex: 2 }} src="/static/img/abstract/square.svg" alt="square" />
+      <img
+        style={{ position: 'absolute', left: 0, marginTop: '350px', width: '40%', maxWidth: 300 }}
+        src="/static/img/abstract/circle-dots.svg"
+        alt="circle"
+      />
+      <img
+        style={{ position: 'absolute', right: 0, marginTop: '750px', width: '40%', maxWidth: 300, zIndex: 2 }}
+        src="/static/img/abstract/square.svg"
+        alt="square"
+      />
       <Container className="bg-secondary text-white text-center" fluid>
         <Container>
           <Row className="h-100">
@@ -76,8 +87,10 @@ const HomePage = () => {
                 of client revenue managed annually, at an average of 20% growth year-over-year, MMC is the
                 secret weapon for business leaders who don&apos;t leave anything to chance.
                 Let us show what we mean by:
-                <br />
-                <p className="font-weight-bold">&quot;Growth, Reinvented.&quot;</p>
+              </p>
+              <br />
+              <p className="font-weight-bold">
+                &quot;Growth, Reinvented.&quot;
               </p>
             </Col>
           </Row>
@@ -90,31 +103,45 @@ const HomePage = () => {
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>what we do</h2>
-              <p className="mt-n2" style={{ height: 80 }}>When the rules have changed, challenging convention is key. See how we grow the 87% of your accounts that are hardest to reach.</p>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
+                what we do
+              </h2>
+              <p className="mt-n2" style={{ height: 80 }}>
+                When the rules have changed, challenging convention is key. See how we grow the 87% of your accounts that are hardest to reach.
+              </p>
               <Button outline color="warning">&quot;Growth Reinvented?&quot;</Button>
             </Col>
             <Col className="pb-5" xs={12} md={4}>
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>who we are</h2>
-              <p className="mt-n2" style={{ height: 80 }}>We’re reinventing growth for our people, redefining success and investing in what’s most important.</p>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
+                who we are
+              </h2>
+              <p className="mt-n2" style={{ height: 80 }}>
+                We’re reinventing growth for our people, redefining success and investing in what’s most important.
+              </p>
               <Button outline color="warning">Meet the team</Button>
             </Col>
             <Col className="pb-5" xs={12} md={4}>
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
-              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>how we do it</h2>
-              <p className="mt-n2" style={{ height: 80 }}>See how we reinvent growth for our clients every day. </p>
+              <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
+                how we do it
+              </h2>
+              <p className="mt-n2" style={{ height: 80 }}>
+                See how we reinvent growth for our clients every day.
+              </p>
               <Button outline color="warning">Read our case studies</Button>
             </Col>
           </Row>
         </Container>
       </Jumbotron>
       <Container className="text-center text-primary bg-white pt-5 pb-5">
-        <h2 className="font-weight-bold pb-3">You&apos;ll be in good company.</h2>
+        <h2 className="font-weight-bold pb-3">
+          You&apos;ll be in good company.
+        </h2>
         <SubHeading>
           MMC Manages over $2.5BN in revenue for clients like these.
         </SubHeading>
