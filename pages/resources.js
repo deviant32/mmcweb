@@ -49,7 +49,6 @@ const Resources = () => {
             </p>
             <Button outline color="secondary text-uppercase mt-4">See our capabilities</Button>
           </Col>
-
         </Row>
       </Container>
       <CallToAction />

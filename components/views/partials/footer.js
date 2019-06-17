@@ -37,7 +37,7 @@ const Footer = () => {
           <Col md="3" className="mb-md-0 mb-3">
             <ul className="list-unstyled">
               <li className="mb-2">
-                <Link href="/case-studies" prefetch passHref>
+                <Link href="/case-studies" prefetch>
                   <a>Case Studies</a>
                 </Link>
               </li>

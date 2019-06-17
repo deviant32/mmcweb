@@ -36,7 +36,7 @@ const HomePage = () => {
                 <br />
                 light.
               </h1>
-              <Link href="/growth-reinvented" passHref>
+              <Link href="/growth-reinvented">
                 <Button className="mt-4 rounded-0 text-uppercase font-weight-normal pl-5 pr-5 mb-5" size="md" outline color="warning">Learn More</Button>
               </Link>
             </Col>

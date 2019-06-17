@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import Link from 'next/link';
 import {
@@ -33,11 +34,11 @@ function Header() {
     <div>
       <Navbar style={headerStyle} id="menu" className="navbar p-3 navbar-dark mt-0 bg-primary text-white" expand="md">
         <Container className="mt-0">
-          <Link href="/" passHref>
-            <NavbarBrand>
+          <NavbarBrand>
+            <Link href="/">
               <img src="/static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
-            </NavbarBrand>
-          </Link>
+            </Link>
+          </NavbarBrand>
           <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
           <Collapse isOpen={collapsed} navbar>
             <Nav className="ml-auto" navbar>
@@ -50,37 +51,37 @@ function Header() {
                 nav
                 inNavbar
               >
-                <DropdownToggle nav caret>
-                  <Link href="/growth-reinvented" prefetch passHref>
-                    <a href>GROWTH REINVENTED</a>
+                <DropdownToggle tag='span' nav caret>
+                  <Link href="/growth-reinvented">
+                    <a>GROWTH REINVENTED</a>
                   </Link>
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <Link href="/industries" prefetch passHref>
-                    <DropdownItem>
-                      Industries & Expertise
-                    </DropdownItem>
-                  </Link>
-                  <Link href="/core-technology" prefetch passHref>
-                    <DropdownItem>
-                      Core Technology
-                    </DropdownItem>
-                  </Link>
+                  <DropdownItem tag='span'>
+                    <Link href="/industries">
+                      <a>Industries & Expertise</a>
+                    </Link>
+                  </DropdownItem>
+                  <DropdownItem tag='span'>
+                    <Link href="/core-technology">
+                      <a>Core Technology</a>
+                    </Link>
+                  </DropdownItem>
                 </DropdownMenu>
               </Dropdown>
               <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/resources" prefetch passHref>
-                  <NavLink>RESOURCES</NavLink>
+                <Link href="/resources">
+                  <a>RESOURCES</a>
                 </Link>
               </NavItem>
               <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/team" prefetch passHref>
-                  <NavLink>TEAM</NavLink>
+                <Link href="/team">
+                  <a>TEAM</a>
                 </Link>
               </NavItem>
               <NavItem className="mr-4 h-100 my-auto">
-                <Link href="/contact-us" prefetch passHref>
-                  <NavLink>CONTACT US</NavLink>
+                <Link href="/contact-us">
+                  <a>CONTACT US</a>
                 </Link>
               </NavItem>
             </Nav>

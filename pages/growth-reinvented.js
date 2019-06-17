@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col } from 'reactstrap';
@@ -123,8 +124,8 @@ const GrowthReinventedPage = () => {
                   <Row className="pb-5">
                     <Col className="text-center">
                       <p className="font-weight-bold">Get the details.</p>
-                      <Link href="/core-technology" passHref>
-                        <a href>
+                      <Link href="/core-technology">
+                        <a>
                           <u>
                             See our Core Technology for more on Channel 80/20 and our Next Action Platform.
                           </u>
@@ -135,7 +136,7 @@ const GrowthReinventedPage = () => {
                 </Container>
               </Container>
             </div>
-            <div key={4} className="section bg-primary text-white text-center">
+            <div key={5} className="section bg-primary text-white text-center">
               <h1>Test</h1>
             </div>
           </ReactFullpage.Wrapper>
