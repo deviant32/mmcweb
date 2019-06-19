@@ -25,6 +25,8 @@ const Wrapper = (props) => {
         }).finally(() => {
           setLoading(false);
         })
+    } else {
+      setLoading(false);
     }
   }, [keycode]);
 
