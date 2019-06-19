@@ -16,7 +16,7 @@ const Resources = () => {
         <title>Resources</title>
       </Head>
       <Header />
-      <img style={{ position: 'absolute', left: 0, marginTop: 320, width: 200, zIndex: 2 }} src="/static/img/abstract/square-yellow.svg" alt="circle" />
+      <img style={{ position: 'absolute', left: 0, marginTop: 280, width: 200, zIndex: 2 }} src="/static/img/abstract/square-yellow.svg" alt="circle" />
       <Container className="bg-full" style={{ height: 300 }} fluid />
       <TitleBlock
         eyebrow="CASE STUDIES, CAPABILITIES, NEWS"
@@ -34,7 +34,7 @@ const Resources = () => {
       <Container>
         <Row className="mx-auto text-center">
           <Col md="6" className="mb-5">
-            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/550x550/000/fff" />
+            <img className="img-fluid" alt="dummy" src="https://placeimg.com/550/550/tech" />
             <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-4 pb-3">MMC Case Studies</h6>
             <p style={{ lineHeight: '200%' }}>
               No matter the industry, MMC excels at targeting and growing untapped segments of your business.  Let us show you how.
@@ -42,7 +42,7 @@ const Resources = () => {
             <Button outline color="secondary text-uppercase mt-4">Read our case studies</Button>
           </Col>
           <Col md="6" className="mb-5">
-            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/550x550/000/fff" />
+            <img className="img-fluid" alt="dummy" src="https://placeimg.com/550/550/tech" />
             <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-4 pb-3">MMC Capabilities</h6>
             <p style={{ lineHeight: '200%' }}>
               Learn more about our areas of expertise, our industry experience, and the people that make up the MMC community.

@@ -9,6 +9,8 @@ import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
 import CollapseList from '../components/widgets/collapse-list';
 import Title from '../components/views/partials/title';
+import SubHeading from '../components/views/partials/sub-heading';
+import Eyebrow from '../components/views/partials/eyebrow';
 
 
 const CoreTechnology = () => {
@@ -18,40 +20,37 @@ const CoreTechnology = () => {
       <Head>
         <title>Core Technology</title>
       </Head>
-      <Header />
-      <Container className="text-center bg-info mt-5 p-5">
-        <h5 className="eyebrow font-weight-bold text-uppercase pt-3">CHANNEL 80/20</h5>
-        <Title>
+      <Header className="mb-5" />
+      <Container className="text-center bg-info p-5" style={{ marginTop: '10rem' }}>
+        <Eyebrow className="font-weight-bold">
+          MMC&apos;s Process
+        </Eyebrow>
+        <Title className="text-primary">
           MMC&apos;s Core Technologies
           <br />
           Explained
         </Title>
         <div style={{ maxWidth: 650 }} className="mx-auto">
-          <p className="pt-5 mx-auto text-primary text-uppercase sub-heading">
-            At the heart of MMC&apos;s model are several core technologies that make up channel 80/20.  This is how we grow the 87% of
-            accounts that typically make up the bottom 20% of a company&apos;s revenue (Generally declining at 2% year-over-year).
-          </p>
+          <SubHeading className="text-primary">
+            At the heart of MMC&apos;s model are several core technologies that pave the path to transformational growth.
+          </SubHeading>
           <p>
             The best part is we do it with &nbsp;
             <strong>your existing data.</strong>
-            There&apos;s no investment in technology or platforms,
-            and no hiring or training new people on your part.
           </p>
-          <p>
-            Let us create a custom demo for your organization and show you what Channel 80/20.
-          </p>
-          <Button className="text-uppercase mt-3" color="secondary" outline>Request a demo</Button>
+
+          <Button className="text-uppercase mt-5" color="secondary" outline>Request a demo</Button>
         </div>
       </Container>
       <Container className="text-center mt-5">
         <div style={{ maxWidth: 650 }} className="mx-auto">
-          <h5 className="eyebrow font-weight-BOLD text-uppercase pt-3">CONNECTED INTELLIGENCE</h5>
-          <h2 className="text-primary font-weight-bold mt-5 mb-4">How MMC Drives Growth</h2>
-          <p className="text-primary text-uppercase sub-heading pt-3">
+          <Eyebrow className="font-weight-bold">CONNECTED INTELLIGENCE</Eyebrow>
+          <Title className="text-primary">How MMC Drives Growth</Title>
+          <SubHeading className="text-primary">
             Our connected intelligence framework is how we structure our work on your behalf.
             It&apos;s the &quot;What&quot; that connects with the &quot;How&quot; of your next action
             platform (shown below).
-          </p>
+          </SubHeading>
           <p className="mt-5 pb-5">
             Starting with Data, we move through the cycle step-by-step, analyzing, planning, executing, and optimizing.  This happens not once, but
             continuously for the life of our engagement, getting smarter moment by moment and optimizing results for better and better performance
@@ -59,13 +58,13 @@ const CoreTechnology = () => {
         </div>
       </Container>
       <Container fluid className="bg-secondary text-center p-5">
-        <img className="mt-5 mb-5 img-fluid" src="https://dummyimage.com/800x600/000/fff" alt="graphic" />
+        <img className="mt-5 mb-5 img-fluid" src="https://placeimg.com/800/600/tech" alt="graphic" />
       </Container>
       <Container fluid className="bg-info">
         <Container className="position-relative text-center bg-white p-5" style={{ top: '-50px' }}>
-          <p className="text-primary pb-3 text-uppercase sub-heading">
+          <SubHeading className="text-primary">
             Learn more about each step
-          </p>
+          </SubHeading>
           <ListGroup className="mx-auto" style={{ maxWidth: 650 }}>
             <CollapseList title="01. DATA">
               <ul>
@@ -98,40 +97,40 @@ const CoreTechnology = () => {
           </ListGroup>
         </Container>
       </Container>
-      <Container className="text-center mt-5">
+      <Container className="text-center mt-5 pb-5">
         <div style={{ maxWidth: 650 }} className="mx-auto">
-          <h5 className="eyebrow font-weight-bold text-uppercase pt-3">NEXT ACTION PLATFORM</h5>
-          <h2 className="text-primary font-weight-bold mt-4 mb-4">
+          <Eyebrow className="font-weight-bold">NEXT ACTION PLATFORM</Eyebrow>
+          <Title className="text-primary">
             Structuring Data to
             <br />
             Drive Action
-          </h2>
-          <p className="text-primary text-uppercase sub-heading">
+          </Title>
+          <SubHeading className="text-primary">
             The next action platform is the &quot;engine&quot; that drives the connected intelligence process.
-          </p>
-          <p className="mt-4">
+          </SubHeading>
+          <p className="mt-4 text-left">
             The Next Action Platform takes your client & prospect data, scrubs it for errors, duplicates,
             and useless information, and returns a usable data set. For most of our clients the result is
             generally +/- 15% of the original set, due to attrition and misinformation.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-left">
             We then use that data to develop omnichannel strategies, and apply an interconnected suite of lead
             and oppurtunity management tools to coordinate campaign staging and delivery across multiple connected channels.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-left">
             The Digital Engagement Center controls timed follow-up for all materials, and the Reporting & Insights engine determines
             resultsand informs optimization, continually updating and improving with subsequent learning.
           </p>
         </div>
       </Container>
       <Container fluid className="bg-secondary text-center p-5">
-        <img className="mt-5 mb-5 img-fluid" src="https://dummyimage.com/900x450/000/fff" alt="graphic" />
+        <img className="mt-5 mb-5 img-fluid" src="https://placeimg.com/900/450/tech" alt="graphic" />
       </Container>
       <Container fluid className="bg-info">
         <Container className="position-relative text-center bg-white p-5" style={{ top: '-50px' }}>
-          <p className="text-primary pb-3 text-uppercase sub-heading">
+          <SubHeading className="text-primary">
             Learn more about each step
-          </p>
+          </SubHeading>
           <ListGroup className="mx-auto" style={{ maxWidth: 650 }}>
             <CollapseList title="01. DATA">
               <ul>

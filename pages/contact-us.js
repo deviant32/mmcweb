@@ -37,8 +37,6 @@ const ContactUs = () => {
       .catch((err) => {
         console.log(err);
       });
-
-
   }
 
   const [viewport, setViewport] = useState({

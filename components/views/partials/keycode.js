@@ -3,7 +3,6 @@ import {
   Container, Form, FormGroup, Input, Button, Row, Col
 } from 'reactstrap';
 import axios from 'axios';
-import ReactGA from 'react-ga';
 
 import UserContext from '../../hooks/context';
 
@@ -24,12 +23,9 @@ function Keycode() {
     axios.get('http://localhost:8080/auth?keycode=' + keycode)
       .then((res) => {
         setUser(res.data);
-        ReactGA.set({ userId: res.data.ContactId });
-        ReactGA.event({
-          category: 'User',
-          action: 'Used a valid keycode',
-          value: keycode
-        });
+
+        window.dataLayer.push({ userId: res.data.ContactId });
+        sessionStorage.setItem('userId', res.data.ContactId);
         sessionStorage.setItem('keycode', keycode);
       })
   }
@@ -52,7 +48,6 @@ function Keycode() {
       </Row>
     </Container>
   )
-
 }
 
 export default Keycode;

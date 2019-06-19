@@ -20,8 +20,7 @@ module.exports = withSass({
     return config
   },
   publicRuntimeConfig: {
-    GOOGLE_TAGS: process.env.GOOGLE_TAGS,
-    GOOGLE_ANALYTICS: process.env.GOOGLE_ANALYTICS
+    GOOGLE_TAGS: process.env.GOOGLE_TAGS
   },
   exportPathMap: function () {
     return {

@@ -14,7 +14,6 @@ import SubHeading from '../components/views/partials/sub-heading';
 import DynamicContent from '../components/dec/dynamic-content';
 import CallToAction from '../components/views/partials/call-to-action';
 import Title from '../components/views/partials/title';
-import Keycode from '../components/views/partials/keycode';
 
 
 const HomePage = () => {
@@ -23,7 +22,6 @@ const HomePage = () => {
       <Head>
         <title>Home Page Title!</title>
       </Head>
-      <Keycode />
       <Header />
       <img
         style={{ position: 'absolute', left: 0, marginTop: '350px', width: '40%', maxWidth: 300 }}
@@ -57,7 +55,7 @@ const HomePage = () => {
           </Row>
         </Container>
       </Container>
-      <DynamicContent package_codes={['joe123']}>
+      <DynamicContent package_codes={['joe1234']}>
         <Container fluid className="bg-secondary text-white text-center p-4">
           <Row>
             <Col>
@@ -75,22 +73,15 @@ const HomePage = () => {
                 <br />
                 Commerce
               </Title>
-
               <SubHeading>
-                At MMC we exist to build sustainable, high-value relationships
-                <br />
-                between people and business.
+                We&apos;re the secret weapon you&apos;ve never heard of.
               </SubHeading>
-              <p style={{ maxWidth: 700 }} className="text-secondary mt-5 mx-auto">
-                We help our clients uncover hidden potential within their existing customer and prospect
-                data and create authentic, sustainable growth.  With over $2.5BN worth
-                of client revenue managed annually, at an average of 20% growth year-over-year, MMC is the
-                secret weapon for business leaders who don&apos;t leave anything to chance.
-                Let us show what we mean by:
-              </p>
-              <br />
-              <p className="font-weight-bold">
-                &quot;Growth, Reinvented.&quot;
+              <p style={{ maxWidth: 720, lineHeight: '200%' }} className="text-secondary mx-auto">
+                For 32 years, industry leaders have embedded us within their businesses to reinvent their approach to growth.
+                We challenge how things have always been done to unleash the untapped potential that lives within every organization.
+                And, most importantly we put each customer’s unique needs and behaviors at the center of the business.
+                At the heart of it, we’re building customer relationships that are designed to thrive in the new era of business.
+                This is growth, reinvented.
               </p>
             </Col>
           </Row>
@@ -104,10 +95,14 @@ const HomePage = () => {
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
               <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
-                what we do
+                who we are
               </h2>
               <p className="mt-n2" style={{ height: 80 }}>
-                When the rules have changed, challenging convention is key. See how we grow the 87% of your accounts that are hardest to reach.
+                We are Bold.
+                <br />
+                We are Bright.
+                <br />
+                We are Open.
               </p>
               <Button outline color="warning">&quot;Growth Reinvented?&quot;</Button>
             </Col>
@@ -116,10 +111,10 @@ const HomePage = () => {
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
               <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
-                who we are
+                what we do
               </h2>
-              <p className="mt-n2" style={{ height: 80 }}>
-                We’re reinventing growth for our people, redefining success and investing in what’s most important.
+              <p className="mt-n2 mx-auto" style={{ height: 80, maxWidth: 240 }}>
+                When the rules have completely changed, the key to getting ahead is to challenge convention.
               </p>
               <Button outline color="warning">Meet the team</Button>
             </Col>
@@ -131,7 +126,7 @@ const HomePage = () => {
                 how we do it
               </h2>
               <p className="mt-n2" style={{ height: 80 }}>
-                See how we reinvent growth for our clients every day.
+                We design, execute and manage tailored growth strategies that transform disengaged buyers into brand advocates.
               </p>
               <Button outline color="warning">Read our case studies</Button>
             </Col>
@@ -139,9 +134,9 @@ const HomePage = () => {
         </Container>
       </Jumbotron>
       <Container className="text-center text-primary bg-white pt-5 pb-5">
-        <h2 className="font-weight-bold pb-3">
+        <Title>
           You&apos;ll be in good company.
-        </h2>
+        </Title>
         <SubHeading>
           MMC Manages over $2.5BN in revenue for clients like these.
         </SubHeading>
@@ -167,7 +162,7 @@ const HomePage = () => {
         </Row>
         <a className="text-secondary" href="#!"><u>Let us show you what we can do for you.</u></a>
       </Container>
-      <Container className="bg-secondary mt-0 pt-5 pb-5" fluid>
+      {/* <Container className="bg-secondary mt-0 pt-5 pb-5" fluid>
         <Container>
           <Row
             className="pt-5 pb-5"
@@ -229,7 +224,7 @@ const HomePage = () => {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </Container> */}
       <Container className="bg-building" style={{ height: 500 }} fluid>
         <Container className="h-100 d-table text-center text-white">
           <div className="d-table-cell align-middle">
@@ -239,7 +234,7 @@ const HomePage = () => {
               <br />
               consequat duis auto irure
             </h4>
-            <h6 className="text-uppercase mt-5 sub-heading">&mdash; Happy Customer</h6>
+            <SubHeading>&mdash; Happy Customer</SubHeading>
           </div>
         </Container>
       </Container>

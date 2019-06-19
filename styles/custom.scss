@@ -50,7 +50,7 @@ body {
 
 
 .bg-full {
-    background-image: url("https://dummyimage.com/1200x600/000/fff");
+    background-image: url("https://placeimg.com/1200/600/nature");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +103,7 @@ body {
 
 @include media-breakpoint-up(xs) {
     html {
-        font-size: .9rem;
+        font-size: 14px;
     }
 
     .callout h2 {
@@ -118,7 +118,7 @@ body {
 
 @include media-breakpoint-up(sm) {
     html {
-        font-size: .9rem;
+        font-size: 14px;
     }
 
     .callout h2 {
@@ -133,7 +133,7 @@ body {
 
 @include media-breakpoint-up(md) {
     html {
-        font-size: .9rem;
+        font-size: 16px;
     }
 
     .callout h2 {
@@ -148,7 +148,7 @@ body {
 
 @include media-breakpoint-up(lg) {
     html {
-        font-size: 1rem;
+        font-size: 16px;
     }
 
     .callout h2 {
@@ -167,10 +167,9 @@ body {
     margin-top: 0px !important; // fixes closing on slow mouse transition
 }
 
-.navbar-nav .dropdown-menu a,
-.dropdown-menu a:active {
+.navbar-nav .dropdown-item a,
+.dropdown-item a:active {
     color: $black !important;
-    background-color: transparent !important;
     font-size: .9em;
 }
 

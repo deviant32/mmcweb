@@ -14,10 +14,8 @@ import {
   NavbarBrand,
   Container
 } from 'reactstrap';
-import Keycode from './keycode';
 
-
-function Header() {
+function Header(props) {
 
   const [collapsed, setCollapsed] = useState(false);
   const [growthDropdownVisible, setGrowthDropdownVisible] = useState(false);
@@ -29,11 +27,11 @@ function Header() {
     top: '0'
   };
 
+  const { className } = props;
 
   return (
     <div>
-      <Keycode />
-      <Navbar style={headerStyle} id="menu" className="navbar p-3 navbar-dark mt-0 bg-primary text-white" expand="md">
+      <Navbar style={headerStyle} id="menu" className={`navbar p-3 navbar-dark mt-0 bg-primary text-white ${className}`} expand="md">
         <Container className="mt-0">
           <NavbarBrand style={{ cursor: 'pointer' }}>
             <Link href="/">
@@ -80,7 +78,7 @@ function Header() {
                   <a>TEAM</a>
                 </Link>
               </NavItem>
-              <NavItem className="mr-4 h-100 my-auto">
+              <NavItem className="mr-0 h-100 my-auto">
                 <Link href="/contact-us">
                   <a>CONTACT US</a>
                 </Link>
