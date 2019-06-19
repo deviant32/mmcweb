@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -22,6 +23,7 @@ const Wrapper = (props) => {
           setUser(res.data);
           window.dataLayer.push({ userId: res.data.ContactId });
           sessionStorage.setItem('keycode', keycode);
+          sessionStorage.setItem('userId', res.data.ContactId);
         }).finally(() => {
           setLoading(false);
         })

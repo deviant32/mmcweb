@@ -15,6 +15,26 @@ import TitleBlock from '../components/views/partials/title-block';
 
 const Team = () => {
 
+  const headshotArr = [
+    { src: '/static/img/people/Headshots-Square-1.jpg' },
+    { src: '/static/img/people/Headshots-Square-2.jpg' },
+    { src: '/static/img/people/Headshots-Square-3.jpg' },
+    { src: '/static/img/people/Headshots-Square-4.jpg' },
+    { src: '/static/img/people/Headshots-Square-5.jpg' },
+    { src: '/static/img/people/Headshots-Square-6.jpg' },
+    { src: '/static/img/people/Headshots-Square-7.jpg' },
+    { src: '/static/img/people/Headshots-Square-8.jpg' },
+    { src: '/static/img/people/Headshots-Square-9.jpg' },
+    { src: '/static/img/people/Headshots-Square-10.jpg' },
+    { src: '/static/img/people/Headshots-Square-11.jpg' },
+    { src: '/static/img/people/Headshots-Square-12.jpg' },
+    { src: '/static/img/people/Headshots-Square-13.jpg' },
+    { src: '/static/img/people/Headshots-Square-14.jpg' },
+    { src: '/static/img/people/Headshots-Square-15.jpg' },
+    { src: '/static/img/people/Headshots-Square-16.jpg' },
+    { src: '/static/img/people/Headshots-Square-17.jpg' }
+  ];
+
   return (
     <React.Fragment>
       <Head>
@@ -79,41 +99,25 @@ const Team = () => {
         <Row className="no-gutters">
           <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
             <Square items={
-              [
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man-3.jpg' },
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
@@ -121,41 +125,25 @@ const Team = () => {
         <Row className="no-gutters">
           <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
             <Square items={
-              [
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man-3.jpg' },
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
@@ -163,41 +151,25 @@ const Team = () => {
         <Row className="no-gutters">
           <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
             <Square items={
-              [
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man-3.jpg' },
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>
           <Col>
             <Square items={
-              [
-                { src: '/static/img/people/business-man.jpg' },
-                { src: '/static/img/people/business-man-2.jpg' },
-                { src: '/static/img/people/business-man-3.jpg' }
-              ]
+              headshotArr
             }
             />
           </Col>

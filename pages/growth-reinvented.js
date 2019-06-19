@@ -59,89 +59,87 @@ const GrowthReinventedPage = () => {
             <div key={3} className="section bg-secondary text-info text-center">
               <h1>For The Typical MMC Client...</h1>
             </div>
-            <div key={4} className="section bg-primary text-primary text-center">
-              <Container className="bg-primary mt-0 pt-0 text-white" fluid>
-                <Container className="h-100">
-                  <Row className="pt-0 my-auto">
-                    <Col
-                      className="pt-4 pb-3"
-                      style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }}
-                    >
-                      <h2 className="h4 text-center font-weight-bold">How do we do it?</h2>
-                    </Col>
-                  </Row>
-                  <Row
-                    className="mt-3 mb-5"
-                    style={{
-                      borderBottom: 'thin solid rgba(255, 255, 255, .25)'
-                    }}
-                  >
-                    <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
-                      <ColumnCallout
-                        className="res-border-right"
-                        title={(
-                          <React.Fragment>
-                            We start by using
-                            <br />
-                            your existing data
-                          </React.Fragment>
-                        )}
-                        description="To create a complete view of the customer ecosystem, illuminating the 87% that are hardest to reach."
-                      />
-                    </Col>
-                    <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
-                      <ColumnCallout
-                        className="res-border-right"
-                        title={(
-                          <React.Fragment>
-                            Transform
-                            <br />
-                            disengaged
-                            <br />
-                            buyers into brand
-                            <br />
-                            advocates
-                          </React.Fragment>
-                        )}
-                        description="With a blend of leading data, creative, and technology, we design, execute and manage tailored omnichannel growth strategies."
-                      />
-                    </Col>
-                    <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
-                      <ColumnCallout
-                        title={(
-                          <React.Fragment>
-                            We scale accross
-                            <br />
-                            accounts and
-                            <br />
-                            organizations.
-                          </React.Fragment>
-                        )}
-                        description="By partnering with our clients to pioneer integrated sales and marketing programs that create more meaningful connections and sustain ongoing milestones."
-                      />
-                    </Col>
-                  </Row>
-                  <Row className="pb-5">
-                    <Col className="text-center">
-                      <p className="font-weight-bold">Get the details.</p>
-                      <Link href="/core-technology">
-                        <a>
-                          <u>
-                            See our Core Technology for more on Channel 80/20 and our Next Action Platform.
-                          </u>
-                        </a>
-                      </Link>
-                    </Col>
-                  </Row>
-                </Container>
-              </Container>
-            </div>
             <div key={5} className="section bg-primary text-white text-center">
               <h1>Test</h1>
             </div>
           </ReactFullpage.Wrapper>
         )}
       />
+      <Container className="bg-primary mt-0 pt-0 text-white" fluid>
+        <Container className="h-100">
+          <Row className="pt-0 my-auto">
+            <Col
+              className="pt-4 pb-3"
+              style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }}
+            >
+              <h2 className="h4 text-center font-weight-bold">How do we do it?</h2>
+            </Col>
+          </Row>
+          <Row
+            className="mt-3 mb-5"
+            style={{
+              borderBottom: 'thin solid rgba(255, 255, 255, .25)'
+            }}
+          >
+            <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
+              <ColumnCallout
+                className="res-border-right"
+                title={(
+                  <React.Fragment>
+                    We start by using
+                    <br />
+                    your existing data
+                  </React.Fragment>
+                )}
+                description="To create a complete view of the customer ecosystem, illuminating the 87% that are hardest to reach."
+              />
+            </Col>
+            <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
+              <ColumnCallout
+                className="res-border-right"
+                title={(
+                  <React.Fragment>
+                    Transform
+                    <br />
+                    disengaged
+                    <br />
+                    buyers into brand
+                    <br />
+                    advocates
+                  </React.Fragment>
+                )}
+                description="With a blend of leading data, creative, and technology, we design, execute and manage tailored omnichannel growth strategies."
+              />
+            </Col>
+            <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
+              <ColumnCallout
+                title={(
+                  <React.Fragment>
+                    We scale accross
+                    <br />
+                    accounts and
+                    <br />
+                    organizations.
+                  </React.Fragment>
+                )}
+                description="By partnering with our clients to pioneer integrated sales and marketing programs that create more meaningful connections and sustain ongoing milestones."
+              />
+            </Col>
+          </Row>
+          <Row className="pb-5">
+            <Col className="text-center">
+              <p className="font-weight-bold">Get the details.</p>
+              <Link href="/core-technology">
+                <a>
+                  <u>
+                    See our Core Technology for more on Channel 80/20 and our Next Action Platform.
+                  </u>
+                </a>
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
       <StatisticLayout
         style={{ scrollSnapAlign: 'start' }}
         className="text-primary"
