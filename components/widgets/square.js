@@ -4,13 +4,16 @@ import React, { useState, useRef, useEffect } from 'react';
 
 const Square = (props) => {
 
-  const [slide, setSlide] = useState(props.items[0]);
+  const { items } = props;
 
   const getRandomId = () => {
     const min = 0;
     const max = props.items.length;
     return Math.floor(Math.random() * (max - min)) + min;
   }
+
+  const [slide, setSlide] = useState(items[getRandomId()]);
+
 
   useInterval(() => {
     setSlide(props.items[getRandomId()]);
@@ -20,8 +23,8 @@ const Square = (props) => {
 
   return (
     <React.Fragment>
-      <div className="slide" >
-        <img src={`${slide.src}`} style={{ width: '100%', height: '100%' }} />
+      <div className="slide">
+        <img src={`${slide.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
       </div>
     </React.Fragment>
   )
