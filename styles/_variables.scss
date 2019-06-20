@@ -4,21 +4,23 @@ $blue: #0072ff;
 $yellow: #ebe83a;
 $green: #07d08c;
 $grey: #DDDEDD;
+$light-grey: #DCDDDC;
 $body-color: $black;
 
-$theme-colors: (
-"primary": $blue,
+$theme-colors: ("primary": $blue,
 "warning": $yellow,
 "white": $white,
 "secondary": $black,
 "success": $green,
 "info": $grey,
+"light": $light-grey,
 "dark": $black);
 
 
 // Fonts
 $font-size-base: 18px;
-$font-family-base: agenda, 'Trebuchet MS';
+$font-family-base: agenda,
+'Trebuchet MS';
 
 $headings-font-family: poynter-oldstyle-display,
 'Times New Roman';

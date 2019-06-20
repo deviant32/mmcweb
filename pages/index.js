@@ -29,7 +29,7 @@ const HomePage = () => {
         alt="circle"
       />
       <img
-        style={{ position: 'absolute', right: 0, marginTop: '750px', width: '40%', maxWidth: 300, zIndex: 2 }}
+        style={{ position: 'absolute', right: 0, marginTop: '60rem', maxWidth: 300 }}
         src="/static/img/abstract/square.svg"
         alt="square"
       />
@@ -76,7 +76,7 @@ const HomePage = () => {
               <SubHeading>
                 We&apos;re the secret weapon you&apos;ve never heard of.
               </SubHeading>
-              <p style={{ maxWidth: 720, lineHeight: '200%' }} className="text-secondary mx-auto">
+              <p style={{ maxWidth: 720, lineHeight: '200%', zIndex: 100 }} className="text-secondary mx-auto">
                 For 32 years, industry leaders have embedded us within their businesses to reinvent their approach to growth.
                 We challenge how things have always been done to unleash the untapped potential that lives within every organization.
                 And, most importantly we put each customer’s unique needs and behaviors at the center of the business.
@@ -90,45 +90,41 @@ const HomePage = () => {
       <Jumbotron fluid className='bg-secondary text-white mb-0'>
         <Container className="text-center">
           <Row>
-            <Col className="pb-5" xs={12} md={4}>
+            <Col xs={12} md={4} className="mb-5">
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
               <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
-                who we are
+                How we do it
               </h2>
               <p className="mt-n2" style={{ height: 80 }}>
-                We are Bold.
-                <br />
-                We are Bright.
-                <br />
-                We are Open.
+                We grow 87% of your accounts that are hardest to reach.
               </p>
-              <Button outline color="warning">&quot;Growth Reinvented?&quot;</Button>
+              <Button outline color="warning">This is Growth, Reinvented</Button>
             </Col>
-            <Col className="pb-5" xs={12} md={4}>
+            <Col xs={12} md={4} className="mb-5">
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
               <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
-                what we do
+                What we do
               </h2>
               <p className="mt-n2 mx-auto" style={{ height: 80, maxWidth: 240 }}>
-                When the rules have completely changed, the key to getting ahead is to challenge convention.
+                See how we reinvent growth for our clients every day.
               </p>
-              <Button outline color="warning">Meet the team</Button>
+              <Button outline color="warning">Our case studies</Button>
             </Col>
-            <Col className="pb-5" xs={12} md={4}>
+            <Col xs={12} md={4} className="mb-5">
               <span className="circle text-center">
                 <img src="/static/img/abstract/blue-circle.svg" alt="circle heading" style={{ width: 180 }} className="img-fluid" />
               </span>
               <h2 style={{ position: 'relative', top: '-130px', fontSize: '3.5rem', color: '#ffffff' }}>
-                how we do it
+                Who we are
               </h2>
               <p className="mt-n2" style={{ height: 80 }}>
-                We design, execute and manage tailored growth strategies that transform disengaged buyers into brand advocates.
+                We are Bold.  We are Bright.  We are Open.
               </p>
-              <Button outline color="warning">Read our case studies</Button>
+              <Button outline color="warning">Meet the team</Button>
             </Col>
           </Row>
         </Container>
@@ -141,90 +137,45 @@ const HomePage = () => {
           MMC Manages over $2.5BN in revenue for clients like these.
         </SubHeading>
         <Row className="pt-3 mb-5">
-          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+          <Col className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
           </Col>
-          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+          <Col className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
           </Col>
-          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+          <Col className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
           </Col>
-          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+          <Col className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
           </Col>
-          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+          <Col className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
           </Col>
-          <Col xs={6} sm={4} md={2} className="mb-4 img-fluid">
+          <Col className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
           </Col>
         </Row>
         <a className="text-secondary" href="#!"><u>Let us show you what we can do for you.</u></a>
       </Container>
-      {/* <Container className="bg-secondary mt-0 pt-5 pb-5" fluid>
+      <Container className="text-center text-primary pt-5 pb-5" fluid style={{ backgroundColor: '#dcdddc' }}>
         <Container>
-          <Row
-            className="pt-5 pb-5"
-            style={{
-              borderTop: 'thin solid rgba(255, 255, 255, .25)',
-              borderBottom: 'thin solid rgba(255, 255, 255, .25)'
-            }}
-          >
-            <Col xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="text-center card-border-right">
-                <CardText>
-                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
-                    Industries
-                    <br />
-                    We Serve
-                  </h2>
-                  <p className="pt-4 pb-4">
-                    Embedding experts for
-                    <br />
-                    maximum impact.
-                  </p>
-                  <Button color="warning" style={{ width: 170 }} outline className="text-uppercase">Learn More</Button>
-                </CardText>
-              </Card>
+          <Row className="row-border pt-5 pb-5">
+            <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
+              <h4 style={{ height: 55 }}>Our industries</h4>
+              <Button outline className="text-uppercase" color="secondary">Learn More</Button>
             </Col>
-            <Col xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="text-center card-border-right">
-                <CardText>
-                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
-                    Resources &
-                    <br />
-                    Information
-                  </h2>
-                  <p className="pt-4 pb-4">
-                    See the proof: case studies,
-                    <br />
-                    capabilities, and more.
-                  </p>
-                  <Button color="warning" style={{ width: 170 }} outline className="text-uppercase">Learn More</Button>
-                </CardText>
-              </Card>
+            <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
+              <h4 style={{ height: 55 }}>Case studies</h4>
+              <Button outline className="text-uppercase" color="secondary">Learn More</Button>
             </Col>
-            <Col xs="12" sm="6" md="4">
-              <Card body inverse color="secondary" className="text-center">
-                <CardText>
-                  <h2 className="eyebrow text-uppercase text-nowrap" style={{ lineHeight: '50% !important' }}>
-                    Join the
-                    <br />
-                    MMC Team
-                  </h2>
-                  <p className="pt-4 pb-4">
-                    Kickstart your career
-                    <br />
-                    growth today.
-                  </p>
-                  <Button color="warning" style={{ width: 170 }} outline className="text-uppercase">Learn More</Button>
-                </CardText>
-              </Card>
+            <Col xs={12} md={4} className="pb-0">
+              <h4 style={{ height: 55 }}>Careers at MMC</h4>
+              <Button outline className="text-uppercase" color="secondary">Learn More</Button>
             </Col>
           </Row>
         </Container>
-      </Container> */}
+      </Container>
       <Container className="bg-building" style={{ height: 500 }} fluid>
         <Container className="h-100 d-table text-center text-white">
           <div className="d-table-cell align-middle">

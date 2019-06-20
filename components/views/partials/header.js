@@ -24,7 +24,8 @@ function Header(props) {
     position: 'fixed',
     width: '100%',
     zIndex: '100',
-    top: '0'
+    top: '0',
+    minHeight: 75
   };
 
   const { className } = props;

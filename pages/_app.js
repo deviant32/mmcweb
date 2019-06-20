@@ -23,7 +23,7 @@ class MyApp extends App {
   }
 }
 
-Router.events.on('beforeHistoryChange', url => {
+Router.events.on('routeChangeComplete', url => {
   window.dataLayer.push({ event: 'pageview', url: url });
 });
 
