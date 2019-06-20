@@ -27,7 +27,7 @@ const Resources = () => {
           turning the under-performing end of your client list into the top line
         </p>
         <p>
-          Check out our Case Studies, our Capibilities, and our News & Information page to see how MMC is
+          Check out our Case Studies, our Capabilities, and our News & Information page to see how MMC is
           reinventing growth for clients just like you, every day.
         </p>
       </TitleBlock>
