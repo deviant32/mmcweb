@@ -13,33 +13,29 @@ import SubHeading from '../components/views/partials/sub-heading';
 import Eyebrow from '../components/views/partials/eyebrow';
 
 
-const CoreTechnology = () => {
+const Capibilities = () => {
 
   return (
     <React.Fragment>
       <Head>
-        <title>Core Technology</title>
+        <title>Our Capabilities</title>
       </Head>
-      <Header className="mb-5" />
-      <Container className="text-center bg-info p-5" style={{ marginTop: '10rem' }}>
+      <Header />
+      <Container className="text-center bg-info p-5 mt-5">
         <Eyebrow className="font-weight-bold">
-          MMC&apos;s Process
+          Connected Intelligence
         </Eyebrow>
         <Title className="text-primary">
-          MMC&apos;s Core Technologies
-          <br />
-          Explained
+          How MMC drives growth
         </Title>
         <div style={{ maxWidth: 650 }} className="mx-auto">
           <SubHeading className="text-primary">
-            At the heart of MMC&apos;s model are several core technologies that pave the path to transformational growth.
+            Our connected intelligence framework is designed to transform inside sales by translating customer insights into measurable results.
           </SubHeading>
           <p>
-            The best part is we do it with &nbsp;
-            <strong>your existing data.</strong>
+            We start with your existing data to analyze customers’ behaviors and plan new sales strategies.
+            Our full suite of services enables us to execute and optimize growth as an extension of your inside sales team, continuously improving results.
           </p>
-
-          <Button className="text-uppercase mt-5" color="secondary" outline>Request a demo</Button>
         </div>
       </Container>
       <Container className="text-center mt-5">
@@ -58,7 +54,8 @@ const CoreTechnology = () => {
         </div>
       </Container>
       <Container fluid className="bg-secondary text-center p-5">
-        <img className="mt-5 mb-5 img-fluid" src="https://placeimg.com/800/600/tech" alt="graphic" />
+        <img className="d-none d-sm-block mt-5 mb-5 mx-auto img-fluid" src="/static/img/diagrams/circle.svg" alt="Capabilities" />
+        <img className="d-sm-none mt-5 mb-5 mx-auto img-fluid" src="/static/img/diagrams/circle-mobile.svg" alt="Capabilities" />
       </Container>
       <Container fluid className="bg-info">
         <Container className="position-relative text-center bg-white p-5" style={{ top: '-50px' }}>
@@ -163,4 +160,4 @@ const CoreTechnology = () => {
   );
 }
 
-export default CoreTechnology;
+export default Capibilities;

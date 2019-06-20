@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Container } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import Head from 'next/head';
 import ReactFullpage from '@fullpage/react-fullpage';
 
@@ -11,6 +11,8 @@ import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
 import StatisticLayout from '../components/views/partials/statistic-layout';
 import Eyebrow from '../components/views/partials/eyebrow';
+import Title from '../components/views/partials/title';
+import SubHeading from '../components/views/partials/sub-heading';
 
 
 const GrowthReinventedPage = () => {
@@ -40,7 +42,7 @@ const GrowthReinventedPage = () => {
         render={({ state, fullpageApi }) => (
           <ReactFullpage.Wrapper>
             <div key={1} className="section bg-secondary text-info text-center bg-growth-reinvented">
-              <Container className="pt-3 pb-3 bg-secondary" style={{ borderTop: 'thin solid #EBE83A', borderBottom: 'thin solid #EBE83A' }}>
+              <Container className="pt-3 pb-3 bg-secondary border-top border-bottom border-warning">
                 <Eyebrow>The sales process is ready for</Eyebrow>
                 <h1 className="h2">Reinvention</h1>
               </Container>
@@ -106,83 +108,79 @@ const GrowthReinventedPage = () => {
                   }
                 ]}
               />
-              {/* <Container className="h-100 bg-light mt-0 pt-0 text-primary" fluid>
-                <Container className="my-auto">
-                  <Row className="pt-0 my-auto">
-                    <Col
-                      className="pt-4 pb-3"
-                      style={{ borderTop: 'thin solid rgba(255, 255, 255, .25)', borderBottom: 'thin solid rgba(255, 255, 255, .25)' }}
-                    >
-                      <h2 className="h4 text-center font-weight-bold">How do we do it?</h2>
-                    </Col>
-                  </Row>
-                  <Row
-                    className="mt-3 mb-5"
-                    style={{
-                      borderBottom: 'thin solid rgba(255, 255, 255, .25)'
-                    }}
-                  >
-                    <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
-                      <ColumnCallout
-                        className="res-border-right"
-                        title={(
-                          <React.Fragment>
-                            We start by using
-                            <br />
-                            your existing data
-                          </React.Fragment>
-                        )}
-                        description="To create a complete view of the customer ecosystem, illuminating the 87% that are hardest to reach."
-                      />
-                    </Col>
-                    <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
-                      <ColumnCallout
-                        className="res-border-right"
-                        title={(
-                          <React.Fragment>
-                            Transform
-                            <br />
-                            disengaged
-                            <br />
-                            buyers into brand
-                            <br />
-                            advocates
-                          </React.Fragment>
-                        )}
-                        description="With a blend of leading data, creative, and technology, we design, execute and manage tailored omnichannel growth strategies."
-                      />
-                    </Col>
-                    <Col className="pt-4 pb-4" xs="12" sm="12" md="4">
-                      <ColumnCallout
-                        title={(
-                          <React.Fragment>
-                            We scale accross
-                            <br />
-                            accounts and
-                            <br />
-                            organizations.
-                          </React.Fragment>
-                        )}
-                        description="By partnering with our clients to pioneer integrated sales and marketing programs that create more meaningful connections and sustain ongoing milestones."
-                      />
-                    </Col>
-                  </Row>
-                  <Row className="pb-5">
-                    <Col className="text-center">
-                      <p className="font-weight-bold">Get the details.</p>
-                      <Link href="/core-technology">
-                        <a>
-                          <u>
-                            See our Core Technology for more on Channel 80/20 and our Next Action Platform.
-                          </u>
-                        </a>
-                      </Link>
-                    </Col>
-                  </Row>
-                </Container>
-              </Container> */}
             </div>
-            <div key={5} className="section text-center">
+            <div key={5} className="section bg-secondary text-info text-center bg-circle-bottom">
+              <Container fluid className="pt-5 pb-5">
+                <Container className="pt-5 pb-5">
+                  <div className="border-top border-bottom border-warning">
+                    <Eyebrow>That&apos;s what we do</Eyebrow>
+                    <Title>That&rsquo;s Growth, Reinvented</Title>
+                  </div>
+                  <div style={{ maxWidth: 660 }} className="mx-auto">
+                    <SubHeading className="mt-5">
+                      We&rsquo;re building customer relationships that are designed to thrive in the new era of business.
+                    </SubHeading>
+                    <p className="mb-n1">
+                      Traditional sales models deliver diminishing returns, while inside sales is growing 300% faster
+                      than outside sales. MMC is the secret weapon you’ve never heard of, a growth accelerator that
+                      turns untapped potential into sustainable, authentic growth.
+                    </p>
+                    <img src="/static/img/abstract/down-triangle.svg" alt="down" />
+                    <SubHeading>
+                      We pave the path to transformative growth for maverick business leaders who want to lead on the front lines of
+                      change and put the customer at the center of their business.
+                    </SubHeading>
+                    <p>
+                      MMC challenges the conventional sales approach to grow the 87% of customer relationships that businesses leave untapped.
+                      Armed with an advanced analytics platform, we work as an extension of your inside sales team to target new customers and increase your bottom line.
+                    </p>
+                  </div>
+                </Container>
+              </Container>
+              <Container className="text-center text-primary pt-5 pb-5" fluid style={{ backgroundColor: '#dcdddc' }}>
+                <Container>
+                  <Row className="row-border-top">
+                    <Title className="text-center mx-auto pt-4">How do we do it?</Title>
+                  </Row>
+                  <Row className="row-border pt-5 pb-5">
+                    <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
+                      <h4 style={{ height: 75 }}>
+                        We start by using
+                        <br />
+                        your existing data
+                      </h4>
+                      <p className="text-secondary pt-5 pb-0">
+                        We create a complete view of your customer ecosystem, illuminating the 87% of customers that are hardest to reach.
+                      </p>
+                    </Col>
+                    <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
+                      <h4 style={{ height: 75 }}>
+                        We make disengaged
+                        <br />
+                        buyers into brand
+                        <br />
+                        advocates
+                      </h4>
+                      <p className="text-secondary pt-5 pb-0">
+                        With a blend of leading data, creative, and technology, we design, execute and manage tailored omnichannel growth strategies.
+                      </p>
+                    </Col>
+                    <Col xs={12} md={4} className="pb-0">
+                      <h4 style={{ height: 75 }}>
+                        We deliver
+                        <br />
+                        growth at scale.
+                      </h4>
+                      <p className="text-secondary pt-5 pb-0">
+                        We partner with our clients to pioneer integrated sales and marketing programs that create more meaningful connections and sustain ongoing milestones.
+                      </p>
+                    </Col>
+                  </Row>
+
+                  <p className="sub-heading text-center mb-0 mt-5 text-uppercase">Get the details</p>
+                  <a className="text-secondary" href="#!"><u>See our core technology page for more on Channel 80/20 and our Next Action Platform.</u></a>
+                </Container>
+              </Container>
               <CallToAction />
               <Footer />
             </div>

@@ -82,6 +82,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg-circle-bottom {
+    background-image: url("/static/img/abstract/bottom-circle-bg.svg");
+    background-position: center bottom -240px;
+    background-repeat: no-repeat;
+}
+
+
 .bg-growth-reinvented {
     background: url("/static/img/abstract/large-blue-circle.svg") bottom center no-repeat, url("/static/img/abstract/center-circle-dots.svg") top center no-repeat;
 }
@@ -180,6 +187,10 @@ body {
     left: 0;
     width: 100%;
     height: 90%;
+}
+
+.row-border-top {
+    border-top: thin solid rgba(38, 38, 38, .25) !important;
 }
 
 .row-border {

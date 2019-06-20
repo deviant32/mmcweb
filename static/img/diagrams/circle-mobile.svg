@@ -1,0 +1,95 @@
+<svg width="303px" height="686px" viewBox="0 0 303 686" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="1.2-Our-Capabilities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="1.2-Channel-80/20-Mobile-Copy" transform="translate(-34.000000, -2259.000000)">
+      <g id="chart-2" transform="translate(164.000000, 2601.000000) rotate(-270.000000) translate(-164.000000, -2601.000000) translate(-240.000000, 2312.000000)">
+        <path d="M347.772727,4.5 C344.182876,4.5 341.272727,7.41014913 341.272727,11 L341.272727,518.322902 C341.272727,521.912753 344.182876,524.822902 347.772727,524.822902 L508.152052,524.822902 C511.676493,524.822902 514.558833,522.014088 514.649882,518.490823 C515.064985,502.42853 515.272727,465.878228 515.272727,408.857618 C515.272727,321.310569 514.783128,188.679065 513.803926,10.9641858 C513.784224,7.38836614 510.879896,4.49999806 507.304023,4.5 L347.772727,4.5 Z" id="Rectangle" stroke="#0072FF" stroke-width="3" transform="translate(428.272727, 265.500000) rotate(-270.000000) translate(-428.272727, -265.500000) "></path>
+        <g id="1" transform="translate(123.000000, 295.000000)">
+          <circle id="Oval-Copy-10" fill="#0072FF" transform="translate(56.000000, 57.000000) rotate(-180.000000) translate(-56.000000, -57.000000) " cx="56" cy="57" r="56"></circle>
+          <text id="Data" transform="translate(68.850000, 58.368750) rotate(-90.000000) translate(-68.850000, -58.368750) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="45.6146484" y="55.51875">Data</tspan>
+          </text>
+          <text id="01-copy" fill="#000000" transform="translate(22.700000, 57.812500) rotate(-90.000000) translate(-22.700000, -57.812500) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10.9640625" y="60.1945313">01</tspan>
+          </text>
+        </g>
+        <g id="1-copy" transform="translate(123.000000, 121.000000)">
+          <ellipse id="Oval-Copy-10" fill="#0072FF" transform="translate(56.388889, 57.000000) rotate(-180.000000) translate(-56.388889, -57.000000) " cx="56.3888889" cy="57" rx="56.3888889" ry="56"></ellipse>
+          <text id="Analytics" transform="translate(67.850000, 56.812500) rotate(-90.000000) translate(-67.850000, -56.812500) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="23.8338867" y="53.9625">Analytics</tspan>
+          </text>
+          <text id="02" fill="#000000" transform="translate(22.700000, 57.312500) rotate(-90.000000) translate(-22.700000, -57.312500) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10.9640625" y="59.6945313">02</tspan>
+          </text>
+        </g>
+        <g id="2" transform="translate(290.500000, 267.000000)">
+          <circle id="Oval-Copy-28" fill="#0072FF" transform="translate(56.833333, 85.833333) rotate(-180.000000) translate(-56.833333, -85.833333) " cx="56.8333333" cy="85.8333333" r="56"></circle>
+          <text id="Optimization" transform="translate(65.486207, 85.737670) rotate(-90.000000) translate(-65.486207, -85.737670) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="4.35241783" y="85.6458333">Optimization</tspan>
+          </text>
+          <text id="08" fill="#000000" transform="translate(21.846939, 86.000000) rotate(-90.000000) translate(-21.846939, -86.000000) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10" y="89.7350925">08</tspan>
+          </text>
+        </g>
+        <g id="2-copy" transform="translate(290.000000, 123.000000)">
+          <ellipse id="Oval-Copy-28" fill="#0072FF" transform="translate(56.388889, 56.000000) rotate(-180.000000) translate(-56.388889, -56.000000) " cx="56.3888889" cy="56" rx="56.3888889" ry="56"></ellipse>
+          <text id="Strategy" transform="translate(69.850000, 56.368750) rotate(-90.000000) translate(-69.850000, -56.368750) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="28.884668" y="53.51875">Strategy</tspan>
+          </text>
+          <text id="03" fill="#000000" transform="translate(23.700000, 56.312500) rotate(-90.000000) translate(-23.700000, -56.312500) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10" y="58.6945312">03</tspan>
+          </text>
+        </g>
+        <g id="3" transform="translate(459.000000, 122.000000)">
+          <circle id="Oval-Copy-29" fill="#0072FF" transform="translate(56.000000, 57.000000) rotate(-180.000000) translate(-56.000000, -57.000000) " cx="56" cy="57" r="56"></circle>
+          <text id="Creative" transform="translate(68.850000, 56.712500) rotate(-90.000000) translate(-68.850000, -56.712500) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="27.8900391" y="53.8625">Creative</tspan>
+          </text>
+          <text id="04" fill="#000000" transform="translate(22.700000, 58.156250) rotate(-90.000000) translate(-22.700000, -58.156250) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10" y="60.5382812">04</tspan>
+          </text>
+        </g>
+        <g id="4" transform="translate(628.500000, 92.500000)">
+          <ellipse id="Oval-Copy-30" fill="#0072FF" transform="translate(56.388889, 86.000000) rotate(-180.000000) translate(-56.388889, -86.000000) " cx="56.3888889" cy="86" rx="56.3888889" ry="56"></ellipse>
+          <text id="Virtual-Sales" transform="translate(87.150000, 86.400000) rotate(-90.000000) translate(-87.150000, -86.400000) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="25.3985352" y="63.75">Virtual Sales</tspan>
+          </text>
+          <text id="05" fill="#000000" transform="translate(21.200000, 85.956250) rotate(-90.000000) translate(-21.200000, -85.956250) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10" y="88.3382812">05</tspan>
+          </text>
+        </g>
+        <g id="5" transform="translate(627.500000, 295.500000)">
+          <ellipse id="Oval-Copy-31" fill="#0072FF" transform="translate(56.500000, 56.000000) rotate(-180.000000) translate(-56.500000, -56.000000) " cx="56.5" cy="56" rx="56.3888889" ry="56"></ellipse>
+          <text id="Execution" transform="translate(88.150000, 57.000000) rotate(-90.000000) translate(-88.150000, -57.000000) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="39.8423828" y="34.35">Execution</tspan>
+          </text>
+          <text id="06" fill="#000000" transform="translate(21.200000, 56.656250) rotate(-90.000000) translate(-21.200000, -56.656250) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10" y="59.0382812">06</tspan>
+          </text>
+        </g>
+        <g id="6" transform="translate(456.000000, 294.000000)">
+          <circle id="Oval-Copy-32" fill="#0072FF" transform="translate(56.802469, 58.000000) rotate(-180.000000) translate(-56.802469, -58.000000) " cx="56.8024691" cy="58" r="56"></circle>
+          <text id="Support" transform="translate(92.650000, 58.000000) rotate(-90.000000) translate(-92.650000, -58.000000) " font-family="PoynterOSDisp-Bold" font-size="22" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="54.1231445" y="35.35">Support</tspan>
+          </text>
+          <text id="07" fill="#000000" transform="translate(25.700000, 57.604938) rotate(-90.000000) translate(-25.700000, -57.604938) " font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="10" y="59.9869695">07</tspan>
+          </text>
+        </g>
+        <polygon id="Triangle-Copy-16" fill="#07D08C" transform="translate(91.000000, 353.500000) rotate(-270.000000) translate(-91.000000, -353.500000) " points="91 347 101.5 360 80.5 360"></polygon>
+        <polygon id="Triangle-Copy-10" fill="#0072FF" transform="translate(602.500000, 178.500000) rotate(-270.000000) translate(-602.500000, -178.500000) " points="602.5 172 613 185 592 185"></polygon>
+        <polygon id="Triangle-Copy-14" fill="#0072FF" transform="translate(433.500000, 178.500000) rotate(-270.000000) translate(-433.500000, -178.500000) " points="433.5 172 444 185 423 185"></polygon>
+        <polygon id="Triangle-Copy-17" fill="#0072FF" transform="translate(264.500000, 178.500000) rotate(-270.000000) translate(-264.500000, -178.500000) " points="264.5 172 275 185 254 185"></polygon>
+        <polygon id="Triangle-Copy-13" fill="#0072FF" transform="translate(601.500000, 352.500000) rotate(-90.000000) translate(-601.500000, -352.500000) " points="601.5 346 612 359 591 359"></polygon>
+        <polygon id="Triangle-Copy-18" fill="#0072FF" transform="translate(430.500000, 352.500000) rotate(-90.000000) translate(-430.500000, -352.500000) " points="430.5 346 441 359 420 359"></polygon>
+        <polygon id="Triangle-Copy-19" fill="#0072FF" transform="translate(263.500000, 352.500000) rotate(-90.000000) translate(-263.500000, -352.500000) " points="263.5 346 274 359 253 359"></polygon>
+        <polygon id="Triangle-Copy-20" fill="#0072FF" points="168.5 258 179 271 158 271"></polygon>
+        <polygon id="Triangle-Copy-21" fill="#0072FF" transform="translate(690.500000, 266.500000) rotate(-180.000000) translate(-690.500000, -266.500000) " points="690.5 260 701 273 680 273"></polygon>
+        <text id="Start" transform="translate(66.000000, 354.000000) rotate(-90.000000) translate(-66.000000, -354.000000) " font-family="PoynterOSDisp-Bold" font-size="20" font-weight="bold" line-spacing="24" letter-spacing="1.5" fill="#07D08C">
+          <tspan x="30.3847656" y="369.5">START</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

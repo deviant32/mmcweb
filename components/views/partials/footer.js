@@ -35,7 +35,7 @@ const Footer = () => {
             </p>
           </Col>
           <Col md="3" className="mb-md-0 mb-3">
-            <ul className="list-unstyled">
+            <ul className="list-unstyled mx-auto" style={{ maxWidth: 150 }}>
               <li className="mb-2">
                 <Link href="/case-studies">
                   <a>Case Studies</a>
@@ -47,6 +47,11 @@ const Footer = () => {
               <li className="mb-2">
                 <Link href="/contact-us">
                   <a>Contact Us</a>
+                </Link>
+              </li>
+              <li className="mt-2 pt-2" style={{ borderTop: '1px solid rgba(255, 255, 255, .2)' }}>
+                <Link target="_blank" href="https://ew41.ultipro.com/Login.aspx">
+                  <a>Access Ultipro</a>
                 </Link>
               </li>
             </ul>

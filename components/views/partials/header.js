@@ -63,8 +63,8 @@ function Header(props) {
                     </Link>
                   </DropdownItem>
                   <DropdownItem tag='span'>
-                    <Link href="/core-technology">
-                      <a>Core Technology</a>
+                    <Link href="/capabilities">
+                      <a>Our Capabilities</a>
                     </Link>
                   </DropdownItem>
                 </DropdownMenu>

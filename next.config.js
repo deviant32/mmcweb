@@ -33,7 +33,7 @@ module.exports = withSass({
       '/team': { page: '/team' },
       '/case-studies': { page: '/case-studies' },
       '/industries': { page: '/industries' },
-      '/core-technology': { page: '/core-technology' },
+      '/capibilities': { page: '/capibilities' },
     }
   }
 })

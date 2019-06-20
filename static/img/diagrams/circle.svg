@@ -1,0 +1,97 @@
+<svg width="760px" height="760px" viewBox="0 0 760 760" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="1.2-Our-Capabilities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="1.2-Channel-80/20-&amp;-Our-Core-Technologies-V2-Copy" transform="translate(-340.000000, -831.000000)">
+      <g id="3-chart-1" transform="translate(0.000000, 632.000000)">
+        <circle id="Oval" stroke="#0072FF" stroke-width="3" cx="720" cy="580" r="300.5"></circle>
+        <g id="1" transform="translate(640.000000, 199.000000)">
+          <circle id="Oval-Copy-9" fill="#0072FF" transform="translate(80.000000, 80.000000) rotate(-180.000000) translate(-80.000000, -80.000000) " cx="80" cy="80" r="80"></circle>
+          <text id="Data" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="40.75390625" y="90.6230469">Data</tspan>
+          </text>
+          <text id="01" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="70" y="43.0820312">01</tspan>
+          </text>
+        </g>
+        <g id="2" transform="translate(851.000000, 287.000000)">
+          <circle id="Oval-Copy-21" fill="#0072FF" transform="translate(80.000000, 80.000000) rotate(-180.000000) translate(-80.000000, -80.000000) " cx="80" cy="80" r="80"></circle>
+          <text id="Analytics" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="8" y="101">Analytics</tspan>
+          </text>
+          <text id="02" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="70" y="43.0820312">02</tspan>
+          </text>
+        </g>
+        <g id="3" transform="translate(940.000000, 500.000000)">
+          <circle id="Oval-Copy-22" fill="#0072FF" transform="translate(80.000000, 80.000000) rotate(-180.000000) translate(-80.000000, -80.000000) " cx="80" cy="80" r="80"></circle>
+          <text id="Strategy" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="18" y="101">Strategy</tspan>
+          </text>
+          <text id="03" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="70" y="43.0820312">03</tspan>
+          </text>
+        </g>
+        <g id="4" transform="translate(821.000000, 707.000000)">
+          <circle id="Oval-Copy-23" fill="#0072FF" transform="translate(112.000000, 80.000000) rotate(-180.000000) translate(-112.000000, -80.000000) " cx="112" cy="80" r="80"></circle>
+          <text id="Creative" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="45" y="90.6230469">Creative</tspan>
+          </text>
+          <text id="04" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="95.3359375" y="43.0820312">04</tspan>
+          </text>
+        </g>
+        <g id="5" transform="translate(606.000000, 799.000000)">
+          <circle id="Oval-Copy-27" fill="#0072FF" transform="translate(112.000000, 80.000000) rotate(-180.000000) translate(-112.000000, -80.000000) " cx="112" cy="80" r="80"></circle>
+          <text id="Virtual-Sales" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="10" y="101">Virtual Sales</tspan>
+          </text>
+          <text id="05" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="100.3359375" y="41.0820312">05</tspan>
+          </text>
+        </g>
+        <g id="6" transform="translate(410.000000, 707.000000)">
+          <circle id="Oval-Copy-26" fill="#0072FF" transform="translate(103.000000, 80.000000) rotate(-180.000000) translate(-103.000000, -80.000000) " cx="103" cy="80" r="80"></circle>
+          <text id="Execution" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="27" y="97">Execution</tspan>
+          </text>
+          <text id="06" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="90" y="41.0820312">06</tspan>
+          </text>
+        </g>
+        <g id="7" transform="translate(340.000000, 500.000000)">
+          <circle id="Oval-Copy-25" fill="#0072FF" transform="translate(80.000000, 80.000000) rotate(-180.000000) translate(-80.000000, -80.000000) " cx="80" cy="80" r="80"></circle>
+          <text id="Support" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="15" y="101">Support</tspan>
+          </text>
+          <text id="07" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="65.3359375" y="41.0820312">07</tspan>
+          </text>
+        </g>
+        <g id="8" transform="translate(403.000000, 285.000000)">
+          <circle id="Oval-Copy-24" fill="#0072FF" transform="translate(110.000000, 80.000000) rotate(-180.000000) translate(-110.000000, -80.000000) " cx="110" cy="80" r="80"></circle>
+          <text id="Optimization" font-family="PoynterOSDisp-Bold" font-size="36" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+            <tspan x="0" y="101">Optimization</tspan>
+          </text>
+          <text id="08" fill="#000000" font-family="PoynterOSDisp-Bold" font-size="24" font-weight="bold" line-spacing="24" letter-spacing="1.5">
+            <tspan x="95.3359375" y="41.0820312">08</tspan>
+          </text>
+        </g>
+        <g id="arrows" transform="translate(374.000000, 227.000000)">
+          <polygon id="Triangle" fill="#07D08C" transform="translate(256.500000, 13.500000) rotate(-270.000000) translate(-256.500000, -13.500000) " points="256.5 6 268 21 245 21"></polygon>
+          <text id="Start" font-family="PoynterOSDisp-Bold" font-size="20" font-weight="bold" line-spacing="24" letter-spacing="1.5" fill="#07D08C">
+            <tspan x="166.769531" y="19">START</tspan>
+          </text>
+          <polygon id="Triangle-Copy-14" fill="#0072FF" transform="translate(70.500000, 233.500000) rotate(-337.000000) translate(-70.500000, -233.500000) " points="70.5 226 82 241 59 241"></polygon>
+          <polygon id="Triangle-Copy-3" fill="#0072FF" transform="translate(67.000000, 464.500000) rotate(-20.000000) translate(-67.000000, -464.500000) " points="67 457 78.5 472 55.5 472"></polygon>
+          <polygon id="Triangle-Copy" fill="#0072FF" transform="translate(234.500000, 74.000000) rotate(-293.000000) translate(-234.500000, -74.000000) " points="234.5 66.5 246 81.5 223 81.5"></polygon>
+          <polygon id="Triangle-Copy-4" fill="#0072FF" transform="translate(458.000000, 632.000000) rotate(-115.000000) translate(-458.000000, -632.000000) " points="458 624.5 469.5 639.5 446.5 639.5"></polygon>
+          <polygon id="Triangle-Copy-15" fill="#0072FF" transform="translate(229.500000, 630.500000) rotate(-65.000000) translate(-229.500000, -630.500000) " points="229.5 623 241 638 218 638"></polygon>
+          <polygon id="Triangle-Copy-2" fill="#0072FF" transform="translate(625.000000, 242.000000) rotate(-202.000000) translate(-625.000000, -242.000000) " points="625 234.5 636.5 249.5 613.5 249.5"></polygon>
+          <polygon id="Triangle-Copy-6" fill="#0072FF" transform="translate(459.500000, 74.500000) rotate(-250.000000) translate(-459.500000, -74.500000) " points="459.5 67 471 82 448 82"></polygon>
+          <polygon id="Triangle-Copy-5" fill="#0072FF" transform="translate(627.500000, 459.500000) rotate(-161.000000) translate(-627.500000, -459.500000) " points="627.5 452 639 467 616 467"></polygon>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
