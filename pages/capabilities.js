@@ -13,7 +13,7 @@ import SubHeading from '../components/views/partials/sub-heading';
 import Eyebrow from '../components/views/partials/eyebrow';
 
 
-const Capibilities = () => {
+const Capabilities = () => {
 
   return (
     <React.Fragment>
@@ -160,4 +160,4 @@ const Capibilities = () => {
   );
 }
 
-export default Capibilities;
+export default Capabilities;
