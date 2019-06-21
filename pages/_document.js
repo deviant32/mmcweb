@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
           }}
           />
         </Head>
-        <body style={{ paddingTop: 75 }}>
+        <body>
           <Main />
           <NextScript />
         </body>

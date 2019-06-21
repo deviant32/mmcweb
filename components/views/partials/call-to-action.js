@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import { faPhone, } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
 
 
 const CallToAction = () => {
@@ -15,7 +16,11 @@ const CallToAction = () => {
               We know any model is only as good as it&apos;s results, and we&apos;re eager to show you ours.
               Across industries our platform accelerates growth at an average of 20% year-over-year.
             </p>
-            <Button className="text-uppercase" style={{ width: 230 }} outline color="white">Contact us</Button>
+            <Link href="/contact-us">
+              <Button className="text-uppercase" style={{ width: 230 }} outline color="white">
+                Contact us
+              </Button>
+            </Link>
           </Col>
           <Col
             className="text-white text-center"
@@ -32,8 +37,12 @@ const CallToAction = () => {
               <tbody>
                 <tr>
                   <td className="align-middle text-center">
-                    <h3 className="text-warning"><FontAwesomeIcon size="sm" width="0" icon={faPhone} /></h3>
-                    <h2 className="eyebrow font-weight-normal" style={{ fontSize: '2.7rem' }}>+1 607.754.7473</h2>
+                    <h3 className="text-warning">
+                      <FontAwesomeIcon size="sm" width="0" icon={faPhone} />
+                    </h3>
+                    <h2 className="eyebrow font-weight-normal" style={{ fontSize: '2.7rem' }}>
+                      <a href="tel:16077547473">+1 607.754.7473</a>
+                    </h2>
                   </td>
                 </tr>
               </tbody>

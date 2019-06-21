@@ -77,7 +77,7 @@ const ContactUs = () => {
       </TitleBlock>
       <Container fluid style={{ minHeight: 500, position: 'relative', top: '-100px', zIndex: '1' }}>
         <Row className="bg-secondary text-white">
-          <Col sm={12} md={5} style={{ minHeight: '450px', maxHeight: 500, paddingTop: '60px' }}>
+          <Col sm={12} md={5} style={{ minHeight: '450px', maxHeight: 500, paddingTop: '80px' }}>
             <div
               className="mt-4 text-center"
               style={{
@@ -104,8 +104,6 @@ const ContactUs = () => {
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'linkedin-in']} />
-              <br />
-              <Button color="warning" outline className="text-uppercase mt-4">Learn about Binghamton</Button>
             </div>
           </Col>
           <Col className="pl-0 pr-0" sm={12} md={7}>
