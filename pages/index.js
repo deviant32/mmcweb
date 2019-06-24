@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Jumbotron, Container, Row, Col, Card, CardText, Button } from 'reactstrap';
+import { Jumbotron, Container, Row, Col, Button } from 'reactstrap';
 import Link from 'next/link';
 import Head from 'next/head';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';

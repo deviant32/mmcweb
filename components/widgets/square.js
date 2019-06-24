@@ -19,14 +19,8 @@ const Square = (props) => {
     setSlide(props.items[getRandomId()]);
   }, 5000)
 
-
-
   return (
-    <React.Fragment>
-      <div className="slide">
-        <img src={`${slide.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
-      </div>
-    </React.Fragment>
+    <img src={`${slide.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
   )
 }
 

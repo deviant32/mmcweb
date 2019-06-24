@@ -12,6 +12,7 @@ import Footer from '../components/views/partials/footer';
 import Square from '../components/widgets/square';
 import TitleBlock from '../components/views/partials/title-block';
 import SubHeading from '../components/views/partials/sub-heading';
+import TeamPanel from '../components/views/partials/team-panel';
 
 
 const Team = () => {
@@ -188,9 +189,11 @@ const Team = () => {
             <h6 className="text-uppercase mt-5 sub-heading">&mdash; Happy Customer</h6>
           </div>
         </Container>
-        <CallToAction />
       </Container>
 
+      <TeamPanel size={12} />
+
+      <CallToAction />
       <Footer />
     </React.Fragment>
   );

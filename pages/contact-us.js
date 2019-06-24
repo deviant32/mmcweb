@@ -24,11 +24,17 @@ const ContactUs = () => {
     e.preventDefault();
     var data = new FormData(event.target);
 
+    let jsonObject = {};
+
+    for (const [key, value] of data.entries()) {
+      jsonObject[key] = value;
+    }
+
     axios({
       method: 'post',
-      url: 'https://mmccontactus.azurewebsites.net/api/MMCContactUs?code=YoI73S8LmxXaXpKLKLumtuBPhWtGyK8kUsaUxvj9ZtWaGIqx5Xi0EQ==',
-      data: data,
-      config: { headers: { 'Content-Type': 'multipart/form-data' } }
+      url: 'https://prod-77.eastus.logic.azure.com:443/workflows/5a2c751e755b438eb52f51894cdea4fe/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Gbl7Ir-9oj2-6MSuZpl3BlXHlDZqrNj4ZCktHX8GHZ4',
+      data: jsonObject,
+      config: { headers: { 'Content-Type': 'application/json' } }
     })
       .then((response) => {
         console.log(response);
