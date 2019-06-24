@@ -7,7 +7,7 @@ import CategoryTag from './category-tag';
 import SubHeading from './sub-heading';
 
 
-const Healthcare = () => {
+const Building = () => {
   return (
     <Container className="text-center">
       <Row>
@@ -60,4 +60,4 @@ const Healthcare = () => {
   )
 }
 
-export default Healthcare;
+export default Building;

@@ -8,7 +8,8 @@ import '../styles/base.scss';
 import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
 import Healthcare from '../components/views/partials/healthcare';
-import Title from '../components/views/partials/title';
+import TitleBlock from '../components/views/partials/title-block';
+import Building from '../components/views/partials/building';
 
 
 const CaseStudies = () => {
@@ -19,11 +20,18 @@ const CaseStudies = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>MMC Web</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css" />
+        <title>Case Studies</title>
       </Head>
       <Header />
-      <Title>Case Studies</Title>
+      <img style={{ position: 'absolute', left: -50, marginTop: 250, }} src="/static/img/abstract/square-yellow.svg" alt="circle" />
+      <Container className="bg-full" style={{ height: 300 }} fluid />
+      <TitleBlock eyebrow="Case Studies" title="Our work">
+        <p>
+          Across Industries our platform accelerates growth at an
+          average of 20% Year-over-year, turning the under-performing
+          end of your client list into the top line.
+        </p>
+      </TitleBlock>
       <Container className="mb-5">
         <Row>
           <Col>
@@ -45,6 +53,7 @@ const CaseStudies = () => {
         </Row>
       </Container>
       {dropdownValue === 'HEALTHCARE' && <Healthcare />}
+      {dropdownValue === 'BUILDING' && <Building />}
       <CallToAction />
       <Footer />
     </React.Fragment>

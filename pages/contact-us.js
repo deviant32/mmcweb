@@ -26,13 +26,13 @@ const ContactUs = () => {
 
     axios({
       method: 'post',
-      url: 'https://mmcwebcontact.azurewebsites.net/api/ContactUsTrigger?code=W3lbcVof4POhhNfR/ri7BsL1u6nZ/RRKle9phiyac/5pxaCIdMObaA==',
+      url: 'https://mmccontactus.azurewebsites.net/api/MMCContactUs?code=YoI73S8LmxXaXpKLKLumtuBPhWtGyK8kUsaUxvj9ZtWaGIqx5Xi0EQ==',
       data: data,
       config: { headers: { 'Content-Type': 'multipart/form-data' } }
     })
       .then((response) => {
         console.log(response);
-        Router.replace('/thank-you');
+        // Router.replace('/thank-you');
       })
       .catch((err) => {
         console.log(err);
@@ -180,6 +180,7 @@ const ContactUs = () => {
                   </FormGroup>
                 </Col>
               </Row>
+              <Input className="d-none" type="text" name="honeypot" id="honeypot" />
               <Button color="secondary" type="submit" style={{ width: 150 }} outline>SUBMIT</Button>
             </Form>
           </Col>

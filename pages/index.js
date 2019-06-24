@@ -145,9 +145,6 @@ const HomePage = () => {
         <Title>
           You&apos;ll be in good company.
         </Title>
-        <SubHeading>
-          MMC Manages over $2.5BN in revenue for clients like these.
-        </SubHeading>
         <Row className="pt-3 mb-5">
           <Col className="mb-4 img-fluid">
             <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />

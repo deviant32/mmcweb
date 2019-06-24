@@ -11,6 +11,7 @@ import CallToAction from '../components/views/partials/call-to-action';
 import Footer from '../components/views/partials/footer';
 import Square from '../components/widgets/square';
 import TitleBlock from '../components/views/partials/title-block';
+import SubHeading from '../components/views/partials/sub-heading';
 
 
 const Team = () => {
@@ -63,7 +64,7 @@ const Team = () => {
         <Row className="mx-auto text-center no-gutters">
           <Col md="4" className="mb-5 pr-2">
             <img className="img-fluid" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
-            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-5 pb-3">MMC Commuinity & Values</h6>
+            <SubHeading>MMC Commuinity & Values</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Investing in our people goes beyond work, to investing in who we are
             </p>
@@ -71,7 +72,7 @@ const Team = () => {
           </Col>
           <Col md="4" className="mb-5 pl-1 pr-1">
             <img className="img-fluid" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
-            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-5 pb-3">Careers at MMC</h6>
+            <SubHeading>Careers at MMC</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               From creative storytellers to deep data magicians, we&apos;re looking for great people to join the team, wherever you are.
               Are you ready to take the next step in your career?
@@ -80,7 +81,7 @@ const Team = () => {
           </Col>
           <Col md="4" className="mb-5 pl-2">
             <img className="img-fluid" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
-            <h6 className="text-uppercase text-primary sub-heading font-weight-bold pt-5 pb-3">Employee Tools & Access</h6>
+            <SubHeading>Employee Tools & Access</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Existing MMC employees can access information including training and onboarding resources, and other information here.
             </p>

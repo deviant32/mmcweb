@@ -12,4 +12,5 @@ routes.add('team', '/team')
 routes.add('case-studies', '/case-studies')
 routes.add('industries', '/industries')
 routes.add('capabilities', '/capabilities')
+routes.add('test', '/test')
 
