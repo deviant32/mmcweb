@@ -35,8 +35,6 @@ const TeamPanel = (props) => {
     { type: 'stat', title: '300', description: 'Bold, Bright & Open MMC Employees' }
   ]
 
-  var statIndex = 0;
-
   // function needs to return an array to populate the inital state
   const shuffleArray = () => {
     // create a N sized array with all images
@@ -49,16 +47,14 @@ const TeamPanel = (props) => {
     let stats = statArr.sort(() => 0.5 - Math.random()).slice(0, numOfStats);
 
     // TODO: make this dynamically shift, for now hard coded
-    if (statIndex === 0) {
+    if (Math.random() >= 0.5) { // random boolean
       headshots[2] = stats[0];
       headshots[5] = stats[1];
       headshots[10] = stats[2];
-      statIndex = 1;
     } else {
       headshots[1] = stats[0];
       headshots[6] = stats[1];
       headshots[9] = stats[2];
-      statIndex = 0;
     }
 
     return headshots;

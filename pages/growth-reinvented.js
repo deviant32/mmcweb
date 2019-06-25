@@ -154,7 +154,7 @@ const GrowthReinventedPage = () => {
                     </Col>
                     <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
                       <h4 style={{ height: 75 }}>
-                        We make disengaged
+                        We turn disengaged
                         <br />
                         buyers into brand
                         <br />
@@ -168,16 +168,13 @@ const GrowthReinventedPage = () => {
                       <h4 style={{ height: 75 }}>
                         We deliver
                         <br />
-                        growth at scale.
+                        growth at scale
                       </h4>
                       <p className="text-secondary pt-5 pb-0">
                         We partner with our clients to pioneer integrated sales and marketing programs that create more meaningful connections and sustain ongoing milestones.
                       </p>
                     </Col>
                   </Row>
-
-                  <p className="sub-heading text-center mb-0 mt-5 text-uppercase">Get the details</p>
-                  <a className="text-secondary" href="#!"><u>See our core technology page for more on Channel 80/20 and our Next Action Platform.</u></a>
                 </Container>
               </Container>
               <CallToAction />

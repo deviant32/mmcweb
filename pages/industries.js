@@ -1,8 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import { Container, Row, Col } from 'reactstrap';
 import Header from '../components/views/partials/header';
+
 import '../styles/base.scss';
+
 import Footer from '../components/views/partials/footer';
 import CallToAction from '../components/views/partials/call-to-action';
 import Title from '../components/views/partials/title';
@@ -16,7 +20,7 @@ const Industries = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Our Capabilities</title>
+        <title>Our Industries</title>
       </Head>
       <Header />
       <Container className="text-center bg-info p-5 mt-5 mb-5">
@@ -87,7 +91,11 @@ const Industries = () => {
             </Col>
           </Row>
           <p className="sub-heading text-center mb-0 mt-5 text-uppercase">See how we&apos;re helping our clients from various industries.</p>
-          <a className="text-secondary" href="#!"><u>Read our Case Studies</u></a>
+          <Link href="/case-studies">
+            <a className="text-secondary">
+              <u>Read our Case Studies</u>
+            </a>
+          </Link>
         </Container>
       </Container>
       <Container className="text-center pb-5 pt-5">

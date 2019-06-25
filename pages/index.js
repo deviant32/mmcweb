@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-console */
 import React from 'react';
 import { Jumbotron, Container, Row, Col, Button } from 'reactstrap';
@@ -112,7 +113,9 @@ const HomePage = () => {
               <p className="mt-n2" style={{ height: 80 }}>
                 We grow 87% of your accounts that are hardest to reach.
               </p>
-              <Button outline color="warning">This is Growth, Reinvented</Button>
+              <Link href="/growth-reinvented">
+                <Button outline color="warning">This is Growth, Reinvented</Button>
+              </Link>
             </Col>
             <Col xs={12} md={4} className="mb-5">
               <span className="circle text-center">
@@ -124,7 +127,9 @@ const HomePage = () => {
               <p className="mt-n2 mx-auto" style={{ height: 80, maxWidth: 240 }}>
                 See how we reinvent growth for our clients every day.
               </p>
-              <Button outline color="warning">Our case studies</Button>
+              <Link href="/case-studies">
+                <Button outline color="warning">Our case studies</Button>
+              </Link>
             </Col>
             <Col xs={12} md={4} className="mb-5">
               <span className="circle text-center">
@@ -136,7 +141,9 @@ const HomePage = () => {
               <p className="mt-n2" style={{ height: 80 }}>
                 We are Bold.  We are Bright.  We are Open.
               </p>
-              <Button outline color="warning">Meet the team</Button>
+              <Link href="/team">
+                <Button outline color="warning">Meet the team</Button>
+              </Link>
             </Col>
           </Row>
         </Container>
@@ -194,22 +201,30 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <a className="text-secondary" href="#!"><u>Let us show you what we can do for you.</u></a>
+        <Link href="/capibilities">
+          <a className="text-secondary"><u>Let us show you what we can do for you.</u></a>
+        </Link>
       </Container>
       <Container className="text-center text-primary pt-5 pb-5" fluid style={{ backgroundColor: '#dcdddc' }}>
         <Container>
           <Row className="row-border pt-5 pb-5">
             <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
               <h4 style={{ height: 55 }}>Our industries</h4>
-              <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+              <Link href="/industries">
+                <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+              </Link>
             </Col>
             <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
               <h4 style={{ height: 55 }}>Case studies</h4>
-              <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+              <Link href="/case-studies">
+                <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+              </Link>
             </Col>
             <Col xs={12} md={4} className="pb-0">
               <h4 style={{ height: 55 }}>Careers at MMC</h4>
-              <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+              <Link href="/team">
+                <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+              </Link>
             </Col>
           </Row>
         </Container>
