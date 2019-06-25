@@ -87,7 +87,7 @@ const TeamPanel = (props) => {
     <Row className="no-gutters">
       {shuffledArr.map((item, index) => {
         return (
-          <Col xs="6" sm="6" md="3" style={{ width: 200 }}>
+          <Col xs="6" sm="6" md="4" lg="3" style={{ width: 200 }}>
             <Square
               {...props}
               item={item}
