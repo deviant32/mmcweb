@@ -36,9 +36,9 @@ const ContactUs = () => {
       data: jsonObject,
       config: { headers: { 'Content-Type': 'application/json' } }
     })
+      // eslint-disable-next-line no-unused-vars
       .then((response) => {
-        console.log(response);
-        // Router.replace('/thank-you');
+        Router.replace('/thank-you');
       })
       .catch((err) => {
         console.log(err);

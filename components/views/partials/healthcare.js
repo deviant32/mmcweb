@@ -9,7 +9,7 @@ import SubHeading from './sub-heading';
 
 const Healthcare = () => {
   return (
-    <Container className="text-center">
+    <Container className="text-center mb-5">
       <Row>
         <Col>
           <img src="https://dummyimage.com/350x200/000/fff" alt="Company" />

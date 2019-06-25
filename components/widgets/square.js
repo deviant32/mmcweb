@@ -1,45 +1,25 @@
-import React, { useState, useRef, useEffect } from 'react';
-
-
+import React from 'react';
 
 const Square = (props) => {
+  const { item, index } = props;
 
-  const { items } = props;
-
-  const getRandomId = () => {
-    const min = 0;
-    const max = props.items.length;
-    return Math.floor(Math.random() * (max - min)) + min;
+  if (item.type === 'image') {
+    return (
+      <img key={index} src={`${item.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
+    )
   }
 
-  const [slide, setSlide] = useState(items[getRandomId()]);
+  if (item.type === 'stat') {
+    return (
+      <div key={index} className="h-100 text-center bg-secondary">
+        <div className="my-auto" style={{ paddingTop: '10%' }}>
+          <p className="text-warning eyebrow font-weight-bold m-0 p-0" style={{ fontSize: '6rem' }}>{item.title}</p>
+          <p className="text-white mt-n4 pl-5 pr-5 text-uppercase font-weight-bold">{item.description}</p>
+        </div>
+      </div>
+    )
+  }
 
-
-  useInterval(() => {
-    setSlide(props.items[getRandomId()]);
-  }, 5000)
-
-  return (
-    <img src={`${slide.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
-  )
 }
-
-function useInterval(callback, delay) {
-  const savedCallback = useRef();
-
-  useEffect(() => {
-    savedCallback.current = callback;
-  });
-
-  useEffect(() => {
-    function tick() {
-      savedCallback.current();
-    }
-
-    let id = setInterval(tick, delay);
-    return () => clearInterval(id);
-  }, [delay]);
-}
-
 
 export default Square;

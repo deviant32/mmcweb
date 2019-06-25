@@ -9,7 +9,7 @@ import SubHeading from './sub-heading';
 
 const Building = () => {
   return (
-    <Container className="text-center pb-5">
+    <Container className="text-center mb-5">
       <Row>
         <Col>
           <img src="https://dummyimage.com/350x200/000/fff" alt="Company" />

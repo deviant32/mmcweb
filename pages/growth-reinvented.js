@@ -31,7 +31,6 @@ const GrowthReinventedPage = () => {
     <React.Fragment>
       <Head>
         <title>MMC Web</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css" />
       </Head>
       <Header />
       <ReactFullpage

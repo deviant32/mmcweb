@@ -11,6 +11,7 @@ import CollapseList from '../components/widgets/collapse-list';
 import Title from '../components/views/partials/title';
 import SubHeading from '../components/views/partials/sub-heading';
 import Eyebrow from '../components/views/partials/eyebrow';
+import TeamPanel from '../components/views/partials/team-panel';
 
 
 const Capabilities = () => {
@@ -278,7 +279,10 @@ const Capabilities = () => {
           </ListGroup>
         </Container>
       </Container>
-
+      <Container className="text-center pt-5 pb-5 mb-5 mt-5">
+        <Title className="text-primary pb-4">Our Team is Your Team</Title>
+        <TeamPanel size={12} />
+      </Container>
       <CallToAction />
       <Footer />
     </React.Fragment>

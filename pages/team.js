@@ -9,33 +9,12 @@ import '../styles/base.scss';
 import Header from '../components/views/partials/header';
 import CallToAction from '../components/views/partials/call-to-action';
 import Footer from '../components/views/partials/footer';
-import Square from '../components/widgets/square';
 import TitleBlock from '../components/views/partials/title-block';
 import SubHeading from '../components/views/partials/sub-heading';
 import TeamPanel from '../components/views/partials/team-panel';
 
 
 const Team = () => {
-
-  const headshotArr = [
-    { src: '/static/img/people/Headshots-Square-1.jpg' },
-    { src: '/static/img/people/Headshots-Square-2.jpg' },
-    { src: '/static/img/people/Headshots-Square-3.jpg' },
-    { src: '/static/img/people/Headshots-Square-4.jpg' },
-    { src: '/static/img/people/Headshots-Square-5.jpg' },
-    { src: '/static/img/people/Headshots-Square-6.jpg' },
-    { src: '/static/img/people/Headshots-Square-7.jpg' },
-    { src: '/static/img/people/Headshots-Square-8.jpg' },
-    { src: '/static/img/people/Headshots-Square-9.jpg' },
-    { src: '/static/img/people/Headshots-Square-10.jpg' },
-    { src: '/static/img/people/Headshots-Square-11.jpg' },
-    { src: '/static/img/people/Headshots-Square-12.jpg' },
-    { src: '/static/img/people/Headshots-Square-13.jpg' },
-    { src: '/static/img/people/Headshots-Square-14.jpg' },
-    { src: '/static/img/people/Headshots-Square-15.jpg' },
-    { src: '/static/img/people/Headshots-Square-16.jpg' },
-    { src: '/static/img/people/Headshots-Square-17.jpg' }
-  ];
 
   return (
     <React.Fragment>
@@ -91,108 +70,23 @@ const Team = () => {
             <small>(Employee Sign-in Required)</small>
           </Col>
         </Row>
-        <Row className="text-center mt-5 pt-5">
-          <Col>
-            <h2 className="pt-2 mb-5 text-primary font-weight-bold">
-              Our Team is Your Team
-            </h2>
-          </Col>
-        </Row>
-        <Row className="no-gutters">
-          <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-        </Row>
-        <Row className="no-gutters">
-          <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-        </Row>
-        <Row className="no-gutters">
-          <Col className="p-0" style={{ backgroundColor: 'red', width: '200px !important' }}>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-          <Col>
-            <Square items={
-              headshotArr
-            }
-            />
-          </Col>
-        </Row>
       </Container>
-      <Container className="p-0 bg-building mt-0 pt-0 position-relative" style={{ top: '-250px', zIndex: -1, height: 800 }} fluid>
+      <Container className="mt-5 mb-5">
+        <TeamPanel size={12} />
+      </Container>
+      <Container className="bg-building" style={{ height: 500, marginTop: 100 }} fluid>
         <Container className="h-100 d-table text-center text-white">
-          <div className="d-table-cell align-middle" style={{ paddingTop: '30%' }}>
+          <div className="d-table-cell align-middle">
             <FontAwesomeIcon className="mb-4 text-primary" size="3x" width="0" icon={faQuoteLeft} />
             <h4 className="font-weight-bold" style={{ lineHeight: '200% !important' }}>
               Laboris nisi ut aliquip ex ea commodo
               <br />
               consequat duis auto irure
             </h4>
-            <h6 className="text-uppercase mt-5 sub-heading">&mdash; Happy Customer</h6>
+            <SubHeading>&mdash; Happy Customer</SubHeading>
           </div>
         </Container>
       </Container>
-
-      <TeamPanel size={12} />
-
       <CallToAction />
       <Footer />
     </React.Fragment>

@@ -145,26 +145,55 @@ const HomePage = () => {
         <Title>
           You&apos;ll be in good company.
         </Title>
-        <Row className="pt-3 mb-5">
-          <Col className="mb-4 img-fluid">
-            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="https://dummyimage.com/160x80/000/fff" alt="Company" />
-          </Col>
-        </Row>
+        <div className="slider mb-5 mt-5">
+          <div className="slide-track">
+            <div className="slide">
+              <img src="static/img/clients/Amana.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/BMC.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Goodman.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/KCI.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Lowes.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Perrigo.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Quest.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Valeritas.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Salix.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Ferguson.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Hayward.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Kaleo.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/SSB.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/Ascensia.jpg" alt="" />
+            </div>
+            <div className="slide">
+              <img src="static/img/clients/GAF.jpg" alt="" />
+            </div>
+          </div>
+        </div>
         <a className="text-secondary" href="#!"><u>Let us show you what we can do for you.</u></a>
       </Container>
       <Container className="text-center text-primary pt-5 pb-5" fluid style={{ backgroundColor: '#dcdddc' }}>
