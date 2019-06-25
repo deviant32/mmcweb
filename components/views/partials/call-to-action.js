@@ -44,7 +44,7 @@ const CallToAction = () => {
                       <FontAwesomeIcon size="sm" width="0" icon={faPhone} />
                     </h3>
                     <h2 className="eyebrow font-weight-normal" style={{ fontSize: '2.7rem' }}>
-                      <a href="tel:16077547473">+1 607.754.7473</a>
+                      <a href="tel:18007337479">+1 800.733.7479</a>
                     </h2>
                   </td>
                 </tr>

@@ -103,9 +103,9 @@ const ContactUs = () => {
                 Binghamton, NY 13904
               </p>
               <p className="text-uppercase">
-                1+ 607.754.7473
+                <a href="tel:18007337479">+1 800.733.7479</a>
                 <br />
-                Info@mmcweb.com
+                <a href="mailto:info@mmcweb.com">Info@mmcweb.com</a>
               </p>
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
