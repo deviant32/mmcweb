@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import { faPhone, } from '@fortawesome/free-solid-svg-icons';
@@ -17,9 +18,11 @@ const CallToAction = () => {
               Across industries our platform accelerates growth at an average of 20% year-over-year.
             </p>
             <Link href="/contact-us">
-              <Button className="text-uppercase" style={{ width: 230 }} outline color="white">
-                Contact us
-              </Button>
+              <a>
+                <Button className="text-uppercase" style={{ width: 230 }} outline color="white">
+                  Contact us
+                </Button>
+              </a>
             </Link>
           </Col>
           <Col

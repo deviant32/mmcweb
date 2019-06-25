@@ -211,24 +211,30 @@ const HomePage = () => {
             <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
               <h4 style={{ height: 55 }}>Our industries</h4>
               <Link href="/industries">
-                <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                <a>
+                  <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                </a>
               </Link>
             </Col>
             <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
               <h4 style={{ height: 55 }}>Case studies</h4>
               <Link href="/case-studies">
-                <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                <a>
+                  <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                </a>
               </Link>
             </Col>
             <Col xs={12} md={4} className="pb-0">
               <h4 style={{ height: 55 }}>Careers at MMC</h4>
-              <Link href="/team">
-                <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+              <Link href="https://recruiting.ultipro.com/MOD1007MDRN/JobBoard/878dbef4-95e7-a042-ddfc-997e388fe644/?q=&o=postedDateDesc&w=&wc=&we=&wpst=">
+                <a target="_blank">
+                  <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                </a>
               </Link>
             </Col>
           </Row>
         </Container>
-      </Container>
+      </Container >
       <Container className="bg-building" style={{ height: 500 }} fluid>
         <Container className="h-100 d-table text-center text-white">
           <div className="d-table-cell align-middle">
@@ -244,7 +250,7 @@ const HomePage = () => {
       </Container>
       <CallToAction />
       <Footer />
-    </React.Fragment>
+    </React.Fragment >
   )
 }
 
