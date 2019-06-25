@@ -29,7 +29,7 @@ const Footer = () => {
               Binghamton, NY 13904
             </p>
             <p>
-              <a href="tel:16077547473"> +1 607.754.7475</a>
+              <a href="tel:18007337479"> +1 800.733.7479</a>
               <br />
               <a href="mailto:info@mmcweb.com">Info@mmcweb.com</a>
             </p>
@@ -59,15 +59,21 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md="2" className="mb-md-0 mb-3 text-white">
-            <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
-            <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
-            <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'linkedin-in']} />
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ModernMarketingConcepts/?rf=159596157429485">
+              <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mmclive?lang=en">
+              <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/modern-marketing-concepts">
+              <FontAwesomeIcon href="https://www.linkedin.com/company/modern-marketing-concepts" width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'linkedin-in']} />
+            </a>
           </Col>
         </Row>
       </Container>
       <div className="footer-copyright text-left py-3 pl-5 sub-heading" style={{ backgroundColor: '#000000' }}>
         &copy; 2019 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> Modern Marketing & Commerce</a>
+        Modern Marketing & Commerce
       </div>
     </footer>
   )

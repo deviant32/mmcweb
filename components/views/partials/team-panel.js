@@ -8,7 +8,7 @@ const TeamPanel = (props) => {
   const { size } = props;
 
   // array that contains all of the headshots
-  let headshotArr = [
+  var headshotArr = [
     { type: 'image', src: '/static/img/people/Headshots-Square-1.jpg' },
     { type: 'image', src: '/static/img/people/Headshots-Square-2.jpg' },
     { type: 'image', src: '/static/img/people/Headshots-Square-3.jpg' },
@@ -29,10 +29,15 @@ const TeamPanel = (props) => {
   ];
 
   // array that contains all of the stats
-  let statArr = [
+  var statArr = [
     { type: 'stat', title: '20', description: 'Digital Designer and Creatives' },
-    { type: 'stat', title: '30', description: 'Account Managers and Strategist' },
-    { type: 'stat', title: '300', description: 'Bold, Bright & Open MMC Employees' }
+    { type: 'stat', title: '20', description: 'Account Managers' },
+    { type: 'stat', title: '300', description: 'Bold, Bright & Open MMC Employees' },
+    { type: 'stat', title: '162', description: 'Inside Sales Professionals' },
+    { type: 'stat', title: '15', description: 'Creative Designers' },
+    { type: 'stat', title: '10', description: 'Business Analysts' },
+    { type: 'stat', title: '4', description: 'Project Managers' },
+    { type: 'stat', title: '11', description: 'Data Experts' },
   ]
 
   // function needs to return an array to populate the inital state
