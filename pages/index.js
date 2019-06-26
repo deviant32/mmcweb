@@ -20,6 +20,7 @@ const HomePage = () => {
         style={{ position: 'absolute', left: '50%', top: '-7%', width: 250, transform: 'translate(-50%,0)', zIndex: 1 }}
         src="/static/img/abstract/bottom-circle-bg.svg"
         alt="circle"
+        className="d-none d-md-block"
       />
       <img
         style={{ position: 'absolute', left: 0, marginTop: '350px', width: '40%', maxWidth: 300 }}
