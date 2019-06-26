@@ -38,7 +38,7 @@ const Capabilities = () => {
       <Container className="text-center mt-5 mb-5">
         <div style={{ maxWidth: 650 }} className="mx-auto">
           <Eyebrow className="font-weight-bold text-primary">Channel 80/20</Eyebrow>
-          <Title className="text-primary">MMC&apos; core technologies explained</Title>
+          <Title className="text-primary">MMC&apos;s core technologies explained</Title>
           <SubHeading className="text-primary">
             Our 80/20 Channel is the foundation for our model.  It&apos;s how we create growth from overlooked customer segments.
           </SubHeading>
@@ -182,7 +182,7 @@ const Capabilities = () => {
             <CollapseList title="04. CREATIVE">
               <p>
                 Our creative team acts as a brand ambassador for each client,
-                leveraging inhouse, client-side, and third-party
+                leveraging in-house, client-side, and third-party
                 designers, artists, copywriters, sales teams, and marketers to
                 oversee and execute the creative process for all campaigns and channels.
               </p>
@@ -255,7 +255,7 @@ const Capabilities = () => {
             </CollapseList>
             <CollapseList title="08. OPTIMIZATION">
               <p>
-                We look from all aspects to improve the marketing efforts of an organization, in an effort to
+                We look from all aspects to improve the marketing efforts of an organization, in an attempt to
                 maximize desired business outcomes.
               </p>
               <ul>

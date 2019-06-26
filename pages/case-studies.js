@@ -22,7 +22,7 @@ const CaseStudies = () => {
       <TitleBlock eyebrow="Case Studies" title="Our Work">
         <p>
           Across Industries our platform accelerates growth at an
-          average of 20% Year-over-year, turning the under-performing
+          average of 20% year-over-year, turning the under-performing
           end of your client list into the top line.
         </p>
       </TitleBlock>

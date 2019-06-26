@@ -72,8 +72,9 @@ const Footer = () => {
         </Row>
       </Container>
       <div className="footer-copyright text-left py-3 pl-5 sub-heading" style={{ backgroundColor: '#000000' }}>
-        &copy; 2019 Copyright:
-        Modern Marketing & Commerce
+        &copy;
+        {(new Date().getFullYear())}
+        &nbsp;Modern Marketing & Commerce, Inc.
       </div>
     </footer>
   )

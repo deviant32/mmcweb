@@ -89,7 +89,7 @@ const GrowthReinventedPage = () => {
 
               <StatisticLayout
                 heading="For the typical MMC client..."
-                summary="Using your existing data"
+                summary="Using your existing data."
                 color="primary"
                 summaryColor="secondary"
                 stats={[

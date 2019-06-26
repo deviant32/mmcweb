@@ -30,7 +30,7 @@ const Team = () => {
         <p>
           At MMC, &quot;Growth, Reinvented&quot; isn&rsquo;t just about growing our clients&rsquo; business, it&rsquo;s about
           investing in the people we work with every day.  We&rsquo;re reinventing how we work together
-          to focus on what really matters, determining success not by office hours but by results for
+          to focus on what really matters, determining success not by office hours, but by results for
           our clients, and removing anything that stands in the way.
         </p>
       </TitleBlock>
