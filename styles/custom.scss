@@ -257,7 +257,7 @@ body {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
-$animationSpeed: 70s;
+$animationSpeed: 50s;
 
 // Animation
 @keyframes scroll {
@@ -310,23 +310,4 @@ $animationSpeed: 70s;
         height: 100px;
         width: 250px;
     }
-}
-
-// square image fade in
-.example-enter {
-    opacity: 0.01;
-}
-
-.example-enter.example-enter-active {
-    opacity: 1;
-    transition: opacity 5000ms ease-in;
-}
-
-.example-leave {
-    opacity: 1;
-}
-
-.example-leave.example-leave-active {
-    opacity: 0.01;
-    transition: opacity 300ms ease-in;
 }
