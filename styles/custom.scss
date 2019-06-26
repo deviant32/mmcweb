@@ -58,9 +58,9 @@ body {
 
 .bg-case-studies {
     background-image: url("/static/img/hero/case-studies.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 10% 10%;
 }
 
 .bg-team {
@@ -72,7 +72,7 @@ body {
 
 .bg-contact {
     background-image: url("/static/img/hero/contact.jpg");
-    background-position: center;
+    background-position: 10% 10%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -80,7 +80,7 @@ body {
 
 .bg-building {
     background-image: url("/static/img/backgrounds/building.jpg");
-    background-position: center;
+    background-position: 10% 10%;
     background-repeat: no-repeat;
     background-size: cover;
 }
