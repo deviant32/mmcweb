@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { Container, Row, Col, Card, Button, CardBody, CardTitle, CardFooter } from 'reactstrap';
 
-import { Header, Footer } from '~/pages/partials';
+import { Header, Footer } from './partials';
 
 const ThankYou = () => {
 
