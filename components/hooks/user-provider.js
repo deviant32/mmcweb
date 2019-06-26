@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import UserContext from './context';
+import { UserContext } from '..';
 
 const UserProvider = (props) => {
   const [user, setUser] = useState({ PackageCode: '' });

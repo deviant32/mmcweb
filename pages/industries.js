@@ -3,16 +3,9 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { Container, Row, Col } from 'reactstrap';
-import Header from '../components/views/partials/header';
 
-import '../styles/base.scss';
-
-import Footer from '../components/views/partials/footer';
-import CallToAction from '../components/views/partials/call-to-action';
-import Title from '../components/views/partials/title';
-import Eyebrow from '../components/views/partials/eyebrow';
-import SubHeading from '../components/views/partials/sub-heading';
-import TeamPanel from '../components/views/partials/team-panel';
+import { Header, Footer } from './partials';
+import { CallToAction, Title, Eyebrow, SubHeading, TeamPanel } from '../components';
 
 
 const Industries = () => {

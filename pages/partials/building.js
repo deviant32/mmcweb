@@ -1,10 +1,7 @@
 import React from 'react';
 
-import {
-  Container, Row, Col
-} from 'reactstrap';
-import CategoryTag from './category-tag';
-import SubHeading from './sub-heading';
+import { Container, Row, Col } from 'reactstrap';
+import { SubHeading, CategoryTag } from '../../components';
 
 
 const Building = () => {
@@ -38,7 +35,7 @@ const Building = () => {
       </Row>
       <Row className="mt-5">
         <Col>
-          <img src="https://dummyimage.com/500x350/000/fff" alt="Company" />
+          <img src="https://dummyimage.com/540x350/000/fff" alt="Company" />
           <CategoryTag category="category tag" />
           <SubHeading className="text-primary">Excepteur occaecat cupidatat</SubHeading>
           <p style={{ maxWidth: 375 }} className="mx-auto">
@@ -47,7 +44,7 @@ const Building = () => {
         </Col>
         <Col>
           <div>
-            <img src="https://dummyimage.com/500x350/000/fff" alt="Company" />
+            <img src="https://dummyimage.com/540x350/000/fff" alt="Company" />
             <CategoryTag category="category tag" />
             <SubHeading className="text-primary">Excepteur occaecat cupidatat</SubHeading>
             <p style={{ maxWidth: 375 }} className="mx-auto">

@@ -1,11 +1,9 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
 import Head from 'next/head';
-import Header from '../components/views/partials/header';
-import CallToAction from '../components/views/partials/call-to-action';
-import '../styles/base.scss';
-import Footer from '../components/views/partials/footer';
-import TitleBlock from '../components/views/partials/title-block';
+import { Container, Row, Col, Button } from 'reactstrap';
+
+import { Header, Footer } from './partials';
+import { CallToAction, TitleBlock } from '../components';
 
 
 const Resources = () => {

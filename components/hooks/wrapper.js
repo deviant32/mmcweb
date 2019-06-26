@@ -2,7 +2,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 
-import UserContext from './context';
+import { UserContext } from '..';
 
 const Wrapper = (props) => {
 

@@ -3,11 +3,8 @@ import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import getConfig from 'next/config';
 
-import '../styles/base.scss';
-
 const { publicRuntimeConfig } = getConfig();
 const { GOOGLE_TAGS } = publicRuntimeConfig;
-
 
 
 export default class MyDocument extends Document {

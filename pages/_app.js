@@ -3,8 +3,10 @@ import React from 'react';
 import App, { Container } from 'next/app';
 import Router from 'next/router';
 
-import UserProvider from '../components/hooks/user-provider';
-import Wrapper from '../components/hooks/wrapper';
+// global styles
+import '../styles/base.scss';
+
+import { Wrapper, UserProvider } from '../components';
 
 class MyApp extends App {
 

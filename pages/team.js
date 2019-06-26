@@ -1,17 +1,9 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import Head from 'next/head';
-import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../styles/base.scss';
-
-import Header from '../components/views/partials/header';
-import CallToAction from '../components/views/partials/call-to-action';
-import Footer from '../components/views/partials/footer';
-import TitleBlock from '../components/views/partials/title-block';
-import SubHeading from '../components/views/partials/sub-heading';
-import TeamPanel from '../components/views/partials/team-panel';
+import { Header, Footer, Quote } from './partials';
+import { CallToAction, TitleBlock, SubHeading, TeamPanel, Title } from '../components';
 
 
 const Team = () => {
@@ -43,16 +35,16 @@ const Team = () => {
       <Container className="p-0">
         <Row className="mx-auto text-center no-gutters">
           <Col md="4" className="mb-5 pr-2">
-            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
-            <SubHeading>MMC Commuinity & Values</SubHeading>
+            <img className="img-fluid mb-5" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
+            <SubHeading className="text-primary">MMC Commuinity & Values</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Investing in our people goes beyond work, to investing in who we are
             </p>
             <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Read our case studies</Button>
           </Col>
           <Col md="4" className="mb-5 pl-1 pr-1">
-            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
-            <SubHeading>Careers at MMC</SubHeading>
+            <img className="img-fluid mb-5" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
+            <SubHeading className="text-primary">Careers at MMC</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               From creative storytellers to deep data magicians, we&apos;re looking for great people to join the team, wherever you are.
               Are you ready to take the next step in your career?
@@ -60,8 +52,8 @@ const Team = () => {
             <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>See our capabilities</Button>
           </Col>
           <Col md="4" className="mb-5 pl-2">
-            <img className="img-fluid" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
-            <SubHeading>Employee Tools & Access</SubHeading>
+            <img className="img-fluid mb-5" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
+            <SubHeading className="text-primary">Employee Tools & Access</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Existing MMC employees can access information including training and onboarding resources, and other information here.
             </p>
@@ -71,22 +63,11 @@ const Team = () => {
           </Col>
         </Row>
       </Container>
-      <Container className="mt-5 mb-5">
+      <Container className="text-center pb-5 mb-5 mt-5">
+        <Title className="text-primary pb-4">Our team is your team</Title>
         <TeamPanel size={12} />
       </Container>
-      <Container className="bg-building" style={{ height: 500, marginTop: 100 }} fluid>
-        <Container className="h-100 d-table text-center text-white">
-          <div className="d-table-cell align-middle">
-            <FontAwesomeIcon className="mb-4 text-primary" size="3x" width="0" icon={faQuoteLeft} />
-            <h4 className="font-weight-bold" style={{ lineHeight: '200% !important' }}>
-              Laboris nisi ut aliquip ex ea commodo
-              <br />
-              consequat duis auto irure
-            </h4>
-            <SubHeading>&mdash; Happy Customer</SubHeading>
-          </div>
-        </Container>
-      </Container>
+      <Quote />
       <CallToAction />
       <Footer />
     </React.Fragment>

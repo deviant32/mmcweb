@@ -4,17 +4,9 @@ import React from 'react';
 import { Jumbotron, Container, Row, Col, Button } from 'reactstrap';
 import Link from 'next/link';
 import Head from 'next/head';
-import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import '../styles/base.scss';
-
-import Header from '../components/views/partials/header'
-import Footer from '../components/views/partials/footer';
-import SubHeading from '../components/views/partials/sub-heading';
-import DynamicContent from '../components/dec/dynamic-content';
-import CallToAction from '../components/views/partials/call-to-action';
-import Title from '../components/views/partials/title';
+import { Header, Footer, Quote } from './partials';
+import { CallToAction, SubHeading, Title, DynamicContent } from '../components';
 
 
 const HomePage = () => {
@@ -234,23 +226,11 @@ const HomePage = () => {
             </Col>
           </Row>
         </Container>
-      </Container >
-      <Container className="bg-building" style={{ height: 500 }} fluid>
-        <Container className="h-100 d-table text-center text-white">
-          <div className="d-table-cell align-middle">
-            <FontAwesomeIcon className="mb-4 text-primary" size="3x" width="0" icon={faQuoteLeft} />
-            <h4 className="font-weight-bold" style={{ lineHeight: '200% !important' }}>
-              Laboris nisi ut aliquip ex ea commodo
-              <br />
-              consequat duis auto irure
-            </h4>
-            <SubHeading>&mdash; Happy Customer</SubHeading>
-          </div>
-        </Container>
       </Container>
+      <Quote />
       <CallToAction />
       <Footer />
-    </React.Fragment >
+    </React.Fragment>
   )
 }
 

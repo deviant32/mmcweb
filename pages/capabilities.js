@@ -1,17 +1,9 @@
 import React from 'react';
-import {
-  Container, Button, ListGroup
-} from 'reactstrap';
+import { Container, Button, ListGroup } from 'reactstrap';
 import Head from 'next/head';
-import Header from '../components/views/partials/header';
-import '../styles/base.scss';
-import Footer from '../components/views/partials/footer';
-import CallToAction from '../components/views/partials/call-to-action';
-import CollapseList from '../components/widgets/collapse-list';
-import Title from '../components/views/partials/title';
-import SubHeading from '../components/views/partials/sub-heading';
-import Eyebrow from '../components/views/partials/eyebrow';
-import TeamPanel from '../components/views/partials/team-panel';
+
+import { Header, Footer } from './partials';
+import { CallToAction, CollapseList, Title, SubHeading, Eyebrow, TeamPanel } from '../components';
 
 
 const Capabilities = () => {

@@ -4,15 +4,13 @@ import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 import ReactFullpage from '@fullpage/react-fullpage';
 
-import '../styles/base.scss';
-
-import Header from '../components/views/partials/header';
-import Footer from '../components/views/partials/footer';
-import CallToAction from '../components/views/partials/call-to-action';
-import StatisticLayout from '../components/views/partials/statistic-layout';
-import Eyebrow from '../components/views/partials/eyebrow';
-import Title from '../components/views/partials/title';
-import SubHeading from '../components/views/partials/sub-heading';
+import Header from './partials/header';
+import Footer from './partials/footer';
+import CallToAction from '../components/call-to-action';
+import StatisticLayout from '../components/statistic-layout';
+import Eyebrow from '../components/eyebrow';
+import Title from '../components/title';
+import SubHeading from '../components/sub-heading';
 
 
 const GrowthReinventedPage = () => {
@@ -108,7 +106,7 @@ const GrowthReinventedPage = () => {
                 ]}
               />
             </div>
-            <div key={5} className="section bg-secondary text-info text-center bg-circle-bottom">
+            <div key={5} className="section bg-secondary text-info text-center">
               <Container fluid className="pt-5 pb-5">
                 <Container className="pt-5 pb-5">
                   <div className="border-top border-bottom border-warning">
@@ -119,13 +117,13 @@ const GrowthReinventedPage = () => {
                     <SubHeading className="mt-5">
                       We&rsquo;re building customer relationships that are designed to thrive in the new era of business.
                     </SubHeading>
-                    <p className="mb-n1">
+                    <p className="mb-1">
                       Traditional sales models deliver diminishing returns, while inside sales is growing 300% faster
                       than outside sales. MMC is the secret weapon you’ve never heard of, a growth accelerator that
                       turns untapped potential into sustainable, authentic growth.
                     </p>
                     <img src="/static/img/abstract/down-triangle.svg" alt="down" />
-                    <SubHeading>
+                    <SubHeading className="mt-1">
                       We pave the path to transformative growth for maverick business leaders who want to lead on the front lines of
                       change and put the customer at the center of their business.
                     </SubHeading>

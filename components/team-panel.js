@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'reactstrap';
-import Square from '../../widgets/square';
+import { Square } from '.';
 
 
 const TeamPanel = (props) => {

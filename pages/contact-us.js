@@ -7,13 +7,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import axios from 'axios';
-
 import Head from 'next/head';
-import Header from '../components/views/partials/header'
-import '../styles/base.scss';
-import Footer from '../components/views/partials/footer';
-import Title from '../components/views/partials/title';
-import TitleBlock from '../components/views/partials/title-block';
+
+import { Header, Footer } from './partials';
+import { Title, TitleBlock } from '../components';
+
 
 library.add(fab)
 

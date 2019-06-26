@@ -1,15 +1,9 @@
 import React, { useState } from 'react';
-import {
-  Container, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Label, Form, FormGroup, Row, Col
-} from 'reactstrap';
 import Head from 'next/head';
-import Header from '../components/views/partials/header';
-import '../styles/base.scss';
-import Footer from '../components/views/partials/footer';
-import CallToAction from '../components/views/partials/call-to-action';
-import Healthcare from '../components/views/partials/healthcare';
-import TitleBlock from '../components/views/partials/title-block';
-import Building from '../components/views/partials/building';
+import { Container, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Label, Form, FormGroup, Row, Col } from 'reactstrap';
+
+import { Header, Footer, Healthcare, Building } from './partials';
+import { CallToAction, TitleBlock } from '../components';
 
 
 const CaseStudies = () => {
@@ -42,9 +36,9 @@ const CaseStudies = () => {
                   <DropdownToggle outline caret>
                     <small className="font-weight-bold">{dropdownValue}</small>
                   </DropdownToggle>
-                  <DropdownMenu>
+                  <DropdownMenu style={{ border: 'thin solid black !important;' }}>
                     <DropdownItem onClick={() => { setDropdownValue('HEALTHCARE') }}><small>HEALTHCARE</small></DropdownItem>
-                    <DropdownItem onClick={() => { setDropdownValue('BUILDING') }}><small>BUILDING</small></DropdownItem>
+                    <DropdownItem onClick={() => { setDropdownValue('BUILDING PRODUCTS') }}><small>BUILDING PRODUCTS</small></DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
               </FormGroup>
@@ -53,7 +47,7 @@ const CaseStudies = () => {
         </Row>
       </Container>
       {dropdownValue === 'HEALTHCARE' && <Healthcare />}
-      {dropdownValue === 'BUILDING' && <Building />}
+      {dropdownValue === 'BUILDING PRODUCTS' && <Building />}
       <CallToAction />
       <Footer />
     </React.Fragment>

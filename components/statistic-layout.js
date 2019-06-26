@@ -25,7 +25,7 @@ const StatisticLayout = (props) => {
                     <div className="d-inline-block">
                       <img
                         className="d-none d-sm-inline-block"
-                        style={{ width: 65 }}
+                        style={{ width: 65, marginRight: 15 }}
                         src={`/static/img/abstract/${stat.image}.svg`}
                         alt={`${stat.number} percent`}
                       />

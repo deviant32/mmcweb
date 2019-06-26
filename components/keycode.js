@@ -4,12 +4,13 @@ import {
 } from 'reactstrap';
 import axios from 'axios';
 
-import UserContext from '../../hooks/context';
+import { UserContext } from '.';
 
 
 function Keycode() {
 
   const [keycode, setKeycode] = useState('');
+  // eslint-disable-next-line no-unused-vars
   const [user, setUser] = useContext(UserContext);
 
   const handleKeyPress = (target) => {
