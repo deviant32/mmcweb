@@ -35,9 +35,9 @@ const Wrapper = (props) => {
   return (
     loading ? null
       : (
-        <div>
+        <React.Fragment>
           {children}
-        </div>
+        </React.Fragment>
       )
   )
 

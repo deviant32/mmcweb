@@ -9,11 +9,11 @@ const DynamicContent = (props) => {
   const { package_codes, children } = props;
 
   return (
-    <div>
+    <React.Fragment>
       {package_codes.some(r => user.PackageCode.split(',').indexOf(r) >= 0) && (
         children
       )}
-    </div>
+    </React.Fragment>
   )
 }
 export default DynamicContent;
