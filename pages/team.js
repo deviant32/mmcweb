@@ -16,7 +16,7 @@ const Team = () => {
         <title>Team</title>
       </Head>
       <Header />
-      <Container className="bg-full" style={{ height: 300 }} fluid />
+      <Container className="bg-team" style={{ height: 300 }} fluid />
       <TitleBlock
         eyebrow="The MMC Growth Team"
         title={(
@@ -37,7 +37,7 @@ const Team = () => {
       <Container className="p-0">
         <Row className="mx-auto text-center no-gutters">
           <Col md="4" className="mb-5 pr-2">
-            <img className="img-fluid mb-5" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
+            <img className="img-fluid mb-5" alt="Community & Values" src="/static/img/team/team.jpg" />
             <SubHeading className="text-primary">MMC Commuinity & Values</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Investing in our people goes beyond work, to investing in who we are
@@ -45,7 +45,7 @@ const Team = () => {
             <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Learn More</Button>
           </Col>
           <Col md="4" className="mb-5 pl-1 pr-1">
-            <img className="img-fluid mb-5" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
+            <img className="img-fluid mb-5" alt="Careers at MMC" src="/static/img/team/careers.jpg" />
             <SubHeading className="text-primary">Careers at MMC</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               From creative storytellers to deep data magicians, we&apos;re looking for great people to join the team, wherever you are.
@@ -58,7 +58,7 @@ const Team = () => {
             </Link>
           </Col>
           <Col md="4" className="mb-5 pl-2">
-            <img className="img-fluid mb-5" alt="dummy" src="https://dummyimage.com/350x350/000/fff" />
+            <img className="img-fluid mb-5" alt="Employee Tools" src="/static/img/team/tools.jpg" />
             <SubHeading className="text-primary">Employee Tools & Access</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Existing MMC employees can access information including training and onboarding resources, and other information here.

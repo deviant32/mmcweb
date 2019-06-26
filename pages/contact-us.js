@@ -71,7 +71,7 @@ const ContactUs = () => {
       </Head>
       <Header />
       <img style={{ position: 'absolute', right: 0, marginTop: 100, }} src="/static/img/abstract/circle.svg" alt="circle" />
-      <Container className="bg-full" style={{ height: 300 }} fluid />
+      <Container className="bg-contact" style={{ height: 300 }} fluid />
       <TitleBlock eyebrow="Get in touch with the MMC team" title="We&rsquo;d love to hear from you!">
         <p>
           Whether you&rsquo;re a prospective client looking for more information, a prospective employee looking for the perfect new career,

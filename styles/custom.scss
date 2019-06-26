@@ -56,6 +56,28 @@ body {
     background-size: cover;
 }
 
+.bg-case-studies {
+    background-image: url("/static/img/hero/case-studies.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-team {
+    background-image: url("/static/img/hero/team.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-contact {
+    background-image: url("/static/img/hero/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .bg-building {
     background-image: url("/static/img/backgrounds/building.jpg");
     background-position: center;
@@ -64,7 +86,7 @@ body {
 }
 
 .bg-home {
-    background-image: url("/static/img/backgrounds/home-header.jpg");
+    background-image: url("/static/img/hero/home.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -19,6 +19,7 @@ export default class MyDocument extends Document {
           <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
           <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
           <link rel="stylesheet" href="https://use.typekit.net/vfc3wum.css" />
+          <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico" />
           <script dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
