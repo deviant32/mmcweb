@@ -4,7 +4,6 @@ const routes = module.exports = nextRoutes()
 
 routes.add('blog', '/blog/:slug?')
 routes.add('growth-reinvented', '/growth-reinvented')
-routes.add('typography', '/typography')
 routes.add('resources', '/resources')
 routes.add('contact-us', '/contact-us')
 routes.add('thank-you', '/thank-you')
