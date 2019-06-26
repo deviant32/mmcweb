@@ -105,9 +105,15 @@ const ContactUs = () => {
                 <br />
                 <a href="mailto:info@mmcweb.com">Info@mmcweb.com</a>
               </p>
-              <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
-              <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
-              <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'linkedin-in']} />
+              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ModernMarketingConcepts/?rf=159596157429485">
+                <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mmclive?lang=en">
+                <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/modern-marketing-concepts">
+                <FontAwesomeIcon href="https://www.linkedin.com/company/modern-marketing-concepts" width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'linkedin-in']} />
+              </a>
             </div>
           </Col>
           <Col className="pl-0 pr-0" sm={12} md={7}>

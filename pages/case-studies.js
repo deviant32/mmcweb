@@ -19,7 +19,7 @@ const CaseStudies = () => {
       <Header />
       <img style={{ position: 'absolute', left: -50, marginTop: 250, }} src="/static/img/abstract/square-yellow.svg" alt="circle" />
       <Container className="bg-full" style={{ height: 300 }} fluid />
-      <TitleBlock eyebrow="Case Studies" title="Our work">
+      <TitleBlock eyebrow="Case Studies" title="Our Work">
         <p>
           Across Industries our platform accelerates growth at an
           average of 20% Year-over-year, turning the under-performing

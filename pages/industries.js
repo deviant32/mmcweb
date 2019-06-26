@@ -66,7 +66,7 @@ const Industries = () => {
             </Col>
             <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
               <h4 style={{ height: 20 }}>
-                2.5+ billion in
+                2+ billion in
                 <br />
                 revenue
               </h4>

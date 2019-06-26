@@ -259,7 +259,7 @@ const Capabilities = () => {
                 maximize desired business outcomes.
               </p>
               <ul>
-                <li>Predicting sales pipeline valuer</li>
+                <li>Predicting sales pipeline value</li>
                 <li>optimal resource sales planning</li>
                 <li>marketing revenue attribution</li>
                 <li>ideal marketing program mixes</li>
