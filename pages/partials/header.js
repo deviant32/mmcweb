@@ -25,7 +25,9 @@ function Header() {
       <Container className="mt-0">
         <NavbarBrand style={{ cursor: 'pointer' }}>
           <Link href="/">
-            <img src="/static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
+            <a>
+              <img src="/static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
+            </a>
           </Link>
         </NavbarBrand>
         <NavbarToggler onClick={() => setCollapsed(!collapsed)} />

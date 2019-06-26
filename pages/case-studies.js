@@ -9,7 +9,7 @@ import { CallToAction, TitleBlock } from '../components';
 const CaseStudies = () => {
 
   const [dropdownState, setDropdownState] = useState(false);
-  const [dropdownValue, setDropdownValue] = useState('HEALTHCARE');
+  const [dropdownValue, setDropdownValue] = useState('BUILDING PRODUCTS');
 
   return (
     <React.Fragment>

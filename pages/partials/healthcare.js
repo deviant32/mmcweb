@@ -33,26 +33,7 @@ const Healthcare = () => {
           </p>
         </Col>
       </Row>
-      <Row className="mt-5">
-        <Col>
-          <img src="https://dummyimage.com/540x350/000/fff" alt="Company" />
-          <CategoryTag category="category tag" />
-          <SubHeading className="text-primary">Excepteur occaecat cupidatat</SubHeading>
-          <p style={{ maxWidth: 375 }} className="mx-auto">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
-        </Col>
-        <Col>
-          <div>
-            <img src="https://dummyimage.com/540x350/000/fff" alt="Company" />
-            <CategoryTag category="category tag" />
-            <SubHeading className="text-primary">Excepteur occaecat cupidatat</SubHeading>
-            <p style={{ maxWidth: 375 }} className="mx-auto">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-          </div>
-        </Col>
-      </Row>
+
     </Container>
   )
 }

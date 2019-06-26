@@ -44,14 +44,16 @@ const HomePage = () => {
                 light.
               </h1>
               <Link href="/growth-reinvented">
-                <Button
-                  className="mt-4 rounded-0 text-uppercase font-weight-normal pl-5 pr-5 mb-5"
-                  size="md"
-                  outline
-                  color="warning"
-                >
-                  Learn More
-                </Button>
+                <a>
+                  <Button
+                    className="mt-4 rounded-0 text-uppercase font-weight-normal pl-5 pr-5 mb-5"
+                    size="md"
+                    outline
+                    color="warning"
+                  >
+                    Learn More
+                  </Button>
+                </a>
               </Link>
             </Col>
             <Col xs="12" sm="12" md="12" lg="6" className="bg-home mr-0 order-1 order-lg-2" style={{ minHeight: 370 }}>
@@ -106,7 +108,9 @@ const HomePage = () => {
                 We grow 87% of your accounts that are hardest to reach.
               </p>
               <Link href="/growth-reinvented">
-                <Button outline color="warning">This is Growth, Reinvented</Button>
+                <a>
+                  <Button outline color="warning">This is Growth, Reinvented</Button>
+                </a>
               </Link>
             </Col>
             <Col xs={12} md={4} className="mb-5">
@@ -120,7 +124,9 @@ const HomePage = () => {
                 See how we reinvent growth for our clients every day.
               </p>
               <Link href="/case-studies">
-                <Button outline color="warning">Our case studies</Button>
+                <a>
+                  <Button outline color="warning">Our case studies</Button>
+                </a>
               </Link>
             </Col>
             <Col xs={12} md={4} className="mb-5">
@@ -134,7 +140,9 @@ const HomePage = () => {
                 We are Bold.  We are Bright.  We are Open.
               </p>
               <Link href="/team">
-                <Button outline color="warning">Meet the team</Button>
+                <a>
+                  <Button outline color="warning">Meet the team</Button>
+                </a>
               </Link>
             </Col>
           </Row>

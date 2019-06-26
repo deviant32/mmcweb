@@ -15,7 +15,7 @@ const CallToAction = () => {
             <h4 className="font-weight-bold">Talk with our team today!</h4>
             <p className="font-weight-normal">
               We know any model is only as good as it&apos;s results, and we&apos;re eager to show you ours.
-              Across industries our platform accelerates growth at an average of 20% year-over-year.
+              Across industries, our platform accelerates growth at an average of 20% year-over-year.
             </p>
             <Link href="/contact-us">
               <a>
