@@ -33,7 +33,6 @@ const Healthcare = () => {
           </p>
         </Col>
       </Row>
-
     </Container>
   )
 }
