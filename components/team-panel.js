@@ -66,6 +66,7 @@ const TeamPanel = (props) => {
   }
 
   // preload a shuffled array for initial state
+  // eslint-disable-next-line no-unused-vars
   const [shuffledArr, setShuffledArray] = useState(shuffleArray());
 
 
