@@ -164,50 +164,33 @@ const HomePage = () => {
         <div className="slider mb-5 mt-5">
           <div className="slide-track">
             <div className="slide">
-              <img src="static/img/clients/Amana.jpg" alt="" />
+              <img src="static/img/clients/big-box.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/BMC.jpg" alt="" />
+              <img src="static/img/clients/building-materials.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/Goodman.jpg" alt="" />
+              <img src="static/img/clients/health.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/KCI.jpg" alt="" />
+              <img src="static/img/clients/hvac.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/Lowes.jpg" alt="" />
+              <img src="static/img/clients/medical-devices.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/Perrigo.jpg" alt="" />
+              <img src="static/img/clients/pharma.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/Quest.jpg" alt="" />
+              <img src="static/img/clients/plumbing.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/Valeritas.jpg" alt="" />
+              <img src="static/img/clients/roofing.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/Salix.jpg" alt="" />
+              <img src="static/img/clients/wound-care.svg" width="150" alt="" />
             </div>
-            <div className="slide">
-              <img src="static/img/clients/Ferguson.jpg" alt="" />
-            </div>
-            <div className="slide">
-              <img src="static/img/clients/Hayward.jpg" alt="" />
-            </div>
-            <div className="slide">
-              <img src="static/img/clients/Kaleo.jpg" alt="" />
-            </div>
-            <div className="slide">
-              <img src="static/img/clients/SSB.jpg" alt="" />
-            </div>
-            <div className="slide">
-              <img src="static/img/clients/Ascensia.jpg" alt="" />
-            </div>
-            <div className="slide">
-              <img src="static/img/clients/GAF.jpg" alt="" />
-            </div>
+
           </div>
         </div>
         <Link href="/capabilities">
