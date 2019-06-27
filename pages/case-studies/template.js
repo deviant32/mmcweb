@@ -20,7 +20,6 @@ const Template = (props) => {
     results
   } = props;
 
-  console.log(stats);
 
   return (
     <React.Fragment>
@@ -43,11 +42,6 @@ const Template = (props) => {
         <Title className="text-primary">
           {headline}
         </Title>
-        <div style={{ maxWidth: 650 }} className="mx-auto">
-          <p>
-            {challenge}
-          </p>
-        </div>
       </Container>
       <Container className="text-center mt-5 mb-5">
         <SubHeading
