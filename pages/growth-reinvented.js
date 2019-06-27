@@ -118,8 +118,7 @@ const GrowthReinventedPage = () => {
                       We&rsquo;re building customer relationships that are designed to thrive in the new era of business.
                     </SubHeading>
                     <p className="mb-1">
-                      Traditional sales models deliver diminishing returns, while inside sales is growing 300% faster
-                      than outside sales. MMC is the secret weapon you’ve never heard of, a growth accelerator that
+                      MMC is the secret weapon you’ve never heard of, a growth accelerator that
                       turns untapped potential into sustainable, authentic growth.
                     </p>
                     <img src="/static/img/abstract/down-triangle.svg" alt="down" />

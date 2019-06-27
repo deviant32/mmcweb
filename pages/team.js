@@ -36,7 +36,7 @@ const Team = () => {
       </TitleBlock>
       <Container className="p-0">
         <Row className="mx-auto text-center no-gutters">
-          <Col md="4" className="mb-5 pr-2">
+          <Col md="6" className="mb-5 pr-2">
             <img className="img-fluid mb-5" alt="Community & Values" src="/static/img/team/team.jpg" />
             <SubHeading className="text-primary">MMC Commuinity & Values</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
@@ -44,7 +44,7 @@ const Team = () => {
             </p>
             <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Learn More</Button>
           </Col>
-          <Col md="4" className="mb-5 pl-1 pr-1">
+          <Col md="6" className="mb-5 pl-1 pr-1">
             <img className="img-fluid mb-5" alt="Careers at MMC" src="/static/img/team/careers.jpg" />
             <SubHeading className="text-primary">Careers at MMC</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
@@ -57,7 +57,7 @@ const Team = () => {
               </a>
             </Link>
           </Col>
-          <Col md="4" className="mb-5 pl-2">
+          {/*  <Col md="4" className="mb-5 pl-2">
             <img className="img-fluid mb-5" alt="Employee Tools" src="/static/img/team/tools.jpg" />
             <SubHeading className="text-primary">Employee Tools & Access</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
@@ -70,7 +70,7 @@ const Team = () => {
             </Link>
             <br />
             <small>(Employee Sign-in Required)</small>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
       <Container className="text-center pb-5 mb-5 mt-5">

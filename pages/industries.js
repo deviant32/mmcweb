@@ -91,67 +91,10 @@ const Industries = () => {
           </Link>
         </Container>
       </Container>
-      <Container className="text-center pb-5 pt-5">
-        <Title className="text-primary">
-          MMC Growth Clients
-        </Title>
-        <p>
-          Here are a few companies who are reinventing growth with MMC.
-        </p>
-        <Row className="pt-5 mb-5">
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Amana.jpg" alt="Amana" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Ascensia.jpg" alt="Ascensia" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/BMC.jpg" alt="BMC" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Ferguson.jpg" alt="Ferguson" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/GAF.jpg" alt="GAF" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Goodman.jpg" alt="Goodman" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Hayward.jpg" alt="Hayward" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Kaleo.jpg" alt="Kaleo" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/KCI.jpg" alt="KCI" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Lowes.jpg" alt="Lowes" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Perrigo.jpg" alt="Perrigo" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Quest.jpg" alt="Quest" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Salix.jpg" alt="Salix" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/SSB.jpg" alt="SSB" />
-          </Col>
-          <Col className="mb-4 img-fluid">
-            <img src="/static/img/clients/Valeritas.jpg" alt="Valeritas" />
-          </Col>
-        </Row>
-      </Container>
-
       <Container className="text-center pb-5 mb-5">
         <Title className="text-primary pb-4">Our Industry Experts</Title>
         <TeamPanel size={12} />
       </Container>
-
       <CallToAction />
       <Footer />
     </React.Fragment>
