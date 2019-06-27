@@ -23,7 +23,7 @@ routes.add('/case-studies/building-products/distributor', '/case-studies/buildin
 routes.add('/case-studies/building-products/big-box-retailer', '/case-studies/building-products/big-box-retailer');
 
 // healthcare
-routes.add('/case-studies/healthcare/diagnostics', '/case-studies/healthcare-diagnostics');
-routes.add('/case-studies/healthcare/pharmaceutical', '/case-studies/pharmaceutical');
-routes.add('/case-studies/healthcare/wound', '/case-studies/wound');
+routes.add('/case-studies/healthcare/diagnostics', '/case-studies/healthcare/diagnostics');
+routes.add('/case-studies/healthcare/pharmaceutical', '/case-studies/healthcare/pharmaceutical');
+routes.add('/case-studies/healthcare/wound', '/case-studies/healthcare/wound');
 
