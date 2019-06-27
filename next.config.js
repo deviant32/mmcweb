@@ -35,6 +35,13 @@ module.exports = withSass({
       '/capabilities': { page: '/capabilities' },
       '/community': { page: '/community' },
       '/case-studies/building-products/hvac': { page: '/case-studies/building-products/hvac' },
+      '/case-studies/building-products/hvac-res': { page: '/case-studies/building-products/hvac-res' },
+      '/case-studies/building-products/roofing': { page: '/case-studies/building-products/roofing' },
+      '/case-studies/building-products/distributor': { page: '/case-studies/building-products/distributor' },
+      '/case-studies/building-products/big-box-retailer': { page: '/case-studies/building-products/big-box-retailer' },
+      '/case-studies/healthcare/diagnostics': { page: '/case-studies/healthcare/diagnostics' },
+      '/case-studies/healthcare/pharmaceutical': { page: '/case-studies/healthcare/pharmaceutical' },
+      '/case-studies/healthcare/wound': { page: '/case-studies/healthcare/wound' },
     }
   }
 })

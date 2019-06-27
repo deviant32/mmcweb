@@ -14,13 +14,13 @@ const Template = (props) => {
     companyType,
     sizeAudience,
     targetAudience,
-    stat1,
-    stat2,
-    stat3,
+    stats,
     challenge,
     solution,
     results
   } = props;
+
+  console.log(stats);
 
   return (
     <React.Fragment>
@@ -80,33 +80,21 @@ const Template = (props) => {
         </SubHeading>
 
         <Row className="pt-4 pb-4 border-bottom border-info">
-          <Col xs="12" sm="4" className="res-border-right">
-            <span
-              className="align-middle eyebrow font-weight-normal text-primary"
-              style={{ fontSize: '6rem' }}
-            >
-              {stat1.number}
-            </span>
-            <p>{stat1.text}</p>
-          </Col>
-          <Col xs="12" sm="4" className="res-border-right">
-            <span
-              className="align-middle eyebrow font-weight-normal text-primary"
-              style={{ fontSize: '6rem' }}
-            >
-              {stat2.number}
-            </span>
-            <p>{stat2.text}</p>
-          </Col>
-          <Col xs="12" sm="4">
-            <span
-              className="align-middle eyebrow font-weight-normal text-primary"
-              style={{ fontSize: '6rem' }}
-            >
-              {stat3.number}
-            </span>
-            <p>{stat3.text}</p>
-          </Col>
+          {stats.map((stat, index) => {
+            var width = 12 / stats.length;
+            return (
+              <Col xs="12" sm={width} className={(index !== stats.length - 1) ? 'res-border-right' : ''}>
+                <span
+                  className="align-middle eyebrow font-weight-normal text-primary"
+                  style={{ fontSize: '6rem' }}
+                >
+                  {stat.number}
+                </span>
+                <p>{stat.text}</p>
+              </Col>
+            )
+          })}
+
         </Row>
 
         <br />
