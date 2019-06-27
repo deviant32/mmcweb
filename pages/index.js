@@ -202,7 +202,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <Link href="/capibilities">
+        <Link href="/capabilities">
           <a className="text-secondary"><u>Let us show you what we can do for you.</u></a>
         </Link>
       </Container>
