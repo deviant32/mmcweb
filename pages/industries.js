@@ -92,7 +92,7 @@ const Industries = () => {
         </Container>
       </Container>
       <Container className="text-center pb-5 mb-5">
-        <Title className="text-primary pb-4">Our Industry Experts</Title>
+        <Title className="text-primary pb-4 pt-5">Our Industry Experts</Title>
         <TeamPanel size={12} />
       </Container>
       <CallToAction />
