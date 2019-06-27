@@ -66,7 +66,15 @@ const ContactUs = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Contact Us</title>
+        <title>Contact Us | Modern Marketing & Commerce: MMC</title>
+        <meta
+          name="description"
+          content="Whether you’re a prospective client, a future team member, or just want to learn more about what we do, we’d love to hear from you!"
+        />
+        <meta
+          name="robots"
+          content="index,follow"
+        />
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
       </Head>
       <Header />

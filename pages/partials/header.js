@@ -60,7 +60,7 @@ function Header() {
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
-            <NavLink href="" className="mr-4 h-100 my-auto text-uppercase">
+            <NavLink className="mr-4 h-100 my-auto text-uppercase">
               <Link href="/case-studies">
                 <a>Case Studies</a>
               </Link>

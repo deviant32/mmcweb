@@ -28,7 +28,15 @@ const GrowthReinventedPage = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>MMC Web</title>
+        <title>Marketing & Sales Growth Experts | Modern Marketing & Commerce: MMC</title>
+        <meta
+          name="description"
+          content="Traditional sales models deliver diminishing returns, but MMC turns untapped potential into sustainable growth. Request a demo today!"
+        />
+        <meta
+          name="robots"
+          content="index,follow"
+        />
       </Head>
       <Header />
       <ReactFullpage

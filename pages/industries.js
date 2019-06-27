@@ -13,7 +13,15 @@ const Industries = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Our Industries</title>
+        <title>Building Products, Healthcare, & More | Modern Marketing & Commerce: MMC</title>
+        <meta
+          name="description"
+          content="From building products to healthcare sales, we inhabit your brand, seamlessly integrating until you won't know your team from ours."
+        />
+        <meta
+          name="robots"
+          content="index,follow"
+        />
       </Head>
       <Header />
       <Container className="text-center bg-info p-5 mt-5 mb-5">

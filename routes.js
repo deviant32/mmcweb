@@ -13,3 +13,6 @@ routes.add('industries', '/industries');
 routes.add('capabilities', '/capabilities');
 routes.add('community', '/community');
 
+// case studies
+routes.add('community', '/case-studies/building-products/hvac');
+

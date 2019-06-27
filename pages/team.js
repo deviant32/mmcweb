@@ -13,7 +13,15 @@ const Team = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Team</title>
+        <title>MMC Team, Community, & Values | Modern Marketing & Commerce: MMC</title>
+        <meta
+          name="description"
+          content="See how MMC is reinventing the way we work together every day, focusing on what matters & removing anything that stands in the way."
+        />
+        <meta
+          name="robots"
+          content="index,follow"
+        />
       </Head>
       <Header />
       <Container className="bg-team" style={{ height: 300 }} fluid />

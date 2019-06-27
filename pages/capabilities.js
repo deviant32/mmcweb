@@ -11,7 +11,15 @@ const Capabilities = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Our Capabilities</title>
+        <title>Turning Data Into Measureable Results | Modern Marketing & Commerce: MMC</title>
+        <meta
+          name="description"
+          content="We transform customer insights into measurable results. Learn how our Connected Intelligence platform can accelerate sales growth for you."
+        />
+        <meta
+          name="robots"
+          content="index,follow"
+        />
       </Head>
       <Header />
       <Container className="text-center bg-info p-5 mt-4 position-relative" style={{ bottom: -50, zIndex: 100 }}>

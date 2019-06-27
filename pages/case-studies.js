@@ -14,7 +14,15 @@ const CaseStudies = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Case Studies</title>
+        <title>Marketing & Sales Growth Case Studies | Modern Marketing & Commerce: MMC</title>
+        <meta
+          name="description"
+          content="See how we accelerate growth at an average of 20% year-over-year, turning the under-performing end of your client list into the top line."
+        />
+        <meta
+          name="robots"
+          content="index,follow"
+        />
       </Head>
       <Header />
       <img style={{ position: 'absolute', left: -50, marginTop: 250, }} src="/static/img/abstract/square-yellow.svg" alt="circle" />

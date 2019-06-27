@@ -34,6 +34,7 @@ module.exports = withSass({
       '/industries': { page: '/industries' },
       '/capabilities': { page: '/capabilities' },
       '/community': { page: '/community' },
+      '/case-studies/building-products/hvac': { page: '/case-studies/building-products/hvac' },
     }
   }
 })
