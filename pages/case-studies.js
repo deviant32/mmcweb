@@ -48,7 +48,7 @@ const CaseStudies = () => {
       </Container>
       {dropdownValue === 'HEALTHCARE' && <Healthcare />}
       {dropdownValue === 'BUILDING PRODUCTS' && <Building />}
-      <CallToAction />
+      <CallToAction headline="Are you a maverick?" body="When the rules have completely changed, the key to getting ahead is to challenge convention." />
       <Footer />
     </React.Fragment>
   );

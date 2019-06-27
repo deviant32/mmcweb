@@ -95,7 +95,7 @@ const Industries = () => {
         <Title className="text-primary pb-4 pt-5">Our Industry Experts</Title>
         <TeamPanel size={12} />
       </Container>
-      <CallToAction />
+      <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions your unique business and goals." />
       <Footer />
     </React.Fragment>
   );

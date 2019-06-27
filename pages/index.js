@@ -13,7 +13,15 @@ const HomePage = () => {
   return (
     <React.Fragment>
       <Head>
-        <title>Home Page Title!</title>
+        <title>Modern Marketing & Commerce | MMC Is Growth, Reinvented</title>
+        <meta
+          name="description"
+          content="For over 30 years we've helped industry leaders reinvent their approach to growth. Request a demo & find out what MMC can do for you."
+        />
+        <meta
+          name="robots"
+          content="index,follow"
+        />
       </Head>
       <Header />
       <img
@@ -237,7 +245,7 @@ const HomePage = () => {
         </Container>
       </Container>
       <Quote />
-      <CallToAction />
+      <CallToAction headline="Become a growth partner!" body="We act as a true team throughout the sales process, celebrating success as one." />
       <Footer />
     </React.Fragment>
   )

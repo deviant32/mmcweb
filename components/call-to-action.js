@@ -6,16 +6,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 
 
-const CallToAction = () => {
+const CallToAction = (props) => {
+  const { headline, body } = props;
   return (
     <Container className="bg-success text-white" fluid>
       <Container>
         <Row style={{ minHeight: 250 }}>
           <Col className="text-center pt-5 pb-5" md="7">
-            <h4 className="font-weight-bold">Talk with our team today!</h4>
+            <h4 className="font-weight-bold">{headline}</h4>
             <p className="font-weight-normal">
-              We know any model is only as good as it&apos;s results, and we&apos;re eager to show you ours.
-              Across industries, our platform accelerates growth at an average of 20% year-over-year.
+              {body}
             </p>
             <Link href="/contact-us">
               <a>

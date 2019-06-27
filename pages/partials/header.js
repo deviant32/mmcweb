@@ -5,7 +5,7 @@ import {
   Navbar,
   NavbarToggler,
   Collapse,
-  NavItem,
+  NavLink,
   Nav,
   Dropdown,
   DropdownToggle,
@@ -60,21 +60,21 @@ function Header() {
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
-            <NavItem className="mr-4 h-100 my-auto text-uppercase">
+            <NavLink href="" className="mr-4 h-100 my-auto text-uppercase">
               <Link href="/case-studies">
                 <a>Case Studies</a>
               </Link>
-            </NavItem>
-            <NavItem className="mr-4 h-100 my-auto text-uppercase">
+            </NavLink>
+            <NavLink className="mr-4 h-100 my-auto text-uppercase">
               <Link href="/team">
                 <a>Team</a>
               </Link>
-            </NavItem>
-            <NavItem className="mr-0 h-100 my-auto text-uppercase">
+            </NavLink>
+            <NavLink className="mr-0 h-100 my-auto text-uppercase">
               <Link href="/contact-us">
                 <a>Contact Us</a>
               </Link>
-            </NavItem>
+            </NavLink>
           </Nav>
         </Collapse>
       </Container>

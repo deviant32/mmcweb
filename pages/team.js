@@ -42,7 +42,11 @@ const Team = () => {
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Investing in our people goes beyond work, to investing in who we are
             </p>
-            <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Learn More</Button>
+            <Link href="/community">
+              <a>
+                <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Learn More</Button>
+              </a>
+            </Link>
           </Col>
           <Col md="6" className="mb-5 pl-1 pr-1">
             <img className="img-fluid mb-5" alt="Careers at MMC" src="/static/img/team/careers.jpg" />
@@ -78,7 +82,7 @@ const Team = () => {
         <TeamPanel size={12} />
       </Container>
       <Quote />
-      <CallToAction />
+      <CallToAction headline="Join our growth team!" body="We are lifelong learners, equipping one another with the tools and resources to continuously grow." />
       <Footer />
     </React.Fragment>
   );

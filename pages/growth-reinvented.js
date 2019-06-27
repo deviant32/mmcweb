@@ -174,7 +174,7 @@ const GrowthReinventedPage = () => {
                   </Row>
                 </Container>
               </Container>
-              <CallToAction />
+              <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions your unique business and goals." />
               <Footer />
             </div>
           </ReactFullpage.Wrapper>

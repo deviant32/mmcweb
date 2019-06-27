@@ -115,12 +115,6 @@ body {
     background: url("/static/img/abstract/large-blue-circle.svg") bottom center no-repeat, url("/static/img/abstract/center-circle-dots.svg") top center no-repeat;
 }
 
-.nav-item {
-    font-size: .9rem;
-    letter-spacing: 1px;
-    font-weight: bold;
-}
-
 .footer-copyright {
     font-size: .7rem;
 }
@@ -143,6 +137,10 @@ body {
         border-right: none !important;
     }
 
+    .res-border-right-light {
+        border-right: none !important;
+    }
+
 }
 
 @include media-breakpoint-up(sm) {
@@ -156,6 +154,10 @@ body {
 
     .res-border-right {
         border-right: none !important;
+    }
+
+    .res-border-right-light {
+        border-right: thin solid rgba(255, 255, 255, .2) !important;
     }
 
 }
@@ -173,6 +175,9 @@ body {
         border-right: thin solid rgba(38, 38, 38, .25) !important;
     }
 
+    .res-border-right-light {
+        border-right: thin solid rgba(255, 255, 255, .2) !important;
+    }
 }
 
 @include media-breakpoint-up(lg) {
@@ -187,6 +192,10 @@ body {
     .res-border-right {
         border-right: thin solid rgba(38, 38, 38, .25) !important;
     }
+
+    .res-border-right-light {
+        border-right: thin solid rgba(255, 255, 255, .2) !important;
+    }
 }
 
 
@@ -199,11 +208,19 @@ body {
     margin-top: 0px !important; // fixes closing on slow mouse transition
 }
 
-.nav-item {
+.nav-link {
     margin: 0;
     padding: 8px;
-    font-size: 1rem;
     border-top: thin solid transparent;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    margin-bottom: 0px;
+    background-color: rgba(38, 38, 38, 0.85) !important;
+    border-top: thin solid black;
 }
 
 .nav-item:hover {
@@ -245,6 +262,10 @@ body {
 
 .dropdown-menu .dropdown-item:hover {
     text-decoration: underline;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    cursor: pointer;
 }
 
 
