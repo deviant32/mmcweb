@@ -5,7 +5,7 @@ const HvacRes = () => {
   return (
     <Template
       tagline="Channel 80/20"
-      headline="Managing and Growing Underserved Accounts."
+      headline="Managing and Growing Underserved Accounts"
       companyType="HVAC Manufacturer"
       targetAudience="Underserved Residential HVAC Contractors"
       sizeAudience="50,000 contactors"

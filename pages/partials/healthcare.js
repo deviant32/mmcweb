@@ -19,7 +19,7 @@ const Healthcare = () => {
             <a className="text-primary" href="/case-studies/healthcare/wound">
               Customer Satisfaction
               <br />
-              at a Lower Cost.
+              at a Lower Cost
             </a>
           </SubHeading>
           <p>
@@ -35,7 +35,7 @@ const Healthcare = () => {
             <a className="text-primary" href="/case-studies/healthcare/pharmaceutical">
               Reaching Uncovered
               <br />
-              Prescribers.
+              Prescribers
             </a>
           </SubHeading>
           <p>
@@ -49,7 +49,7 @@ const Healthcare = () => {
           <CategoryTag category="Diagnostics" />
           <SubHeading className="text-primary mt-0">
             <a className="text-primary" href="/case-studies/healthcare/diagnostics">
-              The Power of Multichannel Marketing.
+              The Power of Multichannel Marketing
             </a>
           </SubHeading>
           <p>

@@ -5,7 +5,7 @@ const Roofing = () => {
   return (
     <Template
       tagline="Channel Reach"
-      headline="Engaging Downstream Contractors."
+      headline="Engaging Downstream Contractors"
       companyType="Roofing Manufacturer"
       targetAudience="Small to medium Roofing Contractors"
       sizeAudience="18,000 Roofing Contractors"

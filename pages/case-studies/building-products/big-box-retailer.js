@@ -5,7 +5,7 @@ const BigBoxRetailer = () => {
   return (
     <Template
       tagline="Channel 80/20"
-      headline="Retail Sales Growth from Actionable Data."
+      headline="Retail Sales Growth from Actionable Data"
       companyType="Big Box Retailer"
       targetAudience="B2B Customers"
       sizeAudience="60,000 B2B Customers"

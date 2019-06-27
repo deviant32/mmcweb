@@ -50,14 +50,13 @@ const Capabilities = () => {
           <SubHeading className="text-primary">
             Our 80/20 Channel is the foundation for our model.  It&apos;s how we create growth from overlooked customer segments.
           </SubHeading>
-          <p className="mt-5 pb-5">
+          <p className="mt-5 pb-4">
             Using several core technologies, MMC challenges the traditional 80/20 paradigm.
             We identify opportunities to engage the bottom 80% of our clients’ customers,
             transforming them from declining revenue sources to new drivers of growth.
             No investment in technology or platforms, and no hiring or training required.
             Let us create a custom demo for your organization and show you what Channel 80/20 can do for your business.
           </p>
-          <Button color="secondary" className="text-uppercase" outline>Request a demo</Button>
         </div>
       </Container>
       <Container fluid className="bg-info pt-5 pb-5">

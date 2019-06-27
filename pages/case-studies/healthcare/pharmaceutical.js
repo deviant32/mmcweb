@@ -5,7 +5,7 @@ const Pharmaceutical = () => {
   return (
     <Template
       tagline="Stopping market erosion"
-      headline="Reaching Uncovered Prescribers."
+      headline="Reaching Uncovered Prescribers"
       companyType="Pharmaceutical"
       targetAudience="Primary Care Physicians"
       sizeAudience="43,000 Healthcare Professionals"

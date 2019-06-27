@@ -15,7 +15,7 @@ const Building = () => {
           <CategoryTag category="Bog Box Retailer" />
           <SubHeading className="text-primary">
             <a className="text-primary" href="/case-studies/building-products/big-box-retailer">
-              Retail Sales Growth from Actionable Data.
+              Retail Sales Growth from Actionable Data
             </a>
           </SubHeading>
           <p>
@@ -29,7 +29,7 @@ const Building = () => {
           <CategoryTag category="HVAC Manufacturer" />
           <SubHeading className="text-primary">
             <a className="text-primary" href="/case-studies/building-products/hvac-res">
-              Managing and Growing Underserved Accounts.
+              Managing and Growing Underserved Accounts
             </a>
           </SubHeading>
           <p>
@@ -43,7 +43,7 @@ const Building = () => {
           <CategoryTag category="Roofing Manufacturer" />
           <SubHeading className="text-primary mt-0">
             <a className="text-primary" href="/case-studies/building-products/roofing">
-              Engaging Downstream Contractors.
+              Engaging Downstream Contractors
             </a>
           </SubHeading>
           <p>
@@ -59,7 +59,7 @@ const Building = () => {
           <CategoryTag category="Distributor" />
           <SubHeading className="text-primary">
             <a className="text-primary" href="/case-studies/building-products/distributor">
-              Co-op funds used effectively.
+              Co-op funds used effectively
             </a>
           </SubHeading>
           <p style={{ maxWidth: 375 }} className="mx-auto">
@@ -74,7 +74,7 @@ const Building = () => {
             <CategoryTag category="HVAC Manufacturer" />
             <SubHeading className="text-primary">
               <a className="text-primary" href="/case-studies/building-products/hvac">
-                Implementing a supplemental channel to allow a better customer experience.
+                Implementing a supplemental channel to allow a better customer experience
               </a>
             </SubHeading>
             <p style={{ maxWidth: 375 }} className="mx-auto">

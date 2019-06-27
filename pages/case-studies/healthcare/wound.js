@@ -5,7 +5,7 @@ const Wound = () => {
   return (
     <Template
       tagline="Virtual In-Servicing"
-      headline="Customer Satisfaction at a Lower Cost."
+      headline="Customer Satisfaction at a Lower Cost"
       companyType="Advanced Wound Care"
       targetAudience="Hospitals, Skilled Nursing Facilities"
       sizeAudience="6,000 Healthcare Professionals"

@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 
 import { Header, Footer } from '../partials';
-import { CallToAction, CollapseList, Title, SubHeading, Eyebrow, TeamPanel } from '../../components';
+import { CallToAction, Title, SubHeading, Eyebrow } from '../../components';
 
 
 const Template = (props) => {
