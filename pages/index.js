@@ -159,7 +159,7 @@ const HomePage = () => {
       </Jumbotron>
       <Container className="text-center text-primary bg-white pt-5 pb-5">
         <Title>
-          You&apos;ll be in good company.
+          Reinventing growth in...
         </Title>
         <div className="slider mb-5 mt-5">
           <div className="slide-track">

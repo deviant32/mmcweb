@@ -12,7 +12,7 @@ const Building = () => {
           <a className="text-primary" href="/case-studies/building-products/big-box-retailer">
             <img src="/static/img/case-studies/bigbox.jpg" className="img-fluid" alt="Big Box" />
           </a>
-          <CategoryTag category="Bog Box Retailer" />
+          <CategoryTag category="Big Box Retailer" />
           <SubHeading className="text-primary">
             <a className="text-primary" href="/case-studies/building-products/big-box-retailer">
               Retail Sales Growth from Actionable Data

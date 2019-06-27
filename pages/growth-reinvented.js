@@ -134,10 +134,6 @@ const GrowthReinventedPage = () => {
                       We pave the path to transformative growth for maverick business leaders who want to lead on the front lines of
                       change and put the customer at the center of their business.
                     </SubHeading>
-                    <p>
-                      MMC challenges the conventional sales approach to grow the 87% of customer relationships that businesses leave untapped.
-                      Armed with an advanced analytics platform, we work as an extension of your inside sales team to target new customers and increase your bottom line.
-                    </p>
                   </div>
                 </Container>
               </Container>
@@ -182,7 +178,7 @@ const GrowthReinventedPage = () => {
                   </Row>
                 </Container>
               </Container>
-              <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions your unique business and goals." />
+              <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions for your unique business and goals." />
               <Footer />
             </div>
           </ReactFullpage.Wrapper>

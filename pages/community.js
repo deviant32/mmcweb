@@ -2,7 +2,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
-import Link from 'next/link';
 
 import { Header, Footer } from './partials';
 import { CallToAction, Title, SubHeading, Eyebrow } from '../components';
@@ -25,9 +24,6 @@ const Community = () => {
           in your future
         </Title>
         <div style={{ maxWidth: 650 }} className="mx-auto">
-          <SubHeading className="text-primary">
-            Our connected intelligence framework is designed to transform inside sales by translating customer insights into measurable results.
-          </SubHeading>
           <p>
             We recognize that the entire idea of work is being reinvented before our eyes.  Success isn&apos;t determined by office hours
             or utilization reports; it&apos;s in the faces of our clients when they see our results.  MMC is committed to finding great people,
@@ -44,7 +40,7 @@ const Community = () => {
                 className="text-primary pt-5"
                 style={{ borderTop: '1px solid rgba(255, 255, 255, .2)' }}
               >
-                The MMC core values
+                The MMC Core Values
               </Title>
               <SubHeading className="text-white pb-5" style={{ borderBottom: '1px solid rgba(255, 255, 255, .2)' }}>
                 More than just words on a wall, these are the guiding principles
@@ -61,7 +57,7 @@ const Community = () => {
               </Title>
               <p className="text-white mx-auto" style={{ maxWidth: 360 }}>
                 We work with transparency and honesty across our disciplines to align on shared
-                objectives and solve problems with a 360 degree perspective. We acknowledge and
+                objectives and solve problems with a 360-degree perspective. We acknowledge and
                 respect the value that each individual brings to the whole. Together, we become more than the sum of our parts.
               </p>
             </Col>
@@ -107,7 +103,7 @@ const Community = () => {
         <Container className="pb-3 pt-3">
           <Row className="row-border-top pt-4 pb-5">
             <Col>
-              <Title className="text-center mx-auto pt-4">MMC personality</Title>
+              <Title className="text-center mx-auto pt-4">MMC Personality</Title>
               <p className="text-secondary mx-auto mt-4" style={{ maxWidth: 600 }}>
                 Our personality attributes are the key drivers of the MMC community.  They are our essence and influence all the ways we
                 communicate and present our promise to our customers and the world.
@@ -129,7 +125,7 @@ const Community = () => {
                 Bright
               </h4>
               <p className="text-secondary pt-2 pb-0">
-                We&apos;re insightfully optimistic and we take every oppurtunity to illuminate and enlighten.
+                We&apos;re insightfully optimistic and we take every opportunity to illuminate and enlighten.
               </p>
             </Col>
             <Col xs={12} md={4} className="pb-0">

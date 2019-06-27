@@ -124,7 +124,7 @@ const Template = (props) => {
           </Col>
         </Row>
       </Container>
-      <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions your unique business and goals." />
+      <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions for your unique business and goals." />
       <Footer />
     </React.Fragment>
   );
