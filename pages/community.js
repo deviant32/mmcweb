@@ -56,44 +56,39 @@ const Community = () => {
                 Trust in teams
               </Title>
               <p className="text-white mx-auto" style={{ maxWidth: 360 }}>
-                We work with transparency and honesty across our disciplines to align on shared
-                objectives and solve problems with a 360-degree perspective. We acknowledge and
-                respect the value that each individual brings to the whole. Together, we become more than the sum of our parts.
+                We work with transparency and honesty across our disciplines and solve problems with a 360-degree perspective.
+                We acknowledge and respect the value that each individual brings to the whole. Together, we become more than the sum of our parts.
               </p>
             </Col>
             <Col xs="12" sm="6" className="pt-5 pt-sm-0">
               <Title className="text-primary h4">
-                People with relentless
-                <br />
-                passion
+                Moving as one
               </Title>
               <p className="text-white mx-auto" style={{ maxWidth: 360 }}>
-                We inspire and challenge one another to be the best version of ourselves. We see both individual and team development
-                as an ongoing process and work to improve ourselves, our company and our client’s businesses. We never settle.
+                We&apos;re at our best when we’re driving towards the same goal. As a team, we tackle the tough questions first to align on shared
+                objectives and anticipate hurdles. We design, test, and refine solutions quickly in order to deliver high impact results.
               </p>
             </Col>
           </Row>
           <Row className="pb-5" style={{ borderBottom: '1px solid rgba(255, 255, 255, .2)' }}>
             <Col xs="12" sm="6" className="res-border-right-light">
               <Title className="text-primary h4">
-                Acting first, fast, and
-                <br />
-                fearlessly
+                Perpetual progress
               </Title>
               <p className="text-white mx-auto" style={{ maxWidth: 360 }}>
-                We look for opportunities in new places—for our clients and for our company—staying a step ahead to anticipate changes.
-                We design, test, and refine solutions quickly in order to deliver high impact results. We take risks and continuously learn from them.
+                We believe that there’s always a better way. We challenge assumptions and hunt for the “aha”
+                moments until we find them. We refuse to settle for ourselves, our teams, and our clients.
+                We take risks and continuously learn from them.
               </p>
             </Col>
             <Col xs="12" sm="6" className="pt-5 pt-sm-0">
               <Title className="text-primary h4">
-                Acting first, fast, and
-                <br />
-                fearlessly
+                People with drive and passion
               </Title>
               <p className="text-white mx-auto" style={{ maxWidth: 360 }}>
-                We look for opportunities in new places—for our clients and for our company—staying a step ahead to anticipate changes.
-                We design, test, and refine solutions quickly in order to deliver high impact results. We take risks and continuously learn from them.
+                We inspire and support one another to find and cultivate our strengths.
+                When we’re at our best as individuals, we bring our best to each other and our clients.
+                We stay curious to learn new things about ourselves, our business, and the world around us.
               </p>
             </Col>
           </Row>

@@ -60,21 +60,21 @@ function Header() {
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
-            <NavLink className="mr-4 h-100 my-auto text-uppercase">
-              <Link href="/case-studies">
+            <Link href="/case-studies">
+              <NavLink className="mr-4 h-100 my-auto text-uppercase">
                 <a>Case Studies</a>
-              </Link>
-            </NavLink>
-            <NavLink className="mr-4 h-100 my-auto text-uppercase">
-              <Link href="/team">
+              </NavLink>
+            </Link>
+            <Link href="/team">
+              <NavLink className="mr-4 h-100 my-auto text-uppercase">
                 <a>Team</a>
-              </Link>
-            </NavLink>
-            <NavLink className="mr-0 h-100 my-auto text-uppercase">
-              <Link href="/contact-us">
+              </NavLink>
+            </Link>
+            <Link href="/contact-us">
+              <NavLink className="mr-0 h-100 my-auto text-uppercase">
                 <a>Contact Us</a>
-              </Link>
-            </NavLink>
+              </NavLink>
+            </Link>
           </Nav>
         </Collapse>
       </Container>
