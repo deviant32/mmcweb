@@ -64,25 +64,11 @@ const Team = () => {
               Are you ready to take the next step in your career?
             </p>
             <Link href="https://recruiting.ultipro.com/MOD1007MDRN/JobBoard/878dbef4-95e7-a042-ddfc-997e388fe644/?q=&o=postedDateDesc&w=&wc=&we=&wpst=">
-              <a target="_blank">
+              <a rel="noopener" target="_blank">
                 <Button color="primary text-uppercase">Join the team</Button>
               </a>
             </Link>
           </Col>
-          {/*  <Col md="4" className="mb-5 pl-2">
-            <img className="img-fluid mb-5" alt="Employee Tools" src="/static/img/team/tools.jpg" />
-            <SubHeading className="text-primary">Employee Tools & Access</SubHeading>
-            <p style={{ lineHeight: '200%', minHeight: 160 }}>
-              Existing MMC employees can access information including training and onboarding resources, and other information here.
-            </p>
-            <Link href="https://ew41.ultipro.com/Login.aspx">
-              <a target="_blank">
-                <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Access Ultipro</Button>
-              </a>
-            </Link>
-            <br />
-            <small>(Employee Sign-in Required)</small>
-          </Col> */}
         </Row>
       </Container>
       <Container className="text-center pb-5 mb-5 mt-5">

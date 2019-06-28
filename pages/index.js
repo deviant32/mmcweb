@@ -219,7 +219,7 @@ const HomePage = () => {
             <Col xs={12} md={4} className="pb-0">
               <h4 style={{ height: 55 }}>Careers at MMC</h4>
               <Link href="https://recruiting.ultipro.com/MOD1007MDRN/JobBoard/878dbef4-95e7-a042-ddfc-997e388fe644/?q=&o=postedDateDesc&w=&wc=&we=&wpst=">
-                <a target="_blank">
+                <a rel="noopener" target="_blank">
                   <Button outline className="text-uppercase" color="secondary">Join the team</Button>
                 </a>
               </Link>

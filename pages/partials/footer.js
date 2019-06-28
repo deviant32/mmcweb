@@ -43,7 +43,7 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <Link href="https://recruiting.ultipro.com/MOD1007MDRN/JobBoard/878dbef4-95e7-a042-ddfc-997e388fe644/?q=&o=postedDateDesc&w=&wc=&we=&wpst=">
-                  <a target="_blank">Careers</a>
+                  <a rel="noopener" target="_blank">Careers</a>
                 </Link>
               </li>
               <li className="mb-2">
@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li className="mt-2 pt-2" style={{ borderTop: '1px solid rgba(255, 255, 255, .2)' }}>
                 <Link href="https://ew41.ultipro.com/Login.aspx">
-                  <a target="_blank">Access Ultipro</a>
+                  <a rel="noopener" target="_blank">Access Ultipro</a>
                 </Link>
               </li>
             </ul>
