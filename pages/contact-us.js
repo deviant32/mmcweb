@@ -35,12 +35,12 @@ const ContactUs = () => {
       config: { headers: { 'Content-Type': 'application/json' } }
     })
       // eslint-disable-next-line no-unused-vars
-      .then((response) => {
-        Router.replace('/thank-you');
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+      .then((response) => { })
+      .catch((err) => { })
+      .finally(() => { });
+
+    // go straight to the thank you page regardless
+    Router.replace('/thank-you');
   }
 
   const [viewport, setViewport] = useState({

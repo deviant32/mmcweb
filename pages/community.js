@@ -26,9 +26,9 @@ const Community = () => {
         <div style={{ maxWidth: 650 }} className="mx-auto">
           <p>
             We recognize that the entire idea of work is being reinvented before our eyes.  Success isn&apos;t determined by office hours
-            or utilization reports; it&apos;s in the faces of our clients when they see our results.  MMC is committed to finding great people,
-            and providing an environment that lets them be great, removing obstacles to success and reinventing growth for our people in meaningful
-            ways, every day.
+            or utilization reports; it&apos;s in the faces of our clients when they see our results.
+            MMC is committed to finding great people and providing an environment that lets them be great by removing obstacles to success
+            and reinventing growth for our people in meaningful ways, every day.
           </p>
         </div>
       </Container>
@@ -69,7 +69,7 @@ const Community = () => {
               </Title>
               <p className="text-white mx-auto" style={{ maxWidth: 360 }}>
                 We inspire and challenge one another to be the best version of ourselves. We see both individual and team development
-                as an ongoing process, and work to improve ourselves, our company and our client’s businesses. We never settle.
+                as an ongoing process and work to improve ourselves, our company and our client’s businesses. We never settle.
               </p>
             </Col>
           </Row>

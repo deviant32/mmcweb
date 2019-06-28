@@ -267,12 +267,12 @@ const Capabilities = () => {
               </p>
               <ul>
                 <li>Predicting sales pipeline value</li>
-                <li>optimal resource sales planning</li>
-                <li>marketing revenue attribution</li>
-                <li>ideal marketing program mixes</li>
-                <li>sales performance reporting</li>
-                <li>complete life cycle</li>
-                <li>robust reporting</li>
+                <li>Optimal resource sales planning</li>
+                <li>Marketing revenue attribution</li>
+                <li>Ideal marketing program mixes</li>
+                <li>Sales performance reporting</li>
+                <li>Complete life cycle</li>
+                <li>Robust reporting</li>
               </ul>
             </CollapseList>
           </ListGroup>

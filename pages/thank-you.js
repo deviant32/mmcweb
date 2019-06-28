@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import { Container, Row, Col, Card, Button, CardBody, CardTitle, CardFooter } from 'reactstrap';
 
 import { Header, Footer } from './partials';
@@ -12,7 +13,7 @@ const ThankYou = () => {
         <title>Thank You</title>
       </Head>
       <Header />
-      <Container style={{ minHeight: 400 }}>
+      <Container style={{ minHeight: '60vh' }}>
         <Row>
           <Col xs="12" className="text-center pt-5">
             <h4 className="eyebrow text-uppercase pt-3">Thanks for reaching out.</h4>
@@ -23,33 +24,39 @@ const ThankYou = () => {
           </Col>
         </Row>
         <Row className="text-center mt-5 mb-5">
-          <Col>
+          <Col xs="12" sm="12" md="4" className="mb-5 mb-md-0">
             <Card style={{ height: 180 }} className="p-2">
               <CardBody>
-                <CardTitle>WHAT WE DO, AND WHAT WE CAN DO FOR YOU</CardTitle>
+                <CardTitle>What we do, and what we can do for you</CardTitle>
               </CardBody>
               <CardFooter>
-                <Button outline color="primary">LEARN MORE</Button>
+                <Link href="/capabilities">
+                  <Button outline color="primary">LEARN MORE</Button>
+                </Link>
               </CardFooter>
             </Card>
           </Col>
-          <Col>
+          <Col xs="12" sm="12" md="4" className="mb-5 mb-md-0">
             <Card style={{ height: 180 }} className="p-2">
               <CardBody>
-                <CardTitle>OUR TEAM & CULTURE</CardTitle>
+                <CardTitle>Our team & culture</CardTitle>
               </CardBody>
               <CardFooter>
-                <Button outline color="primary">LEARN MORE</Button>
+                <Link href="/team">
+                  <Button outline color="primary">LEARN MORE</Button>
+                </Link>
               </CardFooter>
             </Card>
           </Col>
-          <Col>
+          <Col xs="12" sm="12" md="4" className="mb-5 mb-md-0">
             <Card style={{ height: 180 }} className="p-2">
               <CardBody>
-                <CardTitle>WHAT WE DO, AND WHAT WE CAN DO FOR YOU</CardTitle>
+                <CardTitle>Are you ready to take the next step in your career?</CardTitle>
               </CardBody>
               <CardFooter>
-                <Button outline color="primary">JOBS AT MMC</Button>
+                <Link href="/team">
+                  <Button outline color="primary">JOBS AT MMC</Button>
+                </Link>
               </CardFooter>
             </Card>
           </Col>

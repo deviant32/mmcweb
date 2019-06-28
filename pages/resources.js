@@ -21,7 +21,7 @@ const Resources = () => {
         title="Resource Center"
       >
         <p>
-          Across industries our platform accelerates growth at an average of 20% year-over-year,
+          Our platform accelerates growth at an average of 20% year-over-year,
           turning the under-performing end of your client list into the top line
         </p>
         <p>

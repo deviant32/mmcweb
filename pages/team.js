@@ -45,7 +45,7 @@ const Team = () => {
       <Container className="p-0">
         <Row className="mx-auto text-center no-gutters">
           <Col md="6" className="mb-5 pr-2">
-            <img className="img-fluid mb-5" alt="Community & Values" src="/static/img/team/team.jpg" />
+            <img className="img-fluid mb-5" alt="Community & Values" src="/static/img/team/community.jpg" />
             <SubHeading className="text-primary">MMC Community & Values</SubHeading>
             <p style={{ lineHeight: '200%', minHeight: 160 }}>
               Investing in our people goes beyond work, to investing in who we are.
