@@ -9,7 +9,7 @@ import Link from 'next/link';
 const CallToAction = (props) => {
   const { headline, body } = props;
   return (
-    <Container className="bg-success text-white" fluid>
+    <Container className="bg-success text-secondary" fluid>
       <Container>
         <Row style={{ minHeight: 250 }}>
           <Col className="text-center pt-5 pb-5" md="7">
@@ -19,14 +19,14 @@ const CallToAction = (props) => {
             </p>
             <Link href="/contact-us">
               <a>
-                <Button className="text-uppercase" style={{ width: 230 }} outline color="white">
+                <Button className="text-uppercase" style={{ width: 230 }} color="secondary">
                   Contact us
                 </Button>
               </a>
             </Link>
           </Col>
           <Col
-            className="text-white text-center"
+            className="text-center"
             md="5"
             style={{
               minHeight: 200,
