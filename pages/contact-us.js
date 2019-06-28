@@ -113,13 +113,13 @@ const ContactUs = () => {
                 <br />
                 <a href="mailto:info@mmcweb.com">Info@mmcweb.com</a>
               </p>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ModernMarketingConcepts/?rf=159596157429485">
+              <a target="_blank" aria-label="Facebook" rel="noopener noreferrer" href="https://www.facebook.com/ModernMarketingConcepts/?rf=159596157429485">
                 <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mmclive?lang=en">
+              <a target="_blank" aria-label="Twitter" rel="noopener noreferrer" href="https://twitter.com/mmclive?lang=en">
                 <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
               </a>
-              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/modern-marketing-concepts">
+              <a target="_blank" aria-label="LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/company/modern-marketing-concepts">
                 <FontAwesomeIcon href="https://www.linkedin.com/company/modern-marketing-concepts" width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'linkedin-in']} />
               </a>
             </div>

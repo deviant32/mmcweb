@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Button, ListGroup } from 'reactstrap';
+import { Container, ListGroup } from 'reactstrap';
 import Head from 'next/head';
 
 import { Header, Footer } from './partials';
