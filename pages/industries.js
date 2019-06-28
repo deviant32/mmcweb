@@ -29,71 +29,54 @@ const Industries = () => {
           Tailored Solutions
         </Eyebrow>
         <Title className="text-primary">
-          Specialized expertise for
-          <br />
-          every industry
-        </Title>
-        <div style={{ maxWidth: 700 }} className="mx-auto">
-          <SubHeading className="text-primary">
-            Our team inhabits your brand, seamlessly integrating until you won&apos;t know your team from ours.
-          </SubHeading>
-        </div>
-      </Container>
-      <Container className="text-center pb-5">
-        <Title className="text-primary">
           Putting our experience to
           <br />
           work for you
         </Title>
-        <div style={{ maxWidth: 650 }} className="mx-auto">
+        <div style={{ maxWidth: 700 }} className="mx-auto">
           <SubHeading className="text-primary">
-            We work with our clients to rethink the traditional sales model,
-            grow revenue, and thrive by focusing on the customer above all else.
+            We tailor our approach to achieve outcomes that actually matter to each client and customer.
+            Our solutions include planning as well as ongoing, end-to-end execution and management.
           </SubHeading>
-          <p>
-            Whether in building products or healthcare, consumer products or retail & big box, whatever the industry our dedicated team goes
-            deep in your field and become integrated members of your business.
-          </p>
         </div>
       </Container>
-      <Container className="text-center text-primary pt-5 pb-5" fluid style={{ backgroundColor: '#dcdddc' }}>
+      <Container className="text-center text-primary bg-secondary pt-5 pb-5 position-relative" style={{ top: -100, zIndex: -1 }} fluid>
         <Container>
-          <Row className="row-border-top">
-            <Title className="text-center mx-auto pt-4">Industry Experience</Title>
+          <Row
+            className="mt-5"
+            style={{ borderBottom: '1px solid rgba(255, 255, 255, .2)', borderTop: '1px solid rgba(255, 255, 255, .2)' }}
+          >
+            <Title className="text-center mx-auto pt-4">Our industry experience</Title>
           </Row>
-          <Row className="row-border pt-5 pb-5">
-            <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
-              <h4 style={{ height: 20 }}>
-                32 years of
-                <br />
-                experience
+          <Row className="pt-5 pb-5" style={{ borderBottom: '1px solid rgba(255, 255, 255, .2)' }}>
+            <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0 res-border-right-light">
+              <h4>
+                32 years
               </h4>
-              <p className="text-secondary pt-5 pb-0">
+              <p className="text-white pt-2 pb-0">
                 Across a variety of industries.
               </p>
             </Col>
-            <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0">
-              <h4 style={{ height: 20 }}>
-                2+ billion in
-                <br />
-                revenue
+            <Col xs={12} md={4} className="res-border-right pb-5 pb-md-0 res-border-right-light">
+              <h4>
+                2+ billion in revenue
               </h4>
-              <p className="text-secondary pt-5 pb-0">
+              <p className="text-white pt-2 pb-0">
                 Generated or managed annually.
               </p>
             </Col>
             <Col xs={12} md={4} className="pb-0">
-              <h4 style={{ height: 20 }}>
+              <h4>
                 500+ relationships
               </h4>
-              <p className="text-secondary pt-5 pb-0">
+              <p className="text-white pt-2 pb-0">
                 Between businesses and people.
               </p>
             </Col>
           </Row>
           <p className="sub-heading text-center mb-0 mt-5 text-uppercase">See how we&apos;re helping our clients from various industries.</p>
           <Link href="/case-studies">
-            <a className="text-secondary">
+            <a className="text-white">
               <u>Read our Case Studies</u>
             </a>
           </Link>
@@ -105,7 +88,7 @@ const Industries = () => {
       </Container>
       <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions for your unique business and goals." />
       <Footer />
-    </React.Fragment>
+    </React.Fragment >
   );
 }
 

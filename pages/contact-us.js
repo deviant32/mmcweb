@@ -75,7 +75,7 @@ const ContactUs = () => {
           name="robots"
           content="index,follow"
         />
-        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' rel='stylesheet' />
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.0/mapbox-gl.css' async rel='stylesheet' />
       </Head>
       <Header />
       <img style={{ position: 'absolute', right: 0, marginTop: 100, }} src="/static/img/abstract/circle.svg" alt="circle" />

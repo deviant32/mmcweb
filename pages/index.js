@@ -60,7 +60,7 @@ const HomePage = () => {
                     outline
                     color="warning"
                   >
-                    Learn More
+                    Meet MMC
                   </Button>
                 </a>
               </Link>
@@ -204,7 +204,7 @@ const HomePage = () => {
               <h4 style={{ height: 55 }}>Our industries</h4>
               <Link href="/industries">
                 <a>
-                  <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                  <Button outline className="text-uppercase" color="secondary">Explore our experience</Button>
                 </a>
               </Link>
             </Col>
@@ -212,7 +212,7 @@ const HomePage = () => {
               <h4 style={{ height: 55 }}>Case studies</h4>
               <Link href="/case-studies">
                 <a>
-                  <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                  <Button outline className="text-uppercase" color="secondary">Read about reinvention</Button>
                 </a>
               </Link>
             </Col>
@@ -220,7 +220,7 @@ const HomePage = () => {
               <h4 style={{ height: 55 }}>Careers at MMC</h4>
               <Link href="https://recruiting.ultipro.com/MOD1007MDRN/JobBoard/878dbef4-95e7-a042-ddfc-997e388fe644/?q=&o=postedDateDesc&w=&wc=&we=&wpst=">
                 <a target="_blank">
-                  <Button outline className="text-uppercase" color="secondary">Learn More</Button>
+                  <Button outline className="text-uppercase" color="secondary">Join the team</Button>
                 </a>
               </Link>
             </Col>

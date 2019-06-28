@@ -31,7 +31,7 @@ const ThankYou = () => {
               </CardBody>
               <CardFooter>
                 <Link href="/capabilities">
-                  <Button outline color="primary">LEARN MORE</Button>
+                  <Button outline color="primary">Meet MMC</Button>
                 </Link>
               </CardFooter>
             </Card>
@@ -43,7 +43,7 @@ const ThankYou = () => {
               </CardBody>
               <CardFooter>
                 <Link href="/team">
-                  <Button outline color="primary">LEARN MORE</Button>
+                  <Button outline color="primary">Get to know MMC</Button>
                 </Link>
               </CardFooter>
             </Card>

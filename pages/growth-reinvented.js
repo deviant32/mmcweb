@@ -20,11 +20,6 @@ const GrowthReinventedPage = () => {
     require('fullpage.js/vendors/scrolloverflow');
   };
 
-  const fullpageOptions = {
-    pluginWrapper: pluginWrapper,
-    scrollOverflow: true
-  };
-
   return (
     <React.Fragment>
       <Head>
@@ -41,8 +36,9 @@ const GrowthReinventedPage = () => {
       <Header />
       <ReactFullpage
         menu='#menu'
-        navigation
-        {...fullpageOptions}
+        pluginWrapper={pluginWrapper}
+        scrollOverflow
+        navigation={false}
         // eslint-disable-next-line no-unused-vars
         render={({ state, fullpageApi }) => (
           <ReactFullpage.Wrapper>

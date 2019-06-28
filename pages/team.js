@@ -52,7 +52,7 @@ const Team = () => {
             </p>
             <Link href="/community">
               <a>
-                <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Learn More</Button>
+                <Button color="primary text-uppercase">Get to know us</Button>
               </a>
             </Link>
           </Col>
@@ -65,7 +65,7 @@ const Team = () => {
             </p>
             <Link href="https://recruiting.ultipro.com/MOD1007MDRN/JobBoard/878dbef4-95e7-a042-ddfc-997e388fe644/?q=&o=postedDateDesc&w=&wc=&we=&wpst=">
               <a target="_blank">
-                <Button outline color="secondary text-uppercase" style={{ width: '90%' }}>Learn More</Button>
+                <Button color="primary text-uppercase">Join the team</Button>
               </a>
             </Link>
           </Col>
