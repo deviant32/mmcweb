@@ -36,7 +36,7 @@ const ContactUs = () => {
     })
       // eslint-disable-next-line no-unused-vars
       .then((response) => { })
-      .catch((err) => { })
+      .catch(() => { })
       .finally(() => { });
 
     // go straight to the thank you page regardless
