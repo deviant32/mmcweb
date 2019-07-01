@@ -74,12 +74,16 @@ const Industries = () => {
               </p>
             </Col>
           </Row>
-          <p className="sub-heading text-center mb-0 mt-5 text-uppercase">See how we&apos;re helping our clients from various industries.</p>
-          <Link href="/case-studies">
-            <a className="text-white">
-              <u>Read our Case Studies</u>
-            </a>
-          </Link>
+          <Row>
+            <Col>
+              <p className="sub-heading text-center mb-0 mt-5 text-uppercase">See how we&apos;re helping our clients from various industries.</p>
+              <Link href="/case-studies">
+                <a className="text-white">
+                  <u>Read our Case Studies</u>
+                </a>
+              </Link>
+            </Col>
+          </Row>
         </Container>
       </Container>
       <Container className="text-center pb-5 mb-5">
@@ -88,7 +92,7 @@ const Industries = () => {
       </Container>
       <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions for your unique business and goals." />
       <Footer />
-    </React.Fragment >
+    </React.Fragment>
   );
 }
 

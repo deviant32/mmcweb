@@ -10,7 +10,7 @@ const Roofing = () => {
       targetAudience="Small to medium Roofing Contractors"
       sizeAudience="18,000 Roofing Contractors"
       stats={[
-        {number: '$90M', text: 'Attrition before channel 80/20'},
+        {number: '$90M', text: 'Increase in incremental revenue'},
         {number: '1,968', text: 'Contractor conversions to manufacturer\'s product'},
         {number: '2M', text: 'New touches in the contractor market'}
       ]}

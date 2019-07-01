@@ -44,6 +44,11 @@ module.exports = withSass({
       '/case-studies/healthcare/diagnostics': { page: '/case-studies/healthcare/diagnostics' },
       '/case-studies/healthcare/pharmaceutical': { page: '/case-studies/healthcare/pharmaceutical' },
       '/case-studies/healthcare/wound': { page: '/case-studies/healthcare/wound' },
+      '/industries/healthcare/': { page: '/case-studies' },
+      '/careers/': { page: '/team' },
+      '/contact/': { page: '/contact-us' },
+      '/company/': { page: '/growth-reinvented' },
+      '/new-products/': { page: '/growth-reinvented' },
     }
   }
 })

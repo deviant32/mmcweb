@@ -14,7 +14,6 @@ const Wrapper = (props) => {
   var keycode = null;
 
   useEffect(() => {
-    console.log('loading wrapper');
     keycode = sessionStorage.getItem('keycode');
 
     if (keycode !== null) {
