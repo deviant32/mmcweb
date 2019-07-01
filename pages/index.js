@@ -164,33 +164,32 @@ const HomePage = () => {
         <div className="slider mb-5 mt-5">
           <div className="slide-track">
             <div className="slide">
-              <img src="static/img/clients/big-box.svg" width="150" alt="" />
+              <img src="/static/img/clients/big-box.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/building-materials.svg" width="150" alt="" />
+              <img src="/static/img/clients/building-materials.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/health.svg" width="150" alt="" />
+              <img src="/static/img/clients/health.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/hvac.svg" width="150" alt="" />
+              <img src="/static/img/clients/hvac.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/medical-devices.svg" width="150" alt="" />
+              <img src="/static/img/clients/medical-devices.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/pharma.svg" width="150" alt="" />
+              <img src="/static/img/clients/pharma.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/plumbing.svg" width="150" alt="" />
+              <img src="/static/img/clients/plumbing.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/roofing.svg" width="150" alt="" />
+              <img src="/static/img/clients/roofing.svg" width="150" alt="" />
             </div>
             <div className="slide">
-              <img src="static/img/clients/wound-care.svg" width="150" alt="" />
+              <img src="/static/img/clients/wound-care.svg" width="150" alt="" />
             </div>
-
           </div>
         </div>
         <Link href="/capabilities">
