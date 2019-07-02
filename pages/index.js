@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 import { Header, Footer, Quote } from './partials';
-import { CallToAction, SubHeading, Title, DynamicContent } from '../components';
+import { CallToAction, SubHeading, Title } from '../components';
 
 
 const HomePage = () => {
@@ -71,15 +71,6 @@ const HomePage = () => {
           </Row>
         </Container>
       </Container>
-      <DynamicContent package_codes={['joe1234']}>
-        <Container fluid className="bg-secondary text-white text-center p-4">
-          <Row>
-            <Col>
-              <h3>Hidden content by Package Code</h3>
-            </Col>
-          </Row>
-        </Container>
-      </DynamicContent>
       <Jumbotron fluid className='bg-white text-primary mb-0'>
         <Container className="text-center">
           <Row>

@@ -11,7 +11,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarBrand,
   Container
 } from 'reactstrap';
 
@@ -23,13 +22,12 @@ function Header() {
   return (
     <Navbar id="menu" className="navbar p-3 navbar-dark mt-0 bg-primary text-white sticky-top" expand="md">
       <Container className="mt-0">
-        <NavbarBrand style={{ cursor: 'pointer' }}>
-          <Link href="/">
-            <a>
-              <img src="/static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
-            </a>
-          </Link>
-        </NavbarBrand>
+        <Link href="/">
+          <a>
+            <img className="navbar-brand" src="/static/img/logos/logo.svg" alt="Modern Marketing & Commerce" />
+          </a>
+        </Link>
+
         <NavbarToggler onClick={() => setCollapsed(!collapsed)} />
         <Collapse isOpen={collapsed} navbar>
           <Nav className="ml-auto" navbar>
@@ -62,17 +60,17 @@ function Header() {
             </Dropdown>
             <Link href="/case-studies">
               <NavLink className="mr-4 h-100 my-auto text-uppercase">
-                <a>Case Studies</a>
+                Case Studies
               </NavLink>
             </Link>
             <Link href="/team">
               <NavLink className="mr-4 h-100 my-auto text-uppercase">
-                <a>Team</a>
+                Team
               </NavLink>
             </Link>
             <Link href="/contact-us">
               <NavLink className="mr-0 h-100 my-auto text-uppercase">
-                <a>Contact Us</a>
+                Contact Us
               </NavLink>
             </Link>
           </Nav>

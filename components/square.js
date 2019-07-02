@@ -5,7 +5,9 @@ const Square = (props) => {
 
   if (item.type === 'image') {
     return (
-      <img key={index} src={`${item.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
+      <div>
+        <img key={index} src={`${item.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
+      </div>
     )
   }
 
