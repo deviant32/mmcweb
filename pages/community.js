@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 
-import { Header, Footer } from './partials';
+import { Header, Footer } from '../components/partials';
 import { CallToAction, Title, SubHeading, Eyebrow } from '../components';
 
 

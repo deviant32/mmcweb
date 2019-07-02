@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { Container, Row, Col, Button } from 'reactstrap';
 
-import { Header, Footer } from './partials';
+import { Header, Footer } from '../components/partials';
 import { CallToAction, TitleBlock } from '../components';
 
 

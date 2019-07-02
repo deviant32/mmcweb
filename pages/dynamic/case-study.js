@@ -2,12 +2,12 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 
-import { Header, Footer } from '../partials';
+import { Header, Footer } from '../../components/partials';
 import { CallToAction, Title, SubHeading, Eyebrow } from '../../components';
 
-const sanityClient = require('@sanity/client');
+import sanity from '../../client';
 
-const Post = ({ sub_heading, title, at_a_glance, results, challenge_text, solution_text, results_text }) => {
+const CaseStudy = ({ sub_heading, title, at_a_glance, results, challenge_text, solution_text, results_text }) => {
   return (
     <React.Fragment>
       <Head>
@@ -51,11 +51,9 @@ const Post = ({ sub_heading, title, at_a_glance, results, challenge_text, soluti
           </Col>
         </Row>
 
-        <br />
-        <br />
-
         <SubHeading
-          className="text-primary h6 pb-4 border-bottom border-info mt-5"
+          style={{ marginTop: 100 }}
+          className="text-primary h6 pb-4 border-bottom border-info"
         >
           Results
         </SubHeading>
@@ -76,9 +74,7 @@ const Post = ({ sub_heading, title, at_a_glance, results, challenge_text, soluti
             )
           })}
         </Row>
-        <br />
-        <br />
-        <Row className="mt-5">
+        <Row style={{ marginTop: 100 }}>
           <Col>
             <Title className="text-primary h4">Challenge</Title>
             <div style={{ maxWidth: 650 }} className="mx-auto">
@@ -118,16 +114,9 @@ const Post = ({ sub_heading, title, at_a_glance, results, challenge_text, soluti
   );
 }
 
-Post.getInitialProps = async ({ query }) => {
-
-  const client = sanityClient({
-    projectId: 'lg39ot3x',
-    dataset: 'production',
-    useCdn: true
-  });
-
-  return await client.fetch(`*[_type == "case_study" && slug.current == "${query.title}"][0]`);
+CaseStudy.getInitialProps = async ({ query }) => {
+  return await sanity.fetch(`*[_type == "case_study" && slug.current == "${query.title}"][0]`);
 };
 
 
-export default Post;
+export default CaseStudy;

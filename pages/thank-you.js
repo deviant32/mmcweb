@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Container, Row, Col, Card, Button, CardBody, CardTitle, CardFooter } from 'reactstrap';
 
-import { Header, Footer } from './partials';
+import { Header, Footer } from '../components/partials';
 
 const ThankYou = () => {
 

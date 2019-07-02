@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Container, Row, Col } from 'reactstrap';
 
-import { Header, Footer } from './partials';
+import { Header, Footer } from '../components/partials';
 import { CallToAction, Title, Eyebrow, SubHeading, TeamPanel } from '../components';
 
 

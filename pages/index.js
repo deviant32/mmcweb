@@ -5,7 +5,7 @@ import { Jumbotron, Container, Row, Col, Button } from 'reactstrap';
 import Link from 'next/link';
 import Head from 'next/head';
 
-import { Header, Footer, Quote } from './partials';
+import { Header, Footer, Quote } from '../components/partials';
 import { CallToAction, SubHeading, Title } from '../components';
 
 
