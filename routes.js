@@ -27,3 +27,6 @@ routes.add('/case-studies/healthcare/diagnostics', '/case-studies/healthcare/dia
 routes.add('/case-studies/healthcare/pharmaceutical', '/case-studies/healthcare/pharmaceutical');
 routes.add('/case-studies/healthcare/wound', '/case-studies/healthcare/wound');
 
+// dynamic case study
+routes.add('/case-studies/:title', '/case-studies/post');
+
