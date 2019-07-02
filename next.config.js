@@ -33,6 +33,7 @@ module.exports = withSass({
       '/thank-you': { page: '/thank-you' },
       '/team': { page: '/team' },
       '/case-studies': { page: '/case-studies' },
+      '/case-studies/:title': { page: '/dynamic/case-study' },
       '/industries': { page: '/industries' },
       '/capabilities': { page: '/capabilities' },
       '/community': { page: '/community' },
