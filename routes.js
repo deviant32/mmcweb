@@ -14,5 +14,5 @@ routes.add('community', '/community');
 
 
 // dynamic case study
-routes.add('/case-studies/:title', '/dynamic/case-study');
+routes.add('/case-studies/:title', '/case-study');
 

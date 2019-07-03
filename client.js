@@ -1,7 +1,8 @@
-import sanityClient from '@sanity/client'
 
-export default sanityClient({
+const sanityClient = require('@sanity/client');
+
+module.exports = sanityClient({
   projectId: 'lg39ot3x',
   dataset: 'production',
-  useCdn: true // change to false for live changes
+  useCdn: true
 })

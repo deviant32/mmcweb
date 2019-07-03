@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 
-import { Header, Footer } from '../../components/partials';
-import { CallToAction, Title, SubHeading, Eyebrow } from '../../components';
+import { Header, Footer } from '../components/partials';
+import { CallToAction, Title, SubHeading, Eyebrow } from '../components';
 
-import sanity from '../../client';
+import sanity from '../client';
 
 const CaseStudy = ({ sub_heading, title, at_a_glance, results, challenge_text, solution_text, results_text }) => {
   return (
