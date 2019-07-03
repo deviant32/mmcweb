@@ -27,12 +27,12 @@ module.exports = withSass({
   },
   exportPathMap: async () => {
 
-    // we fetch our list of posts, this allow us to dynamically generate the exported pages
-    const response = await sanity.fetch('*[_type == "case_study" && defined(slug)].slug.current');
+    // fetch all of the case studies and make pages
+    const case_studies = await sanity.fetch('*[_type == "case_study" && defined(slug)].slug.current');
 
     var pages = {};
 
-    response.forEach((page) => {
+    case_studies.forEach((page) => {
       pages[`/case-studies/${page}`] = { page: '/case-study', query: { title: page } };
     });
 
