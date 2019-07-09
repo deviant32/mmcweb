@@ -20,6 +20,7 @@ const StatisticLayout = (props) => {
                 return (
                   <Col
                     xs="6"
+                    key={stat.number}
                     className={`pb-5 m-0 ${index === 0 ? `res-border-right border-${color}` : ''}  `}
                   >
                     <div className="d-inline-block">

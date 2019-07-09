@@ -4,8 +4,8 @@ import { Container, Row, Col } from 'reactstrap';
 import Head from 'next/head';
 import ReactFullpage from '@fullpage/react-fullpage';
 
-import Header from './partials/header';
-import Footer from './partials/footer';
+import Header from '../components/partials/header';
+import Footer from '../components/partials/footer';
 import CallToAction from '../components/call-to-action';
 import StatisticLayout from '../components/statistic-layout';
 import Eyebrow from '../components/eyebrow';

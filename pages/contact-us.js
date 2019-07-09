@@ -9,7 +9,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import axios from 'axios';
 import Head from 'next/head';
 
-import { Header, Footer } from './partials';
+import { Header, Footer } from '../components/partials';
 import { Title, TitleBlock } from '../components';
 
 

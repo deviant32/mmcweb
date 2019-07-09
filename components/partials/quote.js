@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { SubHeading } from '../../components';
+import { SubHeading } from '..';
 
 const Quote = () => {
   return (

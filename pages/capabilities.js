@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, ListGroup } from 'reactstrap';
 import Head from 'next/head';
 
-import { Header, Footer } from './partials';
+import { Header, Footer } from '../components/partials';
 import { CallToAction, CollapseList, Title, SubHeading, Eyebrow, TeamPanel } from '../components';
 
 
