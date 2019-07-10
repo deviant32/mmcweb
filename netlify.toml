@@ -17,11 +17,11 @@
 
 # Branch deploy context: All deploys that are not in
 # an active Deploy Preview will inherit these settings.
-[context.branch-deploy]
+[context.branch-deploy.environment]
   SANITY_ENV = "development"
 
 # Specific branch context: Deploys from this branch
 # will take these settings and override their
 # current ones.
-[context.development]
+[context.development.environment]
   SANITY_ENV = "development"
