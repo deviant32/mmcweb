@@ -6,9 +6,11 @@ import { Container, Row, Col, Button } from 'reactstrap';
 
 import { Header, Footer, Quote } from '../components/partials';
 import { CallToAction, TitleBlock, SubHeading, TeamPanel, Title } from '../components';
+import sanity from '../client';
 
 
-const Team = () => {
+const Team = ({ employees }) => {
+
 
   return (
     <React.Fragment>
@@ -73,7 +75,7 @@ const Team = () => {
       </Container>
       <Container className="text-center pb-5 mb-5 mt-5">
         <Title className="text-primary pb-4">Our team is your team</Title>
-        <TeamPanel size={12} />
+        <TeamPanel employees={employees} size={12} />
       </Container>
       <Quote />
       <CallToAction headline="Join our growth team!" body="We are lifelong learners, equipping one another with the tools and resources to continuously grow." />
@@ -81,5 +83,14 @@ const Team = () => {
     </React.Fragment>
   );
 }
+
+Team.getInitialProps = async () => {
+  const employees = await sanity.fetch(`*[_type == "employee"] {
+    _id,
+    _type,
+    "headshot": headshot.asset->url
+  }`);
+  return { employees: employees };
+};
 
 export default Team;

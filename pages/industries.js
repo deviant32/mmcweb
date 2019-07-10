@@ -6,9 +6,10 @@ import { Container, Row, Col } from 'reactstrap';
 
 import { Header, Footer } from '../components/partials';
 import { CallToAction, Title, Eyebrow, SubHeading, TeamPanel } from '../components';
+import sanity from '../client';
 
 
-const Industries = () => {
+const Industries = ({ employees }) => {
 
   return (
     <React.Fragment>
@@ -88,12 +89,21 @@ const Industries = () => {
       </Container>
       <Container className="text-center pb-5 mb-5">
         <Title className="text-primary pb-4 pt-5">Our Industry Experts</Title>
-        <TeamPanel size={12} />
+        <TeamPanel employees={employees} size={12} />
       </Container>
       <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions for your unique business and goals." />
       <Footer />
     </React.Fragment>
   );
 }
+
+Industries.getInitialProps = async () => {
+  const employees = await sanity.fetch(`*[_type == "employee"] {
+    _id,
+    _type,
+    "headshot": headshot.asset->url
+  }`);
+  return { employees: employees };
+};
 
 export default Industries;
