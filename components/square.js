@@ -13,7 +13,7 @@ const Square = (props) => {
 
   if (item.type === 'stat') {
     return (
-      <div key={index} className="h-100 text-center bg-secondary">
+      <div className="h-100 text-center bg-secondary" key={item._id}>
         <div className="my-auto" style={{ paddingTop: '10%' }}>
           <p className="text-warning eyebrow font-weight-bold m-0 p-0" style={{ fontSize: '6rem' }}>{item.title}</p>
           <p className="text-white mt-n4 pl-5 pr-5 text-uppercase font-weight-bold">{item.description}</p>
