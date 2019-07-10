@@ -8,7 +8,7 @@
 [build]
   base    = "site"
   command = "npm run export"
-  publish = "out/"
+  publish = "out"
 
 # Deploy Preview context: All Deploy Previews
 # will inherit these settings.
