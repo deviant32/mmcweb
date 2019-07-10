@@ -53,7 +53,7 @@ const TeamPanel = (props) => {
     <Row className="no-gutters">
       {shuffledArr.map((item) => {
         return (
-          <Col key={item._id} xs="6" sm="6" md="4" lg="3">
+          <Col key={item._id} xs="6" sm="6" md="4" lg="3" className="bg-secondary">
             <Square
               item={item}
               index={item._id}
