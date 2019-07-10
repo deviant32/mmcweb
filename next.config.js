@@ -22,7 +22,8 @@ module.exports = withSass({
     return config
   },
   publicRuntimeConfig: {
-    GOOGLE_TAGS: process.env.GOOGLE_TAGS
+    GOOGLE_TAGS: process.env.GOOGLE_TAGS,
+    SANITY_ENV: process.env.SANITY_ENV
   },
   exportPathMap: async (defaultPathMap) => {
 
