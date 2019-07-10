@@ -3,10 +3,10 @@ import React from 'react';
 const Square = (props) => {
   const { item, index } = props;
 
-  if (item.type === 'image') {
+  if (item._type === 'employee') {
     return (
       <div>
-        <img key={index} src={`${item.src}`} alt="headshot" style={{ width: '100%', height: '100%' }} />
+        <img key={index} src={`${item.headshot}?w=350`} alt="headshot" style={{ width: '100%', height: '100%' }} />
       </div>
     )
   }

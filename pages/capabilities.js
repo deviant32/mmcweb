@@ -4,9 +4,10 @@ import Head from 'next/head';
 
 import { Header, Footer } from '../components/partials';
 import { CallToAction, CollapseList, Title, SubHeading, Eyebrow, TeamPanel } from '../components';
+import sanity from '../client';
 
 
-const Capabilities = () => {
+const Capabilities = ({ employees }) => {
 
   return (
     <React.Fragment>
@@ -280,12 +281,21 @@ const Capabilities = () => {
       </Container>
       <Container className="text-center pt-5 pb-5 mb-5 mt-5">
         <Title className="text-primary pb-4">Our Team is Your Team</Title>
-        <TeamPanel size={12} />
+        <TeamPanel employees={employees} size={12} />
       </Container>
       <CallToAction headline="Experience MMC in action!" body="Let us show you how we can tailor solutions for your unique business and goals." />
       <Footer />
     </React.Fragment>
   );
 }
+
+Capabilities.getInitialProps = async () => {
+  const employees = await sanity.fetch(`*[_type == "employee"] {
+    _id,
+    _type,
+    "headshot": headshot.asset->url
+  }`);
+  return { employees: employees };
+};
 
 export default Capabilities;
