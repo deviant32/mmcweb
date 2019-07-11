@@ -33,6 +33,8 @@ const TeamPanel = (props) => {
   }
 
   useEffect(() => {
+    let headshots = shuffle(employees).slice(0, 12);
+
     // get number of stats based on 30 percent of total rows
     let numOfStats = Math.floor(size * .30);
 
@@ -41,16 +43,16 @@ const TeamPanel = (props) => {
 
     // TODO: make this dynamically shift, for now hard coded
     if (Math.random() >= 0.5) { // random boolean
-      employees[2] = stats[0];
-      employees[5] = stats[1];
-      employees[10] = stats[2];
+      headshots[2] = stats[0];
+      headshots[5] = stats[1];
+      headshots[10] = stats[2];
     } else {
-      employees[1] = stats[0];
-      employees[6] = stats[1];
-      employees[9] = stats[2];
+      headshots[1] = stats[0];
+      headshots[6] = stats[1];
+      headshots[9] = stats[2];
     }
 
-    setShuffledArray(employees);
+    setShuffledArray(headshots);
   }, []);
 
   return (

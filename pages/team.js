@@ -10,9 +10,6 @@ import sanity from '../client';
 
 
 const Team = ({ employees }) => {
-
-  console.log(employees)
-
   return (
     <React.Fragment>
       <Head>
@@ -86,7 +83,7 @@ const Team = ({ employees }) => {
 }
 
 Team.getInitialProps = async () => {
-  const employees = await sanity.fetch(`*[_type == "employee"] [0..11] {
+  const employees = await sanity.fetch(`*[_type == "employee"]{
     _id,
     _type,
     "headshot": headshot.asset->url
