@@ -59,10 +59,10 @@ const Footer = () => {
             </ul>
           </Col>
           <Col md="2" className="mb-md-0 mb-3 text-white">
-            <a target="_blank" aria-label="Facebook" rel="noopener noreferrer" href="https://www.facebook.com/ModernMarketingConcepts/?rf=159596157429485">
+            <a target="_blank" aria-label="Facebook" rel="noopener noreferrer" href="https://www.facebook.com/ModernMarketingAndCommerce/">
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'facebook-f']} />
             </a>
-            <a target="_blank" aria-label="Twitter" rel="noopener noreferrer" href="https://twitter.com/mmclive?lang=en">
+            <a target="_blank" aria-label="Twitter" rel="noopener noreferrer" href="https://twitter.com/MMCgrowth">
               <FontAwesomeIcon width="0" style={{ marginRight: 10 }} size="lg" icon={['fab', 'twitter']} />
             </a>
             <a target="_blank" aria-label="LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/company/modern-marketing-concepts">
