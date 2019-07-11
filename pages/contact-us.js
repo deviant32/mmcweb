@@ -145,7 +145,7 @@ const ContactUs = () => {
               <FormGroup tag="fieldset" required>
                 <FormGroup check>
                   <Label check>
-                    <Input value="general" type="radio" checked name="interest" />
+                    <Input value="general" type="radio" defaultChecked name="interest" />
                     General
                   </Label>
                 </FormGroup>

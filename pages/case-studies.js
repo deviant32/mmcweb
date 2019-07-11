@@ -70,7 +70,7 @@ const CaseStudies = ({ building, healthcare }) => {
                   <DropdownToggle outline caret>
                     <small className="font-weight-bold">{dropdownValue}</small>
                   </DropdownToggle>
-                  <DropdownMenu style={{ border: 'thin solid black !important;' }}>
+                  <DropdownMenu style={{ border: 'thin solid black !important' }}>
                     <DropdownItem onClick={() => { setDropdownValue('HEALTHCARE') }}><small>HEALTHCARE</small></DropdownItem>
                     <DropdownItem onClick={() => { setDropdownValue('BUILDING PRODUCTS') }}><small>BUILDING PRODUCTS</small></DropdownItem>
                   </DropdownMenu>

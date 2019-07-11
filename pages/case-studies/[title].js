@@ -36,7 +36,7 @@ const CaseStudy = ({ sub_heading, title, at_a_glance, results, challenge_text, s
           className="text-primary h6 pb-4 border-bottom border-info"
         >
           At a glance
-                </SubHeading>
+        </SubHeading>
         <Row className="pt-4">
           <Col xs="12" sm="4" className="res-border-right">
             <strong>Company Type</strong>
@@ -57,13 +57,13 @@ const CaseStudy = ({ sub_heading, title, at_a_glance, results, challenge_text, s
           className="text-primary h6 pb-4 border-bottom border-info"
         >
           Results
-                </SubHeading>
+        </SubHeading>
 
         <Row className="pt-4 pb-4 border-bottom border-info">
           {results.map((stat, index) => {
             var width = 12 / results.length;
             return (
-              <Col xs="12" sm={width} className={(index !== results.length - 1) ? 'res-border-right' : ''}>
+              <Col key={index + 1} xs="12" sm={width} className={(index !== results.length - 1) ? 'res-border-right' : ''}>
                 <span
                   className="align-middle eyebrow font-weight-normal text-primary"
                   style={{ fontSize: '6rem' }}
