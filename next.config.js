@@ -23,7 +23,8 @@ module.exports = withSass({
   },
   publicRuntimeConfig: {
     GOOGLE_TAGS: process.env.GOOGLE_TAGS,
-    SANITY_ENV: process.env.SANITY_ENV
+    SANITY_ENV: process.env.SANITY_ENV,
+    NODE_ENV: process.env.NODE_ENV
   },
   exportPathMap: async (defaultPathMap) => {
 

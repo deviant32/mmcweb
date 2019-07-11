@@ -5,7 +5,7 @@ import Document, { Head, Main, NextScript } from 'next/document';
 import getConfig from 'next/config';
 
 const { publicRuntimeConfig } = getConfig();
-const { GOOGLE_TAGS } = publicRuntimeConfig;
+const { GOOGLE_TAGS, SANITY_ENV } = publicRuntimeConfig;
 
 
 export default class MyDocument extends Document {
@@ -24,24 +24,29 @@ export default class MyDocument extends Document {
           <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
           <link rel="stylesheet" href="https://use.typekit.net/vfc3wum.css" async />
           <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico" />
-          <script dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=NhpXQpmoQScO-4oOPyRzew&gtm_preview=env-2&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','${GOOGLE_TAGS}');`,
-          }}
-          />
+          {SANITY_ENV === 'production' ? (
+            <script dangerouslySetInnerHTML={{
+              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=NhpXQpmoQScO-4oOPyRzew&gtm_preview=env-2&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','${GOOGLE_TAGS}');`,
+            }}
+            />
+          ) : null}
         </Head>
         <body>
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${GOOGLE_TAGS}&gtm_auth=NhpXQpmoQScO-4oOPyRzew&gtm_preview=env-2&gtm_cookies_win=x`}
-              height="0"
-              width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
-            />
-          </noscript>
+
+          {SANITY_ENV === 'production' ? (
+            <noscript>
+              <iframe
+                src={`https://www.googletagmanager.com/ns.html?id=${GOOGLE_TAGS}&gtm_auth=NhpXQpmoQScO-4oOPyRzew&gtm_preview=env-2&gtm_cookies_win=x`}
+                height="0"
+                width="0"
+                style={{ display: 'none', visibility: 'hidden' }}
+              />
+            </noscript>
+          ) : null}
           <Main />
           <NextScript />
         </body>
