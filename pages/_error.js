@@ -1,23 +1,14 @@
-import React from 'react';
-import Router from 'next/router'
+import React from 'react'
 
+export default class Page extends React.Component {
 
-const _error = () => {
-  return (
-    <div />
-  );
-};
-
-_error.getInitialProps = async ({ res, err }) => {
-  if (res) {
-    res.writeHead(302, {
-      Location: '/'
-    })
-    res.end()
-  } else {
-    Router.push('/')
+  componentDidMount() {
+    window.location.replace('/');
   }
-  return {}
-};
 
-export default _error;
+  render() {
+    return (
+      <div />
+    )
+  }
+}
