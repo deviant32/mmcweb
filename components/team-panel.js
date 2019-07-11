@@ -32,11 +32,8 @@ const TeamPanel = (props) => {
     return a;
   }
 
-  // function needs to return an array to populate the inital state
-  const shuffleArray = () => {
-    console.log('shuffleArray')
-    // create a N sized array with all images
-    let headshots = shuffle(employees).slice(0, size);
+  useEffect(() => {
+    let headshots = shuffle(employees).slice(0, 12);
 
     // get number of stats based on 30 percent of total rows
     let numOfStats = Math.floor(size * .30);
@@ -56,10 +53,6 @@ const TeamPanel = (props) => {
     }
 
     setShuffledArray(headshots);
-  }
-
-  useEffect(() => {
-    shuffleArray();
   }, []);
 
   return (
