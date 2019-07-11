@@ -98,7 +98,7 @@ const Industries = ({ employees }) => {
 }
 
 Industries.getInitialProps = async () => {
-  const employees = await sanity.fetch(`*[_type == "employee"] {
+  const employees = await sanity.fetch(`*[_type == "employee"] [0..11] {
     _id,
     _type,
     "headshot": headshot.asset->url
