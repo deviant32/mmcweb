@@ -8,6 +8,10 @@ const TeamPanel = (props) => {
   // employees comes from sanity.io!
   const { size, employees } = props;
 
+  // preload a shuffled array for initial state
+  // eslint-disable-next-line no-unused-vars
+  const [shuffledArr, setShuffledArray] = useState([]);
+
   // array that contains all of the stats
   var statArr = [
     { _id: 's1', type: 'stat', title: '20', description: 'Digital Designer and Creatives' },
@@ -20,16 +24,25 @@ const TeamPanel = (props) => {
     { _id: 's8', type: 'stat', title: '11', description: 'Data Experts' },
   ]
 
+  const shuffle = (a) => {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
   // function needs to return an array to populate the inital state
   const shuffleArray = () => {
+    console.log('shuffleArray')
     // create a N sized array with all images
-    let headshots = employees.sort(() => 0.5 - Math.random()).slice(0, size);
+    let headshots = shuffle(employees).slice(0, size);
 
     // get number of stats based on 30 percent of total rows
     let numOfStats = Math.floor(size * .30);
 
     // get a random number of stats based on number of stats
-    let stats = statArr.sort(() => 0.5 - Math.random()).slice(0, numOfStats);
+    let stats = shuffle(statArr).slice(0, numOfStats);
 
     // TODO: make this dynamically shift, for now hard coded
     if (Math.random() >= 0.5) { // random boolean
@@ -42,12 +55,12 @@ const TeamPanel = (props) => {
       headshots[9] = stats[2];
     }
 
-    return headshots;
+    setShuffledArray(headshots);
   }
 
-  // preload a shuffled array for initial state
-  // eslint-disable-next-line no-unused-vars
-  const [shuffledArr, setShuffledArray] = useState(shuffleArray());
+  useEffect(() => {
+    shuffleArray();
+  }, []);
 
   return (
     <Row className="no-gutters">
